@@ -1,0 +1,8 @@
+Item,Qty,Reference,Description,Manufacturer,Manufacturer P/N,Vendor,Vendor P/N
+1,1,J3,2 Position Wire to Board Terminal Block Horizontal with Board 0.197" (5.00mm) Through Hole,Phoenix Contact,1935161,Digi-Key,277-1667-ND
+2,1,J1,CONN HEADER 4POS R/A W/NAIL SMD,Molex,0436500413,Digi-Key,WM9176CT-ND
+3,1,J2,CONN BARRIER STRIP 3CIRC 0.438",TE Connectivity,8PCV-03-006,Digi-Key,A98461-ND
+4,1,D1,DIODE SCHOTTKY 60V 3A SMA,Diodes Inc.,B360A-13-F,Digi-Key,B360A-FDICT-ND
+5,1,Q1,,Fairchild,BSS123,Digi-Key,BSS123NCT-ND
+8,1,U1,IC OPAMP GP 1.2MHZ 14TSSOP,TI,LM324PWR,Digi-Key,296-9545-1-ND
+11,1,K1,RELAY GEN PURPOSE SPDT 20A 24V,TE Connectivity,T9AS5D12-24,Digi-Key,PB307-ND

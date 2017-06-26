@@ -1,0 +1,263 @@
+PCB Net List Errors Report - RL0003_Rev_A.sch - Fri Feb 03 02:18:09 2017
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$10716
+POWER        X13100 Y8700 
+
+Dangling Connections with a Net Name
+
+0_10V_0
+MAIN         X5300  Y8100 
+MAIN         X14100 Y13200
+
+0_10V_1
+MAIN         X5300  Y8400 
+MAIN         X14100 Y10500
+
+0_10V_2
+MAIN         X5300  Y8500 
+MAIN         X14100 Y7800 
+
+0_10V_3
+MAIN         X5300  Y8600 
+MAIN         X14100 Y5100 
+
+0_10V_F_0
+MAIN         X5300  Y9100 
+MAIN         X8300  Y13900
+
+0_10V_F_1
+MAIN         X5300  Y9200 
+MAIN         X8300  Y11200
+
+0_10V_F_2
+MAIN         X5300  Y9300 
+MAIN         X8300  Y8500 
+
+0_10V_F_3
+MAIN         X2100  Y7500 
+MAIN         X8300  Y5800 
+
+BUTTON0
+MAIN         X2000  Y13300
+MAIN         X5600  Y14100
+
+BUTTON1
+MAIN         X2000  Y13100
+MAIN         X5600  Y13700
+
+BUTTON2
+MAIN         X2000  Y13000
+MAIN         X5600  Y13300
+
+DC0
+MAIN         X2100  Y8300 
+MAIN         X8300  Y1900 
+
+DC1
+MAIN         X2100  Y8100 
+MAIN         X9200  Y1900 
+
+DC2
+MAIN         X2100  Y8000 
+MAIN         X10100 Y1900 
+
+DC3
+MAIN         X2100  Y7900 
+MAIN         X11000 Y1900 
+
+LED0
+MAIN         X2000  Y12900
+MAIN         X5600  Y12200
+
+LED1
+MAIN         X2000  Y12200
+MAIN         X5600  Y12100
+
+LED2
+MAIN         X2000  Y12100
+MAIN         X5600  Y12000
+
+PGOOD
+POWER        X8100  Y6600 
+
+PSOURCE0
+MAIN         X2100  Y7800 
+MAIN         X16400 Y13200
+
+PSOURCE1
+MAIN         X2100  Y7700 
+MAIN         X16500 Y10900
+
+PSOURCE2
+MAIN         X2100  Y8400 
+MAIN         X16600 Y8600 
+
+PSOURCE3
+MAIN         X5300  Y8300 
+MAIN         X16700 Y6300 
+
+SCL
+MAIN         X2100  Y8800 
+
+SDA
+MAIN         X2100  Y8700 
+
+T_PROG
+MAIN         X2000  Y12800
+MAIN         X3200  Y5300 
+
+T_RESET
+MAIN         X2000  Y12500
+MAIN         X1600  Y5300 
+
+Power or Ground Symbols used with wrong Net Name
+
++10V
+MAIN         X13000 Y15200 - Power  Symbol used for net: +5V
+MAIN         X13000 Y12500 - Power  Symbol used for net: +5V
+MAIN         X13000 Y9800  - Power  Symbol used for net: +5V
+MAIN         X13000 Y7100  - Power  Symbol used for net: +5V
+MAIN         X10300 Y12800 - Power  Symbol used for net: +5V
+
++24V
+MAIN         X11900 Y15000 - Power  Symbol used for net: +5V
+MAIN         X11900 Y9600  - Power  Symbol used for net: +5V
+MAIN         X18600 Y14200 - Power  Symbol used for net: +5V
+MAIN         X8400  Y12800 - Power  Symbol used for net: +5V
+POWER        X1600  Y11200 - Power  Symbol used for net: +5V
+POWER        X6100  Y14500 - Power  Symbol used for net: +5V
+PWM          X5200  Y13000 - Power  Symbol used for net: +5V
+PWM          X5200  Y11900 - Power  Symbol used for net: +5V
+PWM          X5200  Y10800 - Power  Symbol used for net: +5V
+PWM          X5200  Y9700  - Power  Symbol used for net: +5V
+PWM          X5200  Y8600  - Power  Symbol used for net: +5V
+PWM          X5200  Y7500  - Power  Symbol used for net: +5V
+PWM          X5200  Y6400  - Power  Symbol used for net: +5V
+PWM          X5200  Y5300  - Power  Symbol used for net: +5V
+
++3.3V
+MAIN         X8400  Y2800  - Power  Symbol used for net: +5V
+MAIN         X3100  Y10600 - Power  Symbol used for net: +5V
+POWER        X8600  Y7400  - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+0_10V_0
+MAIN         X4300  Y8100  - Pin: U2.33
+MAIN         X14800 Y13100 - Pin: R80.2
+
+0_10V_1
+MAIN         X4300  Y8400  - Pin: U2.36
+MAIN         X14800 Y10400 - Pin: R74.2
+
+0_10V_2
+MAIN         X4300  Y8500  - Pin: U2.37
+MAIN         X14800 Y7700  - Pin: R34.2
+
+0_10V_3
+MAIN         X4300  Y8600  - Pin: U2.38
+MAIN         X14800 Y5000  - Pin: R28.2
+
+0_10V_F_0
+MAIN         X4300  Y9100  - Pin: U2.43
+MAIN         X9000  Y13900 - Pin: R3.1
+
+0_10V_F_1
+MAIN         X4300  Y9200  - Pin: U2.44
+MAIN         X9000  Y11200 - Pin: R2.1
+
+0_10V_F_2
+MAIN         X4300  Y9300  - Pin: U2.45
+MAIN         X9000  Y8500  - Pin: R1.1
+
+0_10V_F_3
+MAIN         X3300  Y7500  - Pin: U2.22
+MAIN         X9000  Y5800  - Pin: R10.1
+
+BUTTON0
+MAIN         X3300  Y13300 - Pin: J3.7
+MAIN         X6300  Y14100 - Pin: SW3.2
+
+BUTTON1
+MAIN         X3300  Y13100 - Pin: J3.11
+MAIN         X6300  Y13700 - Pin: SW2.2
+
+BUTTON2
+MAIN         X3300  Y13000 - Pin: J3.13
+MAIN         X6300  Y13300 - Pin: SW1.2
+
+DC0
+MAIN         X3300  Y8300  - Pin: U2.14
+MAIN         X8600  Y1800  - Pin: Q4.3
+
+DC1
+MAIN         X3300  Y8100  - Pin: U2.16
+MAIN         X9500  Y1800  - Pin: Q3.3
+
+DC2
+MAIN         X3300  Y8000  - Pin: U2.17
+MAIN         X10400 Y1800  - Pin: Q2.3
+
+DC3
+MAIN         X3300  Y7900  - Pin: U2.18
+MAIN         X11300 Y1800  - Pin: Q1.3
+
+LED0
+MAIN         X3300  Y12900 - Pin: J3.15
+MAIN         X7100  Y11900 - Pin: D3.1
+
+LED1
+MAIN         X3300  Y12200 - Pin: J3.29
+MAIN         X6700  Y11900 - Pin: D2.1
+
+LED2
+MAIN         X3300  Y12100 - Pin: J3.31
+MAIN         X6300  Y11900 - Pin: D1.1
+
+PGOOD
+POWER        X8600  Y6700  - Pin: R42.1
+
+PSOURCE0
+MAIN         X3300  Y7800  - Pin: U2.19
+MAIN         X17100 Y13200 - Pin: Q21.2
+
+PSOURCE1
+MAIN         X3300  Y7700  - Pin: U2.20
+MAIN         X17200 Y10900 - Pin: Q22.2
+
+PSOURCE2
+MAIN         X3300  Y8400  - Pin: U2.13
+MAIN         X17300 Y8600  - Pin: Q23.2
+
+PSOURCE3
+MAIN         X4300  Y8300  - Pin: U2.35
+MAIN         X17400 Y6300  - Pin: Q24.2
+
+SCL
+MAIN         X3100  Y13400 - Pin: TP7.1
+MAIN         X3300  Y8800  - Pin: U2.9
+
+SDA
+MAIN         X3100  Y13500 - Pin: TP8.1
+MAIN         X3300  Y8700  - Pin: U2.10
+
+T_PROG
+MAIN         X3300  Y12800 - Pin: J3.17
+MAIN         X3600  Y5200  - Pin: R49.2
+
+T_RESET
+MAIN         X3300  Y12500 - Pin: J3.23
+MAIN         X2200  Y5200  - Pin: R50.2

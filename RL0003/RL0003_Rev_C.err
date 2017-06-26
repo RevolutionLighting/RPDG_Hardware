@@ -1,0 +1,354 @@
+PCB Net List Errors Report - RL0003_Rev_C.sch - Thu Jun 08 14:53:35 2017
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type CAP_0603_0.1UF_100V_X7R:
+ C7 C8 C9 C10.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$10716
+POWER        X14400 Y8700 
+
+Dangling Connections with a Net Name
+
+0_10V_0
+MAIN         X5300  Y8100 
+0_10_IN      X7200  Y13100
+
+0_10V_1
+MAIN         X5300  Y8400 
+0_10_IN      X7200  Y10400
+
+0_10V_2
+MAIN         X5300  Y8500 
+0_10_IN      X7200  Y7700 
+
+0_10V_3
+MAIN         X5300  Y8600 
+0_10_IN      X7200  Y5000 
+
+0_10V_F_0
+MAIN         X5300  Y9100 
+0_10_IN      X1400  Y13800
+
+0_10V_F_1
+MAIN         X5300  Y9200 
+0_10_IN      X1400  Y11100
+
+0_10V_F_2
+MAIN         X5300  Y9300 
+0_10_IN      X1400  Y8400 
+
+0_10V_F_3
+MAIN         X2100  Y7500 
+0_10_IN      X1400  Y5700 
+
+BUTTON0
+MAIN         X2000  Y13300
+MAIN         X5000  Y14600
+
+BUTTON1
+MAIN         X2000  Y13100
+MAIN         X5000  Y14200
+
+BUTTON2
+MAIN         X2000  Y13000
+MAIN         X5000  Y13800
+
+DC0
+MAIN         X2100  Y8300 
+
+DC1
+MAIN         X2100  Y8100 
+
+DC2
+MAIN         X2100  Y8000 
+
+DC3
+MAIN         X2100  Y7900 
+
+DMX_I_DM
+MAIN         X9800  Y9300 
+MAIN         X11500 Y11100
+
+DMX_I_DP
+MAIN         X9800  Y10600
+MAIN         X11500 Y11000
+
+DMX_IN
+MAIN         X2400  Y9500 
+MAIN         X13700 Y9900 
+MAIN         X7000  Y9900 
+
+DMX_O_DM
+MAIN         X9600  Y10300
+MAIN         X11500 Y11400
+
+DMX_O_DP
+MAIN         X9600  Y10500
+MAIN         X11500 Y11300
+
+DMX_OUT
+MAIN         X2400  Y9400 
+MAIN         X7700  Y10400
+
+LED0
+MAIN         X2000  Y12900
+MAIN         X4900  Y11100
+
+LED1
+MAIN         X2000  Y12200
+MAIN         X4900  Y11000
+
+LED2
+MAIN         X2000  Y12100
+MAIN         X4900  Y10900
+
+PGOOD
+MAIN         X1600  Y5300 
+
+PI_RESET
+MAIN         X2100  Y7400 
+
+PI_SOFT_RESET
+MAIN         X4900  Y13100
+MAIN         X2100  Y7300 
+
+PSOURCE0
+MAIN         X2100  Y7800 
+MAIN         X14300 Y12400
+
+PSOURCE1
+MAIN         X2100  Y7700 
+MAIN         X14200 Y9600 
+
+PSOURCE2
+MAIN         X2100  Y8400 
+MAIN         X14300 Y6800 
+
+PSOURCE3
+MAIN         X5300  Y8300 
+MAIN         X14300 Y4000 
+
+SCL
+MAIN         X2100  Y8800 
+MAIN         X7100  Y13300
+
+SDA
+MAIN         X2100  Y8700 
+MAIN         X9000  Y13200
+
+SR_CLK
+MAIN         X1400  Y2200 
+
+SR_DIN
+MAIN         X4100  Y2100 
+
+SR_DOUT
+MAIN         X1400  Y2100 
+
+SR_LAT_O
+MAIN         X4100  Y2200 
+
+T_PROG
+MAIN         X2800  Y5600 
+MAIN         X2000  Y12700
+
+T_RESET
+MAIN         X2000  Y12500
+MAIN         X4300  Y5600 
+
+Power or Ground Symbols used with wrong Net Name
+
++10V
+0_10_IN      X6100  Y15100 - Power  Symbol used for net: +5V
+0_10_IN      X6100  Y12400 - Power  Symbol used for net: +5V
+0_10_IN      X6100  Y9700  - Power  Symbol used for net: +5V
+0_10_IN      X6100  Y7000  - Power  Symbol used for net: +5V
+0_10_IN      X3400  Y12700 - Power  Symbol used for net: +5V
+
++24V
+MAIN         X18800 Y14000 - Power  Symbol used for net: +5V
+POWER        X1600  Y11200 - Power  Symbol used for net: +5V
+POWER        X7300  Y14500 - Power  Symbol used for net: +5V
+WET/DRY_CONTACT X11200 Y9400  - Power  Symbol used for net: +5V
+WET/DRY_CONTACT X11700 Y12400 - Power  Symbol used for net: +5V
+WET/DRY_CONTACT X8300  Y8800  - Power  Symbol used for net: +5V
+0_10_IN      X5000  Y14900 - Power  Symbol used for net: +5V
+0_10_IN      X5000  Y9500  - Power  Symbol used for net: +5V
+0_10_IN      X1500  Y12700 - Power  Symbol used for net: +5V
+0-10_OUT     X4600  Y15200 - Power  Symbol used for net: +5V
+0-10_OUT     X12500 Y15200 - Power  Symbol used for net: +5V
+
++3.3V
+MAIN         X3100  Y10600 - Power  Symbol used for net: +5V
+MAIN         X13200 Y10700 - Power  Symbol used for net: +5V
+MAIN         X8600  Y11600 - Power  Symbol used for net: +5V
+MAIN         X9000  Y14300 - Power  Symbol used for net: +5V
+
++3.3V_PI
+MAIN         X3100  Y13700 - Power  Symbol used for net: +5V
+MAIN         X2200  Y6100  - Power  Symbol used for net: +5V
+
++5V_PI
+MAIN         X4200  Y14300 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+0_10V_0
+MAIN         X4300  Y8100  - Pin: U1.33
+0_10_IN      X7900  Y13000 - Pin: R75.2
+
+0_10V_1
+MAIN         X4300  Y8400  - Pin: U1.36
+0_10_IN      X7900  Y10300 - Pin: R69.2
+
+0_10V_2
+MAIN         X4300  Y8500  - Pin: U1.37
+0_10_IN      X7900  Y7600  - Pin: R47.2
+
+0_10V_3
+MAIN         X4300  Y8600  - Pin: U1.38
+0_10_IN      X7900  Y4900  - Pin: R41.2
+
+0_10V_F_0
+MAIN         X4300  Y9100  - Pin: U1.43
+0_10_IN      X2100  Y13800 - Pin: R7.1
+
+0_10V_F_1
+MAIN         X4300  Y9200  - Pin: U1.44
+0_10_IN      X2100  Y11100 - Pin: R5.1
+
+0_10V_F_2
+MAIN         X4300  Y9300  - Pin: U1.45
+0_10_IN      X2100  Y8400  - Pin: R2.1
+
+0_10V_F_3
+MAIN         X3300  Y7500  - Pin: U1.22
+0_10_IN      X2100  Y5700  - Pin: R30.1
+
+BUTTON0
+MAIN         X3300  Y13300 - Pin: J5.7
+MAIN         X5700  Y14600 - Pin: SW3.2
+
+BUTTON1
+MAIN         X3300  Y13100 - Pin: J5.11
+MAIN         X5700  Y14200 - Pin: SW2.2
+
+BUTTON2
+MAIN         X3300  Y13000 - Pin: J5.13
+MAIN         X5700  Y13800 - Pin: SW1.2
+
+DC0
+MAIN         X3300  Y8300  - Pin: U1.14
+
+DC1
+MAIN         X3300  Y8100  - Pin: U1.16
+
+DC2
+MAIN         X3300  Y8000  - Pin: U1.17
+
+DC3
+MAIN         X3300  Y7900  - Pin: U1.18
+
+DMX_I_DM
+MAIN         X10700 Y9300  - Pin: R66.1
+MAIN         X12300 Y11100 - Pin: J8.2
+
+DMX_I_DP
+MAIN         X10700 Y10600 - Pin: R64.1
+MAIN         X12300 Y11000 - Pin: J8.1
+
+DMX_IN
+MAIN         X3300  Y9500  - Pin: U1.2
+MAIN         X13000 Y9900  - Pin: U6.4
+MAIN         X7500  Y9900  - Pin: R54.2
+
+DMX_O_DM
+MAIN         X9000  Y10300 - Pin: U5.6
+MAIN         X12300 Y11400 - Pin: J8.5
+
+DMX_O_DP
+MAIN         X9000  Y10500 - Pin: U5.5
+MAIN         X12300 Y11300 - Pin: J8.4
+
+DMX_OUT
+MAIN         X3300  Y9400  - Pin: U1.3
+MAIN         X8200  Y10400 - Pin: U5.3
+
+LED0
+MAIN         X3300  Y12900 - Pin: J5.15
+MAIN         X6400  Y10800 - Pin: D9.1
+
+LED1
+MAIN         X3300  Y12200 - Pin: J5.29
+MAIN         X6000  Y10800 - Pin: D8.1
+
+LED2
+MAIN         X3300  Y12100 - Pin: J5.31
+MAIN         X5600  Y10800 - Pin: D7.1
+
+PGOOD
+MAIN         X2200  Y5100  - Pin: TP21.1
+
+PI_RESET
+MAIN         X2300  Y10400 - Pin: Q1.1
+MAIN         X2700  Y7000  - Pin: TP1.1
+
+PI_SOFT_RESET
+MAIN         X4100  Y13100 - Pin: J5.12
+MAIN         X2700  Y6900  - Pin: TP8.1
+
+PSOURCE0
+MAIN         X3300  Y7800  - Pin: U1.19
+MAIN         X15600 Y12500 - Pin: Q19.2
+
+PSOURCE1
+MAIN         X3300  Y7700  - Pin: U1.20
+MAIN         X14800 Y9500  - Pin: R138.2
+
+PSOURCE2
+MAIN         X3300  Y8400  - Pin: U1.13
+MAIN         X14900 Y6700  - Pin: R139.2
+
+PSOURCE3
+MAIN         X4300  Y8300  - Pin: U1.35
+MAIN         X14900 Y3900  - Pin: R140.2
+
+SCL
+MAIN         X3100  Y13400 - Pin: TP6.1
+MAIN         X3300  Y8800  - Pin: U1.9
+MAIN         X7700  Y13300 - Pin: U14.3
+
+SDA
+MAIN         X3100  Y13500 - Pin: TP7.1
+MAIN         X3300  Y8700  - Pin: U1.10
+MAIN         X8700  Y13200 - Pin: U14.5
+
+SR_CLK
+MAIN         X2300  Y2200  - Pin: J11.21
+
+SR_DIN
+MAIN         X3100  Y2100  - Pin: J11.24
+
+SR_DOUT
+MAIN         X2300  Y2100  - Pin: J11.23
+
+SR_LAT_O
+MAIN         X3100  Y2200  - Pin: J11.22
+
+T_PROG
+MAIN         X3200  Y5500  - Pin: R23.2
+MAIN         X3300  Y12700 - Pin: J5.19
+
+T_RESET
+MAIN         X3300  Y12500 - Pin: J5.23
+MAIN         X4900  Y5500  - Pin: R21.2

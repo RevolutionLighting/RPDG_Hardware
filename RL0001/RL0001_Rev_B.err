@@ -1,0 +1,407 @@
+PCB Net List Errors Report - RL0001_Rev_B.sch - Tue Feb 07 15:29:42 2017
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type TRANSISTOR_NPN_MMBT3904_SOT23 not found in Library - not able to check following parts:
+ Q8 Q6 Q5 Q2.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+$$$10716
+POWER        X13100 Y8700 
+
+Dangling Connections with a Net Name
+
+0_10V_0
+MAIN         X5300  Y8100 
+MAIN         X14100 Y13200
+
+0_10V_1
+MAIN         X5300  Y8400 
+MAIN         X14100 Y10500
+
+0_10V_2
+MAIN         X5300  Y8500 
+MAIN         X14100 Y7800 
+
+0_10V_3
+MAIN         X5300  Y8600 
+MAIN         X14100 Y5100 
+
+0_10V_F_0
+MAIN         X5300  Y9100 
+MAIN         X8300  Y13900
+
+0_10V_F_1
+MAIN         X5300  Y9200 
+MAIN         X8300  Y11200
+
+0_10V_F_2
+MAIN         X5300  Y9300 
+MAIN         X8300  Y8500 
+
+0_10V_F_3
+MAIN         X2100  Y7500 
+MAIN         X8300  Y5800 
+
+AC_BATT
+MAIN         X2000  Y12700
+POWER        X4600  Y13000
+
+AC_SOURCE
+MAIN         X2000  Y12600
+POWER        X4600  Y12900
+
+BUTTON0
+MAIN         X2000  Y13300
+MAIN         X5600  Y14100
+
+BUTTON1
+MAIN         X2000  Y13100
+MAIN         X5600  Y13700
+
+BUTTON2
+MAIN         X2000  Y13000
+MAIN         X5600  Y13300
+
+DC0
+MAIN         X2100  Y8300 
+MAIN         X8300  Y1900 
+
+DC1
+MAIN         X2100  Y8100 
+MAIN         X9200  Y1900 
+
+DC2
+MAIN         X2100  Y8000 
+MAIN         X10100 Y1900 
+
+DC3
+MAIN         X2100  Y7900 
+MAIN         X11000 Y1900 
+
+LED+_0
+PWM          X4000  Y11900
+PWM          X1500  Y2700 
+
+LED+_1
+PWM          X9200  Y11900
+PWM          X1500  Y2500 
+
+LED+_2
+PWM          X4000  Y9400 
+PWM          X1500  Y2300 
+
+LED+_3
+PWM          X9200  Y9400 
+PWM          X1500  Y2100 
+
+LED+_4
+PWM          X4000  Y6900 
+PWM          X1500  Y1900 
+
+LED+_5
+PWM          X9200  Y6900 
+PWM          X1500  Y1700 
+
+LED+_6
+PWM          X4000  Y4400 
+PWM          X1500  Y1500 
+
+LED+_7
+PWM          X9200  Y4400 
+PWM          X1500  Y1300 
+
+LED-_0
+PWM          X1500  Y2600 
+
+LED-_1
+PWM          X1500  Y2400 
+
+LED-_2
+PWM          X1500  Y2200 
+
+LED-_3
+PWM          X1500  Y2000 
+
+LED-_4
+PWM          X1500  Y1800 
+
+LED-_5
+PWM          X1500  Y1600 
+
+LED-_6
+PWM          X1500  Y1400 
+
+LED-_7
+PWM          X1500  Y1200 
+
+LED0
+MAIN         X2000  Y12900
+MAIN         X5600  Y12200
+
+LED1
+MAIN         X2000  Y12200
+MAIN         X5600  Y12100
+
+LED2
+MAIN         X2000  Y12100
+MAIN         X5600  Y12000
+
+PGOOD
+POWER        X8100  Y6600 
+
+PSOURCE0
+MAIN         X2100  Y7800 
+MAIN         X16400 Y13200
+
+PSOURCE1
+MAIN         X2100  Y7700 
+MAIN         X16500 Y10900
+
+PSOURCE2
+MAIN         X2100  Y8400 
+MAIN         X16600 Y8600 
+
+PSOURCE3
+MAIN         X5300  Y8300 
+MAIN         X16700 Y6300 
+
+SCL
+MAIN         X2100  Y8800 
+
+SDA
+MAIN         X2100  Y8700 
+
+T_PROG
+MAIN         X2000  Y12800
+MAIN         X3200  Y5300 
+
+T_RESET
+MAIN         X2000  Y12500
+MAIN         X1600  Y5300 
+
+VIN_SENSE
+POWER        X4300  Y12900
+
+Power or Ground Symbols used with wrong Net Name
+
++10V
+MAIN         X13000 Y15200 - Power  Symbol used for net: +5V
+MAIN         X13000 Y12500 - Power  Symbol used for net: +5V
+MAIN         X13000 Y9800  - Power  Symbol used for net: +5V
+MAIN         X13000 Y7100  - Power  Symbol used for net: +5V
+MAIN         X10300 Y12800 - Power  Symbol used for net: +5V
+
++24V
+MAIN         X11900 Y15000 - Power  Symbol used for net: +5V
+MAIN         X11900 Y9600  - Power  Symbol used for net: +5V
+MAIN         X18600 Y14200 - Power  Symbol used for net: +5V
+MAIN         X8400  Y12800 - Power  Symbol used for net: +5V
+POWER        X1600  Y11200 - Power  Symbol used for net: +5V
+POWER        X2800  Y13100 - Power  Symbol used for net: +5V
+PWM          X2600  Y13900 - Power  Symbol used for net: +5V
+PWM          X2600  Y11400 - Power  Symbol used for net: +5V
+PWM          X2600  Y8900  - Power  Symbol used for net: +5V
+PWM          X2600  Y6400  - Power  Symbol used for net: +5V
+PWM          X7800  Y13900 - Power  Symbol used for net: +5V
+PWM          X7800  Y11400 - Power  Symbol used for net: +5V
+PWM          X7800  Y8900  - Power  Symbol used for net: +5V
+PWM          X7800  Y6400  - Power  Symbol used for net: +5V
+RETURN       X6200  Y14300 - Power  Symbol used for net: +5V
+RETURN       X6200  Y11800 - Power  Symbol used for net: +5V
+RETURN       X6200  Y9300  - Power  Symbol used for net: +5V
+RETURN       X6200  Y6800  - Power  Symbol used for net: +5V
+RETURN       X12300 Y14300 - Power  Symbol used for net: +5V
+RETURN       X12300 Y11800 - Power  Symbol used for net: +5V
+RETURN       X12300 Y9300  - Power  Symbol used for net: +5V
+RETURN       X12300 Y6800  - Power  Symbol used for net: +5V
+
++3.3V
+MAIN         X8400  Y2800  - Power  Symbol used for net: +5V
+MAIN         X3100  Y10600 - Power  Symbol used for net: +5V
+POWER        X8600  Y7400  - Power  Symbol used for net: +5V
+PWM          X4200  Y15400 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+0_10V_0
+MAIN         X4300  Y8100  - Pin: U1.33
+MAIN         X14800 Y13100 - Pin: R104.2
+
+0_10V_1
+MAIN         X4300  Y8400  - Pin: U1.36
+MAIN         X14800 Y10400 - Pin: R98.2
+
+0_10V_2
+MAIN         X4300  Y8500  - Pin: U1.37
+MAIN         X14800 Y7700  - Pin: R72.2
+
+0_10V_3
+MAIN         X4300  Y8600  - Pin: U1.38
+MAIN         X14800 Y5000  - Pin: R34.2
+
+0_10V_F_0
+MAIN         X4300  Y9100  - Pin: U1.43
+MAIN         X9000  Y13900 - Pin: R4.1
+
+0_10V_F_1
+MAIN         X4300  Y9200  - Pin: U1.44
+MAIN         X9000  Y11200 - Pin: R3.1
+
+0_10V_F_2
+MAIN         X4300  Y9300  - Pin: U1.45
+MAIN         X9000  Y8500  - Pin: R2.1
+
+0_10V_F_3
+MAIN         X3300  Y7500  - Pin: U1.22
+MAIN         X9000  Y5800  - Pin: R13.1
+
+AC_BATT
+MAIN         X3300  Y12700 - Pin: J4.19
+POWER        X5300  Y13000 - Pin: J2.1
+
+AC_SOURCE
+MAIN         X3300  Y12600 - Pin: J4.21
+POWER        X5300  Y12900 - Pin: J2.2
+
+BUTTON0
+MAIN         X3300  Y13300 - Pin: J4.7
+MAIN         X6300  Y14100 - Pin: SW3.2
+
+BUTTON1
+MAIN         X3300  Y13100 - Pin: J4.11
+MAIN         X6300  Y13700 - Pin: SW2.2
+
+BUTTON2
+MAIN         X3300  Y13000 - Pin: J4.13
+MAIN         X6300  Y13300 - Pin: SW1.2
+
+DC0
+MAIN         X3300  Y8300  - Pin: U1.14
+MAIN         X8600  Y1800  - Pin: Q8.3
+
+DC1
+MAIN         X3300  Y8100  - Pin: U1.16
+MAIN         X9500  Y1800  - Pin: Q6.3
+
+DC2
+MAIN         X3300  Y8000  - Pin: U1.17
+MAIN         X10400 Y1800  - Pin: Q5.3
+
+DC3
+MAIN         X3300  Y7900  - Pin: U1.18
+MAIN         X11300 Y1800  - Pin: Q2.3
+
+LED+_0
+PWM          X3600  Y12200 - Pin: R109.1
+PWM          X2100  Y2700  - Pin: T1.2
+
+LED+_1
+PWM          X8800  Y12200 - Pin: R110.1
+PWM          X2100  Y2500  - Pin: T2.2
+
+LED+_2
+PWM          X3600  Y9700  - Pin: R111.1
+PWM          X2100  Y2300  - Pin: T3.2
+
+LED+_3
+PWM          X8800  Y9700  - Pin: R112.1
+PWM          X2100  Y2100  - Pin: T4.2
+
+LED+_4
+PWM          X3600  Y7200  - Pin: R113.1
+PWM          X2100  Y1900  - Pin: T5.2
+
+LED+_5
+PWM          X8800  Y7200  - Pin: R114.1
+PWM          X2100  Y1700  - Pin: T6.2
+
+LED+_6
+PWM          X3600  Y4700  - Pin: R115.1
+PWM          X2100  Y1500  - Pin: T7.2
+
+LED+_7
+PWM          X8800  Y4700  - Pin: R116.1
+PWM          X2100  Y1300  - Pin: T8.2
+
+LED-_0
+PWM          X2100  Y2600  - Pin: T1.1
+
+LED-_1
+PWM          X2100  Y2400  - Pin: T2.1
+
+LED-_2
+PWM          X2100  Y2200  - Pin: T3.1
+
+LED-_3
+PWM          X2100  Y2000  - Pin: T4.1
+
+LED-_4
+PWM          X2100  Y1800  - Pin: T5.1
+
+LED-_5
+PWM          X2100  Y1600  - Pin: T6.1
+
+LED-_6
+PWM          X2100  Y1400  - Pin: T7.1
+
+LED-_7
+PWM          X2100  Y1200  - Pin: T8.1
+
+LED0
+MAIN         X3300  Y12900 - Pin: J4.15
+MAIN         X7100  Y11900 - Pin: D5.1
+
+LED1
+MAIN         X3300  Y12200 - Pin: J4.29
+MAIN         X6700  Y11900 - Pin: D4.1
+
+LED2
+MAIN         X3300  Y12100 - Pin: J4.31
+MAIN         X6300  Y11900 - Pin: D3.1
+
+PGOOD
+POWER        X8600  Y6700  - Pin: R19.1
+
+PSOURCE0
+MAIN         X3300  Y7800  - Pin: U1.19
+MAIN         X17100 Y13200 - Pin: Q25.2
+
+PSOURCE1
+MAIN         X3300  Y7700  - Pin: U1.20
+MAIN         X17200 Y10900 - Pin: Q26.2
+
+PSOURCE2
+MAIN         X3300  Y8400  - Pin: U1.13
+MAIN         X17300 Y8600  - Pin: Q27.2
+
+PSOURCE3
+MAIN         X4300  Y8300  - Pin: U1.35
+MAIN         X17400 Y6300  - Pin: Q28.2
+
+SCL
+MAIN         X3100  Y13400 - Pin: TP7.1
+MAIN         X3300  Y8800  - Pin: U1.9
+
+SDA
+MAIN         X3100  Y13500 - Pin: TP8.1
+MAIN         X3300  Y8700  - Pin: U1.10
+
+T_PROG
+MAIN         X3300  Y12800 - Pin: J4.17
+MAIN         X3600  Y5200  - Pin: R9.2
+
+T_RESET
+MAIN         X3300  Y12500 - Pin: J4.23
+MAIN         X2200  Y5200  - Pin: R8.2
+
+VIN_SENSE
+POWER        X3600  Y12800 - Pin: R81.2

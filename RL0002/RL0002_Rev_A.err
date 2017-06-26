@@ -1,0 +1,14 @@
+PCB Net List Errors Report - RL0002_Rev_A.sch - Thu Jan 19 23:45:12 2017
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type CAP_0603_4.7UF_35V_X5R:
+ C2 C3.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+No connectivity errors or warnings.

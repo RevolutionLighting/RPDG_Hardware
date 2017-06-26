@@ -1,0 +1,7 @@
+
+
+   ---- Transcoding 'C:\Users\Ward\AppData\Local\Temp\RL0003_Rev_B_Gerber_importZIP\NPTH.drl' ----   Tue Apr 11 15:37:26 2017
+
+T1   --> T10
+T2   --> T11
+-----------------------------------------------------------------

@@ -1,0 +1,22 @@
+*PADS-ECO-V10.0-METRIC*
+*REMARK*  old file: G:\Revolution\RL0004\RL0004_Rev_A.asc
+*REMARK*  new file: C:\PADS Projects\ecogtmp1.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 2/9/2017 11:23:18 AM
+*RENPART*
+J2  J1
+J1  J2
+Q6  Q1
+C23  C1
+C25  C2
+U4  U1
+R10  R8
+R2  R11
+R3  R4
+R4  R2
+R48  R9
+R7  R3
+R8  R10
+R9  R7
+
+*REMARK*  Deleted pins: 0,  Added pins: 0
+*END*

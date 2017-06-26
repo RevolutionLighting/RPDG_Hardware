@@ -1,0 +1,22 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: G:\Revolution\RL0002\RL0002_Rev_A.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 1/19/2017 11:45:28 PM
+*DELPIN*
+J2.2  $$$6263
+T1.1  $$$31555
+T1.2  $$$6257
+T1.3  $$$5140
+T1.4  $$$6263
+*NET*
+*SIGNAL*  $$$31555
+T1.2
+*SIGNAL*  $$$5140
+T1.4
+*SIGNAL*  $$$6257
+T1.1
+*SIGNAL*  $$$6263
+J2.2  T1.3
+
+*REMARK*  Deleted pins: 7,  Added pins: 5
+*END*

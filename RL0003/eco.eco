@@ -1,0 +1,21 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RL0003\RL0003_Rev_C.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 6/8/2017 2:53:44 PM
+*PART*
+TP1  TP20T
+TP10  TP20T
+TP21  TP20T
+TP8  TP20T
+*NET*
+*SIGNAL*  PGOOD
+TP21.1
+*SIGNAL*  PI_RESET
+TP1.1
+*SIGNAL*  PI_SOFT_RESET
+TP8.1
+*SIGNAL*  T_PROG
+TP10.1
+
+*REMARK*  Deleted pins: 0,  Added pins: 4
+*END*
