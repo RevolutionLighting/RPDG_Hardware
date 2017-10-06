@@ -1,0 +1,165 @@
+PCB Net List Errors Report - RL0005_Rev_D.sch - Fri Sep 29 13:05:12 2017
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type CAP_0603_4.7UF_35V_X5R:
+ C59 C64 C52 C34 C19 C15 C31 C48 C61 C36
+ C46 C54 C29 C13 C66 C22.
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type FB_0:
+ FB4 FB10 FB16 FB22 FB21 FB15 FB9 FB3 FB1 FB2
+ FB7 FB8 FB13 FB14 FB19 FB20 FB24 FB23 FB18 FB17
+ FB12 FB11 FB6 FB5.
+Part Type CAP_0402_.1U_GRM155R61E104KA87D not found in Library - not able to check following parts:
+ C17 C65 C14 C30 C53 C35 C47 C33 C3 C4
+ C5 C6 C8 C9 C10 C11 C60 C20 C50 C63
+ C62 C49 C32 C16.
+Part Type STB32NM50N not found in Library - not able to check following parts:
+ Q7 Q8 Q22 Q23 Q30 Q31 Q36 Q37 Q40 Q39
+ Q34 Q33 Q28 Q27 Q12 Q11.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Floating Connections or Subnets
+
+GND
+DIMMER_1     X17700 Y9700 
+
+Dangling Connections without a Net Name
+
+GND
+DIMMER_1     X17500 Y9900 
+
+Dangling Connections with a Net Name
+
++5V
+MAIN         X6200  Y14300
+MAIN         X9000  Y14300
+MAIN         X12000 Y14300
+
+AUX0
+CURRENT_SENSE X10700 Y6900 
+CURRENT_SENSE X1500  Y4100 
+
+AUX1
+CURRENT_SENSE X10600 Y13600
+CURRENT_SENSE X5500  Y4100 
+
+LINE0
+CURRENT_SENSE X10700 Y7300 
+CURRENT_SENSE X1500  Y7000 
+
+LINE1
+CURRENT_SENSE X10600 Y14000
+CURRENT_SENSE X5500  Y7000 
+
+SR_CLK
+MAIN         X7100  Y6900 
+
+SR_DOUT
+MAIN         X7100  Y6800 
+
+SR_LAT
+MAIN         X9300  Y6900 
+
+Power or Ground Symbols used with wrong Net Name
+
+GND0
+DIMMER_1     X13500 Y13300 - Ground Symbol used for net: AGND
+DIMMER_1     X7100  Y11900 - Ground Symbol used for net: AGND
+DIMMER_1     X6800  Y11600 - Ground Symbol used for net: AGND
+DIMMER_1     X3600  Y11800 - Ground Symbol used for net: AGND
+DIMMER_1     X5300  Y12300 - Ground Symbol used for net: AGND
+DIMMER_1     X7300  Y12500 - Ground Symbol used for net: AGND
+
+GND1
+DIMMER_1     X13500 Y10200 - Ground Symbol used for net: AGND
+DIMMER_1     X3600  Y8700  - Ground Symbol used for net: AGND
+DIMMER_1     X5300  Y9200  - Ground Symbol used for net: AGND
+DIMMER_1     X7100  Y8800  - Ground Symbol used for net: AGND
+DIMMER_1     X6800  Y8500  - Ground Symbol used for net: AGND
+DIMMER_1     X7300  Y9400  - Ground Symbol used for net: AGND
+
+GND2
+DIMMER_1     X13500 Y7000  - Ground Symbol used for net: AGND
+DIMMER_1     X3500  Y5500  - Ground Symbol used for net: AGND
+DIMMER_1     X5200  Y6000  - Ground Symbol used for net: AGND
+DIMMER_1     X7000  Y5600  - Ground Symbol used for net: AGND
+DIMMER_1     X6700  Y5300  - Ground Symbol used for net: AGND
+DIMMER_1     X7200  Y6200  - Ground Symbol used for net: AGND
+
+GND3
+DIMMER_1     X13500 Y3900  - Ground Symbol used for net: AGND
+DIMMER_1     X3600  Y2400  - Ground Symbol used for net: AGND
+DIMMER_1     X5300  Y2900  - Ground Symbol used for net: AGND
+DIMMER_1     X7100  Y2500  - Ground Symbol used for net: AGND
+DIMMER_1     X6800  Y2200  - Ground Symbol used for net: AGND
+DIMMER_1     X7300  Y3100  - Ground Symbol used for net: AGND
+
+GND4
+DIMMER_2     X14100 Y13600 - Ground Symbol used for net: AGND
+DIMMER_2     X3400  Y12200 - Ground Symbol used for net: AGND
+DIMMER_2     X5400  Y12700 - Ground Symbol used for net: AGND
+DIMMER_2     X7200  Y12300 - Ground Symbol used for net: AGND
+DIMMER_2     X6900  Y12000 - Ground Symbol used for net: AGND
+DIMMER_2     X7400  Y12900 - Ground Symbol used for net: AGND
+
+GND5
+DIMMER_2     X14100 Y10600 - Ground Symbol used for net: AGND
+DIMMER_2     X3400  Y9100  - Ground Symbol used for net: AGND
+DIMMER_2     X5400  Y9600  - Ground Symbol used for net: AGND
+DIMMER_2     X7200  Y9200  - Ground Symbol used for net: AGND
+DIMMER_2     X6900  Y8900  - Ground Symbol used for net: AGND
+DIMMER_2     X7400  Y9800  - Ground Symbol used for net: AGND
+
+GND6
+DIMMER_2     X14100 Y7400  - Ground Symbol used for net: AGND
+DIMMER_2     X3400  Y5900  - Ground Symbol used for net: AGND
+DIMMER_2     X5400  Y6400  - Ground Symbol used for net: AGND
+DIMMER_2     X7200  Y6000  - Ground Symbol used for net: AGND
+DIMMER_2     X6900  Y5700  - Ground Symbol used for net: AGND
+DIMMER_2     X7400  Y6600  - Ground Symbol used for net: AGND
+
+GND7
+DIMMER_2     X14100 Y4300  - Ground Symbol used for net: AGND
+DIMMER_2     X3400  Y2800  - Ground Symbol used for net: AGND
+DIMMER_2     X5400  Y3300  - Ground Symbol used for net: AGND
+DIMMER_2     X7200  Y2900  - Ground Symbol used for net: AGND
+DIMMER_2     X6900  Y2600  - Ground Symbol used for net: AGND
+DIMMER_2     X7400  Y3500  - Ground Symbol used for net: AGND
+
+Subnets with Missing Off-Page Reference
+
++5V
+MAIN         X6200  Y13600 - Pin: U17.16
+MAIN         X9000  Y13600 - Pin: U19.16
+MAIN         X12000 Y13600 - Pin: U24.16
+
+AUX0
+CURRENT_SENSE X12000 Y7500  - Pin: F3.1
+CURRENT_SENSE X2200  Y4100  - Pin: R15.1
+
+AUX1
+CURRENT_SENSE X12300 Y13600 - Pin: K2.5
+CURRENT_SENSE X6200  Y4100  - Pin: R25.1
+
+LINE0
+CURRENT_SENSE X12600 Y4100  - Pin: D11.2
+CURRENT_SENSE X2200  Y7000  - Pin: R16.1
+
+LINE1
+CURRENT_SENSE X12300 Y14000 - Pin: K2.4
+CURRENT_SENSE X6200  Y7000  - Pin: R26.1
+
+SR_CLK
+MAIN         X8000  Y6900  - Pin: J1.3
+
+SR_DOUT
+MAIN         X8000  Y6800  - Pin: J1.1
+
+SR_LAT
+MAIN         X8800  Y6900  - Pin: J1.4

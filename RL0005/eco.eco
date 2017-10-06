@@ -1,14 +1,51 @@
 *PADS-ECO-V10.0-MILS*
 *REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
-*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0005\RL0005_Rev_C.asc
-*REMARK*  created by ECOGEN (Version 6.4v) on 8/27/2017 9:56:00 PM
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0005\RL0005_Rev_D_Schematic.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 9/29/2017 1:05:38 PM
 *DELPIN*
-C17.2  GND0
-C43.2  GND0
-U11.3  GND0
-*NET*
-*SIGNAL*  GND1
-C17.2  C43.2  U11.3
+F1.2  LINE0
+F1.4  $$$56
+F2.2  LINE1
+F2.4  $$$12
+F3.2  AUX0
+F3.4  $$$54
+F4.2  AUX1
+F4.4  $$$1
+J10.2  $$$12476
+J11.2  $$$11504
+J12.2  $$$1
+J13.2  $$$54
+J2.2  $$$11482
+J3.2  $$$12479
+J4.2  $$$11491
+J5.2  $$$12478
+J6.2  $$$56
+J7.2  $$$12
+J8.2  $$$12477
+J9.2  $$$11497
+X15.1  GND
+X3.1  GND
+*DELPART*
+FID1  FIDUCIAL
+FID2  FIDUCIAL
+FID3  FIDUCIAL
+FID4  FIDUCIAL
+X1  MH125
+X10  MH125
+X11  MH125
+X12  MH125
+X13  MH125
+X14  MH125
+X15  MH125
+X16  MH125
+X2  MH125
+X3  MH125
+X4  MH125
+X5  MH125
+X6  MH125
+X7  MH125
+X8  MH125
+X9  MH125
 
-*REMARK*  Deleted pins: 24,  Added pins: 3
+*REMARK*  Deleted pins: 22,  Added pins: 0
 *END*
