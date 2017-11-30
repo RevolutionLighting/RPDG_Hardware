@@ -1,0 +1,891 @@
+PCB Net List Errors Report - rNET_POE_Sensor._Sheet1_RevA1.sch - Wed Nov 15 00:18:21 2017
+------------------------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type RES_2 not found in Library - not able to check following parts:
+ R16 R17 R10 R82 R8 R9 R12 R4 R2 R3
+ R5 R11 R13 R1 R72 R14 R33 R34 R35 R36
+ R20 R21 R31 R19 R18 R40 R47 R83 R61 R48
+ R42 R41 R45 R65 R73 R74 R57 R60.
+Part Type LED_C1A2 not found in Library - not able to check following parts:
+ D1 D11.
+Part Type CAP_2 not found in Library - not able to check following parts:
+ C28 C15 C38 C39 C3 C41 C42 C22 C37 C43
+ C17 C21 C19 C18 C14 C36 C30 C31 C34 C35
+ C25 C26 C44 C45 C47 C48 C105 C64 C63 C50
+ C74 C77 C85 C87 C83 C91 C109 C78 C94.
+Part Type AT91SAM9G35-CU_2 not found in Library - not able to check following parts:
+ U1.
+Part Type IC_63PIN_MT29F1G08 not found in Library - not able to check following parts:
+ U2.
+Part Type IC_84PIN_W9725G6KB not found in Library - not able to check following parts:
+ U3.
+Part Type AT91SAM9G35-CU not found in Library - not able to check following parts:
+ U1.
+Part Type XTAL4PIN not found in Library - not able to check following parts:
+ X1 X2.
+Part Type CAP_3 not found in Library - not able to check following parts:
+ C12 C10 C61 C62 C73 C68 C65 C53 C52 C67
+ C51 C59 C58 C54 C57 C72 C70 C76 C98 C97
+ C92 C86 C90 C103 C104 C102 C106 C107 C55 C82
+ C108 C110 C96 C46.
+Part Type CONN_5PF_AMPHENOL_10118192 not found in Library - not able to check following parts:
+ J1.
+Part Type RES not found in Library - not able to check following parts:
+ R6 R15 R71 R80 R7 R63 R25 R32 R22 R24
+ R27 R23 R30 R26 R29 R28 R37 R38 R39 R44
+ R49 R51 R43 R46 R53 R52 R67 R69 R68 R64
+ R58 R55 R54 R50 R62 R66 R70 R75 R76 R77
+ R78 R79.
+Part Type CAP not found in Library - not able to check following parts:
+ C1 C2 C7 C6 C5 C11 C9 C8 C20 C16
+ C13 C27 C24 C23 C33 C32 C29 C4 C60 C69
+ C71 C49 C89 C80 C79 C100 C81 C84 C99 C101
+ C88 C93 C95 C40.
+Part Type IND not found in Library - not able to check following parts:
+ L5 L3 L4 L2 L1 L6 L10 L14 L12 L13.
+Part Type IND_SHIELD not found in Library - not able to check following parts:
+ L11 L8 L9 L15.
+Part Type DIODE_A1C2 not found in Library - not able to check following parts:
+ D12 D4.
+Part Type CONN10PMLARGE not found in Library - not able to check following parts:
+ P1.
+Part Type DISCRETE_64_N not found in Library - not able to check following parts:
+ TP1 TP2 TP3 TP5 TP6 TP7 TP9 TP10 TP13 TP12
+ TP14 TP15 TP16.
+Part Type DISCRETE_64_N_2 not found in Library - not able to check following parts:
+ TP4 TP8 TP11 TP21.
+Part Type DIODE_2COMC not found in Library - not able to check following parts:
+ D13.
+Part Type NPN not found in Library - not able to check following parts:
+ Q5.
+Part Type AZ932FORMB not found in Library - not able to check following parts:
+ K2.
+Part Type CONNRJ45_12PF_SHIELDED not found in Library - not able to check following parts:
+ J2.
+Part Type XFMR_WURTH_749013011 not found in Library - not able to check following parts:
+ T2.
+Part Type XFMR_POE13P not found in Library - not able to check following parts:
+ T1.
+Part Type DIODE_BRIDGE_HD0X not found in Library - not able to check following parts:
+ D8.
+Part Type DIODE_BRIDGE_HD0X_2 not found in Library - not able to check following parts:
+ D9.
+Part Type IC_14PIN_TPS23573APW not found in Library - not able to check following parts:
+ U4.
+Part Type ZENER_A1C2 not found in Library - not able to check following parts:
+ D6.
+Part Type CAP_POL_G1 not found in Library - not able to check following parts:
+ C66 C56 C75.
+Part Type FETN_S123_G4_D5678 not found in Library - not able to check following parts:
+ Q1.
+Part Type DIODE_A1C2_3 not found in Library - not able to check following parts:
+ D3.
+Part Type DIODE_2COMC_2 not found in Library - not able to check following parts:
+ D5.
+Part Type DIODE_A1C2_2 not found in Library - not able to check following parts:
+ D2.
+Part Type IC_4PIN_PS2501L not found in Library - not able to check following parts:
+ U5.
+Part Type IC_6PIN_TL431BXDCK not found in Library - not able to check following parts:
+ U6.
+Part Type DIODE_2SERIES_2 not found in Library - not able to check following parts:
+ D7.
+Part Type CONN2PM not found in Library - not able to check following parts:
+ P2.
+Part Type NAT_LIN_271_N_NAT_LIN_272_N not found in Library - not able to check following parts:
+ U8.
+Part Type IC_6PIN_DAC5311 not found in Library - not able to check following parts:
+ U9.
+Part Type NPN_COL24 not found in Library - not able to check following parts:
+ Q2.
+Part Type CONN5PF not found in Library - not able to check following parts:
+ J3.
+Part Type CONN2X2PF not found in Library - not able to check following parts:
+ J4.
+Part Type IC_4PIN_CPC1002N not found in Library - not able to check following parts:
+ K1.
+Part Type IC_8PIN_MC3X063A not found in Library - not able to check following parts:
+ U7.
+Part Type DIODE_A1C2_4 not found in Library - not able to check following parts:
+ D10.
+Part Type IC_32PINSQ_ACT8865 not found in Library - not able to check following parts:
+ U11.
+Part Type IC_24PINSQXLM_KXA8081RNX not found in Library - not able to check following parts:
+ U10.
+Part Type FETN not found in Library - not able to check following parts:
+ Q6.
+Part Type IC_4PIN_CD143A-SR2.8 not found in Library - not able to check following parts:
+ D14 D15.
+Part Type DIODE_2SERIES not found in Library - not able to check following parts:
+ D17 D16.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net DAC_SYNC has less than two pins in PCB net list file.
+Net TDO has less than two pins in PCB net list file.
+Net NRST has less than two pins in PCB net list file.
+Net EMAC_TXEN has less than two pins in PCB net list file.
+Net EMAC_REFCLK has less than two pins in PCB net list file.
+Net EMAC_RX0 has less than two pins in PCB net list file.
+Net NAND_ALE has less than two pins in PCB net list file.
+Net NAND_WE# has less than two pins in PCB net list file.
+Net NAND_OE# has less than two pins in PCB net list file.
+Net NAND_R/B# has less than two pins in PCB net list file.
+Net DQ0 has less than two pins in PCB net list file.
+Net DQ2 has less than two pins in PCB net list file.
+Net DQ3 has less than two pins in PCB net list file.
+Net DQ5 has less than two pins in PCB net list file.
+Net DQ7 has less than two pins in PCB net list file.
+Net DQ8 has less than two pins in PCB net list file.
+Net DQ10 has less than two pins in PCB net list file.
+Net DQ11 has less than two pins in PCB net list file.
+Net DQ13 has less than two pins in PCB net list file.
+Net DQ15 has less than two pins in PCB net list file.
+Net DDR2_DQM0 has less than two pins in PCB net list file.
+Net DDR2_DQM1 has less than two pins in PCB net list file.
+Net DDR2_SDCKE has less than two pins in PCB net list file.
+Net DDR2_A10 has less than two pins in PCB net list file.
+Net DDR2_A14 has less than two pins in PCB net list file.
+Net DDR2_A3 has less than two pins in PCB net list file.
+Net DDR2_A4 has less than two pins in PCB net list file.
+Net DDR2_A5 has less than two pins in PCB net list file.
+Net $$$6 has less than two pins in PCB net list file.
+Net $$$7 has less than two pins in PCB net list file.
+Net $$$8 has less than two pins in PCB net list file.
+Net $$$9 has less than two pins in PCB net list file.
+Net $$$10 has less than two pins in PCB net list file.
+Net $$$11 has less than two pins in PCB net list file.
+Net $$$12 has less than two pins in PCB net list file.
+Net $$$14 has less than two pins in PCB net list file.
+Net $$$15 has less than two pins in PCB net list file.
+Net $$$16 has less than two pins in PCB net list file.
+Net $$$17 has less than two pins in PCB net list file.
+Net $$$18 has less than two pins in PCB net list file.
+Net $$$19 has less than two pins in PCB net list file.
+Net $$$21 has less than two pins in PCB net list file.
+Net $$$22 has less than two pins in PCB net list file.
+Net $$$23 has less than two pins in PCB net list file.
+Net $$$24 has less than two pins in PCB net list file.
+Net $$$25 has less than two pins in PCB net list file.
+Net $$$26 has less than two pins in PCB net list file.
+Net $$$28 has less than two pins in PCB net list file.
+Net $$$29 has less than two pins in PCB net list file.
+Net $$$30 has less than two pins in PCB net list file.
+Net $$$31 has less than two pins in PCB net list file.
+Net $$$32 has less than two pins in PCB net list file.
+Net $$$33 has less than two pins in PCB net list file.
+Net $$$34 has less than two pins in PCB net list file.
+Net $$$35 has less than two pins in PCB net list file.
+Net $$$36 has less than two pins in PCB net list file.
+Net $$$39 has less than two pins in PCB net list file.
+Net $$$40 has less than two pins in PCB net list file.
+Net $$$41 has less than two pins in PCB net list file.
+Net $$$42 has less than two pins in PCB net list file.
+Net $$$43 has less than two pins in PCB net list file.
+Net $$$44 has less than two pins in PCB net list file.
+Net $$$45 has less than two pins in PCB net list file.
+Net $$$46 has less than two pins in PCB net list file.
+Net $$$47 has less than two pins in PCB net list file.
+Net $$$48 has less than two pins in PCB net list file.
+Net $$$49 has less than two pins in PCB net list file.
+Net $$$50 has less than two pins in PCB net list file.
+Net $$$51 has less than two pins in PCB net list file.
+Net $$$52 has less than two pins in PCB net list file.
+Net $$$53 has less than two pins in PCB net list file.
+Net $$$58 has less than two pins in PCB net list file.
+Net $$$59 has less than two pins in PCB net list file.
+Net $$$62 has less than two pins in PCB net list file.
+Net $$$64 has less than two pins in PCB net list file.
+Net $$$65 has less than two pins in PCB net list file.
+Net $$$68 has less than two pins in PCB net list file.
+Net $$$10146 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Floating Connections or Subnets
+
+0-10V_RELAY_ON
+RNET_POE_SENSOR__SHEET1_REVA1 X2730  Y7000 
+Sheet 2      X25840 Y9700 
+
+AC_RELAY_ON
+RNET_POE_SENSOR__SHEET1_REVA1 X2880  Y6800 
+Sheet 2      X25000 Y4300 
+
+DAC_SYNC
+Sheet 2      X20660 Y11300
+
+DDR2_A10
+RNET_POE_SENSOR__SHEET1_REVA1 X12960 Y12200
+
+DDR2_A14
+RNET_POE_SENSOR__SHEET1_REVA1 X12960 Y11400
+
+DDR2_A17
+RNET_POE_SENSOR__SHEET1_REVA1 X12950 Y10800
+RNET_POE_SENSOR__SHEET1_REVA1 X23550 Y4400 
+
+DDR2_A3
+RNET_POE_SENSOR__SHEET1_REVA1 X23650 Y4200 
+
+DDR2_A4
+RNET_POE_SENSOR__SHEET1_REVA1 X13030 Y13400
+
+DDR2_A5
+RNET_POE_SENSOR__SHEET1_REVA1 X13030 Y13200
+
+DDR2_DQM0
+RNET_POE_SENSOR__SHEET1_REVA1 X23420 Y5400 
+
+DDR2_DQM1
+RNET_POE_SENSOR__SHEET1_REVA1 X23420 Y6200 
+
+DDR2_SDCKE
+RNET_POE_SENSOR__SHEET1_REVA1 X23340 Y7600 
+
+DQ0
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17600
+
+DQ10
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15600
+
+DQ11
+RNET_POE_SENSOR__SHEET1_REVA1 X23890 Y5800 
+
+DQ12
+RNET_POE_SENSOR__SHEET1_REVA1 X23870 Y11800
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15200
+
+DQ13
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15000
+
+DQ14
+RNET_POE_SENSOR__SHEET1_REVA1 X23870 Y12200
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y14800
+
+DQ15
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y14600
+
+DQ2
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17200
+
+DQ3
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17000
+
+DQ4
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y11000
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16800
+
+DQ5
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16600
+
+DQ6
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y11400
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16400
+
+DQ7
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16200
+
+DQ8
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16000
+
+DQ9
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y9000 
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y15800
+
+EMAC_INT
+RNET_POE_SENSOR__SHEET1_REVA1 X3140  Y5800 
+
+EMAC_MDIO
+RNET_POE_SENSOR__SHEET1_REVA1 X3020  Y8400 
+
+EMAC_REFCLK
+RNET_POE_SENSOR__SHEET1_REVA1 X2840  Y8600 
+
+EMAC_RST#
+RNET_POE_SENSOR__SHEET1_REVA1 X3040  Y7800 
+Sheet 2      X14160 Y10300
+
+EMAC_RX0
+RNET_POE_SENSOR__SHEET1_REVA1 X3120  Y9400 
+
+EMAC_RXERR
+RNET_POE_SENSOR__SHEET1_REVA1 X2920  Y9000 
+
+EMAC_TXEN
+RNET_POE_SENSOR__SHEET1_REVA1 X3030  Y8000 
+
+ETH_RXN
+Sheet 2      X13310 Y8300 
+
+ETH_RXP
+Sheet 2      X9830  Y18300
+Sheet 2      X13290 Y8100 
+
+ETH_TXN
+Sheet 2      X13320 Y7900 
+
+ETH_TXP
+Sheet 2      X7150  Y19100
+Sheet 2      X13310 Y7700 
+
+NAND_ALE
+RNET_POE_SENSOR__SHEET1_REVA1 X24130 Y15000
+
+NAND_OE#
+RNET_POE_SENSOR__SHEET1_REVA1 X24090 Y16800
+
+NAND_R/B#
+RNET_POE_SENSOR__SHEET1_REVA1 X23300 Y17000
+
+NAND_WE#
+RNET_POE_SENSOR__SHEET1_REVA1 X24070 Y14800
+
+NAND_WP#
+RNET_POE_SENSOR__SHEET1_REVA1 X23290 Y14600
+RNET_POE_SENSOR__SHEET1_REVA1 X3090  Y10600
+
+NRST
+RNET_POE_SENSOR__SHEET1_REVA1 X20960 Y10000
+Sheet 2      X5370  Y4500 
+
+PMIC_NIRQ
+RNET_POE_SENSOR__SHEET1_REVA1 X3070  Y10200
+
+SCLK
+RNET_POE_SENSOR__SHEET1_REVA1 X3440  Y11400
+
+SDA_PMIC
+RNET_POE_SENSOR__SHEET1_REVA1 X3150  Y10000
+
+SDO
+RNET_POE_SENSOR__SHEET1_REVA1 X3480  Y11600
+
+SENSOR_DRY
+RNET_POE_SENSOR__SHEET1_REVA1 X2910  Y6200 
+
+SENSOR_IN_DRY
+Sheet 2      X19840 Y5700 
+
+SENSOR_IN_WET
+Sheet 2      X19820 Y3100 
+Sheet 2      X28820 Y13300
+
+TCK
+RNET_POE_SENSOR__SHEET1_REVA1 X21140 Y10600
+
+TDI
+RNET_POE_SENSOR__SHEET1_REVA1 X21140 Y11000
+
+TDO
+RNET_POE_SENSOR__SHEET1_REVA1 X21090 Y10200
+
+Dangling Connections without a Net Name
+
+$$$10
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y11600
+
+$$$10132
+Sheet 2      X5650  Y12300
+
+$$$10134
+Sheet 2      X5650  Y12100
+
+$$$10135
+Sheet 2      X5650  Y11900
+
+$$$10138
+Sheet 2      X6000  Y4500 
+
+$$$10146
+Sheet 2      X15200 Y10300
+
+$$$10154
+Sheet 2      X26800 Y11900
+
+$$$10158
+Sheet 2      X8000  Y19100
+
+$$$10160
+Sheet 2      X10700 Y18300
+
+$$$10162
+Sheet 2      X21600 Y11300
+
+$$$10163
+Sheet 2      X26200 Y4300 
+
+$$$11
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y11400
+
+$$$12
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y7800 
+
+$$$14
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y9400 
+
+$$$15
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y9000 
+
+$$$16
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y8000 
+
+$$$17
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y10000
+
+$$$18
+RNET_POE_SENSOR__SHEET1_REVA1 X4010  Y7000 
+
+$$$19
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y6800 
+
+$$$20
+RNET_POE_SENSOR__SHEET1_REVA1 X24210 Y17000
+
+$$$21
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y17200
+
+$$$22
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y15600
+
+$$$23
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y15200
+
+$$$24
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y15000
+
+$$$25
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y14800
+
+$$$26
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y14600
+
+$$$27
+RNET_POE_SENSOR__SHEET1_REVA1 X24200 Y14600
+
+$$$28
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y12200
+
+$$$29
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y11800
+
+$$$30
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y11400
+
+$$$31
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y11000
+
+$$$32
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y9000 
+
+$$$33
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y5800 
+
+$$$34
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y5400 
+
+$$$35
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y6200 
+
+$$$36
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y7600 
+
+$$$39
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y13400
+
+$$$40
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y13200
+
+$$$41
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y12200
+
+$$$42
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y11400
+
+$$$43
+RNET_POE_SENSOR__SHEET1_REVA1 X13780 Y10800
+
+$$$44
+RNET_POE_SENSOR__SHEET1_REVA1 X24410 Y4200 
+
+$$$45
+RNET_POE_SENSOR__SHEET1_REVA1 X24380 Y4400 
+
+$$$46
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y17600
+
+$$$47
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y17000
+
+$$$48
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y16800
+
+$$$49
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y16600
+
+$$$50
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y16400
+
+$$$51
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y16200
+
+$$$52
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y16000
+
+$$$53
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y15800
+
+$$$58
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y10200
+
+$$$59
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y10600
+
+$$$6
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y6200 
+
+$$$62
+RNET_POE_SENSOR__SHEET1_REVA1 X21600 Y11000
+
+$$$64
+RNET_POE_SENSOR__SHEET1_REVA1 X21580 Y10200
+
+$$$65
+RNET_POE_SENSOR__SHEET1_REVA1 X21600 Y10600
+
+$$$68
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y5800 
+
+$$$7
+RNET_POE_SENSOR__SHEET1_REVA1 X21600 Y10000
+
+$$$72
+Sheet 2      X30100 Y13300
+
+$$$8
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y8400 
+
+$$$9
+RNET_POE_SENSOR__SHEET1_REVA1 X4000  Y8600 
+
++24V
+Sheet 2      X25200 Y12100
+
++3_3VNF
+RNET_POE_SENSOR__SHEET1_REVA1 X14550 Y4200 
+
+0-10V_RELAY_ON
+RNET_POE_SENSOR__SHEET1_REVA1 X2730  Y7000 
+Sheet 2      X25840 Y9700 
+
+AC_RELAY_ON
+RNET_POE_SENSOR__SHEET1_REVA1 X2880  Y6800 
+Sheet 2      X25000 Y4300 
+
+DAC_SYNC
+Sheet 2      X20660 Y11300
+
+DDR2_A10
+RNET_POE_SENSOR__SHEET1_REVA1 X12960 Y12200
+
+DDR2_A11
+RNET_POE_SENSOR__SHEET1_REVA1 X13810 Y12000
+
+DDR2_A14
+RNET_POE_SENSOR__SHEET1_REVA1 X12960 Y11400
+
+DDR2_A17
+RNET_POE_SENSOR__SHEET1_REVA1 X12950 Y10800
+RNET_POE_SENSOR__SHEET1_REVA1 X23550 Y4400 
+
+DDR2_A3
+RNET_POE_SENSOR__SHEET1_REVA1 X23650 Y4200 
+
+DDR2_A4
+RNET_POE_SENSOR__SHEET1_REVA1 X13030 Y13400
+
+DDR2_A5
+RNET_POE_SENSOR__SHEET1_REVA1 X13030 Y13200
+RNET_POE_SENSOR__SHEET1_REVA1 X24410 Y7000 
+
+DDR2_DQM0
+RNET_POE_SENSOR__SHEET1_REVA1 X23420 Y5400 
+
+DDR2_DQM1
+RNET_POE_SENSOR__SHEET1_REVA1 X23420 Y6200 
+
+DDR2_SDCKE
+RNET_POE_SENSOR__SHEET1_REVA1 X23340 Y7600 
+
+DQ0
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17600
+
+DQ10
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15600
+
+DQ11
+RNET_POE_SENSOR__SHEET1_REVA1 X23890 Y5800 
+
+DQ12
+RNET_POE_SENSOR__SHEET1_REVA1 X23870 Y11800
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15200
+
+DQ13
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y15000
+
+DQ14
+RNET_POE_SENSOR__SHEET1_REVA1 X23870 Y12200
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y14800
+
+DQ15
+RNET_POE_SENSOR__SHEET1_REVA1 X13270 Y14600
+
+DQ2
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17200
+
+DQ3
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y17000
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y5000 
+
+DQ4
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y11000
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16800
+
+DQ5
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16600
+
+DQ6
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y11400
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16400
+
+DQ7
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16200
+
+DQ8
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y16000
+
+DQ9
+RNET_POE_SENSOR__SHEET1_REVA1 X23940 Y9000 
+RNET_POE_SENSOR__SHEET1_REVA1 X13340 Y15800
+
+EMAC_INT
+RNET_POE_SENSOR__SHEET1_REVA1 X3140  Y5800 
+
+EMAC_MDIO
+RNET_POE_SENSOR__SHEET1_REVA1 X3020  Y8400 
+
+EMAC_REFCLK
+RNET_POE_SENSOR__SHEET1_REVA1 X2840  Y8600 
+
+EMAC_RST#
+RNET_POE_SENSOR__SHEET1_REVA1 X3040  Y7800 
+Sheet 2      X14160 Y10300
+
+EMAC_RX0
+RNET_POE_SENSOR__SHEET1_REVA1 X3120  Y9400 
+
+EMAC_RXERR
+RNET_POE_SENSOR__SHEET1_REVA1 X2920  Y9000 
+
+EMAC_TXEN
+RNET_POE_SENSOR__SHEET1_REVA1 X3030  Y8000 
+
+ETH_RXN
+Sheet 2      X13310 Y8300 
+
+ETH_RXP
+Sheet 2      X9830  Y18300
+Sheet 2      X13290 Y8100 
+
+ETH_TXN
+Sheet 2      X13320 Y7900 
+
+ETH_TXP
+Sheet 2      X7150  Y19100
+Sheet 2      X13310 Y7700 
+
+GND
+Sheet 2      X5650  Y11700
+
+NAND_ALE
+RNET_POE_SENSOR__SHEET1_REVA1 X24130 Y15000
+
+NAND_OE#
+RNET_POE_SENSOR__SHEET1_REVA1 X24090 Y16800
+
+NAND_R/B#
+RNET_POE_SENSOR__SHEET1_REVA1 X23300 Y17000
+
+NAND_WE#
+RNET_POE_SENSOR__SHEET1_REVA1 X24070 Y14800
+
+NAND_WP#
+RNET_POE_SENSOR__SHEET1_REVA1 X23290 Y14600
+RNET_POE_SENSOR__SHEET1_REVA1 X3090  Y10600
+
+NRST
+RNET_POE_SENSOR__SHEET1_REVA1 X20960 Y10000
+Sheet 2      X5370  Y4500 
+
+PMIC_NIRQ
+RNET_POE_SENSOR__SHEET1_REVA1 X3070  Y10200
+
+SCL_PMIC
+RNET_POE_SENSOR__SHEET1_REVA1 X4020  Y9800 
+
+SCLK
+RNET_POE_SENSOR__SHEET1_REVA1 X3440  Y11400
+Sheet 2      X20200 Y11100
+
+SDA_PMIC
+RNET_POE_SENSOR__SHEET1_REVA1 X3150  Y10000
+
+SDO
+RNET_POE_SENSOR__SHEET1_REVA1 X3480  Y11600
+
+SENSOR_DRY
+RNET_POE_SENSOR__SHEET1_REVA1 X2910  Y6200 
+Sheet 2      X23600 Y5700 
+
+SENSOR_IN_DRY
+Sheet 2      X19840 Y5700 
+Sheet 2      X29400 Y12900
+
+SENSOR_IN_WET
+Sheet 2      X19820 Y3100 
+Sheet 2      X28820 Y13300
+
+SENSOR_WET
+Sheet 2      X23600 Y3100 
+
+SHDN
+Sheet 2      X3700  Y4500 
+
+TCK
+RNET_POE_SENSOR__SHEET1_REVA1 X21140 Y10600
+
+TDI
+RNET_POE_SENSOR__SHEET1_REVA1 X21140 Y11000
+
+TDO
+RNET_POE_SENSOR__SHEET1_REVA1 X21090 Y10200
+
+Power or Ground Symbols used with wrong Net Name
+
++1_0V
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y5400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X15800 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X16400 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X12400 Y4000  - Power  Symbol used for net: +24V
+Sheet 2      X8600  Y8900  - Power  Symbol used for net: +24V
+
++1_8V
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y7000  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X24600 Y12400 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X28000 Y12400 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X29800 Y13000 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X10600 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X17200 Y18300 - Power  Symbol used for net: +24V
+Sheet 2      X4000  Y8300  - Power  Symbol used for net: +24V
+
++3_3V
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y6200  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y6400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X12200 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X17600 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X18850 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X10200 Y4600  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X13200 Y6900  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X16800 Y7900  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X19300 Y9400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X21800 Y11400 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X18200 Y11600 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X19000 Y11600 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X19800 Y11600 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X2200  Y12500 - Power  Symbol used for net: +24V
+Sheet 2      X9400  Y6300  - Power  Symbol used for net: +24V
+Sheet 2      X19300 Y7900  - Power  Symbol used for net: +24V
+Sheet 2      X23500 Y2200  - Power  Symbol used for net: +24V
+Sheet 2      X6200  Y3300  - Power  Symbol used for net: +24V
+Sheet 2      X6800  Y3400  - Power  Symbol used for net: +24V
+Sheet 2      X7400  Y3400  - Power  Symbol used for net: +24V
+Sheet 2      X22000 Y4000  - Power  Symbol used for net: +24V
+Sheet 2      X15900 Y4800  - Power  Symbol used for net: +24V
+Sheet 2      X23500 Y4800  - Power  Symbol used for net: +24V
+Sheet 2      X22000 Y6600  - Power  Symbol used for net: +24V
+Sheet 2      X9900  Y7900  - Power  Symbol used for net: +24V
+Sheet 2      X10500 Y7900  - Power  Symbol used for net: +24V
+Sheet 2      X18500 Y9600  - Power  Symbol used for net: +24V
+Sheet 2      X15500 Y11900 - Power  Symbol used for net: +24V
+Sheet 2      X10800 Y19000 - Power  Symbol used for net: +24V
+Sheet 2      X8200  Y19600 - Power  Symbol used for net: +24V
+
++3_3VA
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y5800  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X13000 Y9000  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X14800 Y2400  - Power  Symbol used for net: +24V
+Sheet 2      X23400 Y10300 - Power  Symbol used for net: +24V
+Sheet 2      X4200  Y6700  - Power  Symbol used for net: +24V
+Sheet 2      X12200 Y9500  - Power  Symbol used for net: +24V
+
++3_3VNF
+RNET_POE_SENSOR__SHEET1_REVA1 X22000 Y18400 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X14000 Y4400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X13800 Y2400  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X28400 Y16200 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X22800 Y17500 - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X24400 Y17900 - Power  Symbol used for net: +24V
+
++5V
+RNET_POE_SENSOR__SHEET1_REVA1 X18800 Y13400 - Power  Symbol used for net: +24V
+Sheet 2      X8800  Y7100  - Power  Symbol used for net: +24V
+Sheet 2      X7400  Y8900  - Power  Symbol used for net: +24V
+Sheet 2      X6400  Y9300  - Power  Symbol used for net: +24V
+Sheet 2      X7600  Y5100  - Power  Symbol used for net: +24V
+Sheet 2      X3700  Y5700  - Power  Symbol used for net: +24V
+Sheet 2      X2800  Y4500  - Power  Symbol used for net: +24V
+Sheet 2      X10700 Y12100 - Power  Symbol used for net: +24V
+
+CHASSIS
+Sheet 2      X4200  Y17100 - Ground Symbol used for net: GND
+Sheet 2      X4400  Y13800 - Ground Symbol used for net: GND
+Sheet 2      X6000  Y14500 - Ground Symbol used for net: GND
+Sheet 2      X6200  Y19100 - Ground Symbol used for net: GND
+
+NET_L1_2
+RNET_POE_SENSOR__SHEET1_REVA1 X19600 Y8700  - Power  Symbol used for net: +24V
+
+NET_TP11_1
+Sheet 2      X30600 Y12700 - Ground Symbol used for net: GND
+
+NET_TP1_1
+RNET_POE_SENSOR__SHEET1_REVA1 X10200 Y7000  - Power  Symbol used for net: +24V
+
+NET_TP2_1
+RNET_POE_SENSOR__SHEET1_REVA1 X10200 Y5800  - Power  Symbol used for net: +24V
+
+NET_TP3_1
+RNET_POE_SENSOR__SHEET1_REVA1 X10000 Y2400  - Power  Symbol used for net: +24V
+
+PGND
+Sheet 2      X14000 Y17500 - Ground Symbol used for net: GND
+Sheet 2      X18300 Y16700 - Ground Symbol used for net: GND
+Sheet 2      X21800 Y13800 - Ground Symbol used for net: GND
+Sheet 2      X19400 Y15200 - Ground Symbol used for net: GND
+Sheet 2      X22500 Y15300 - Ground Symbol used for net: GND
+Sheet 2      X14000 Y15600 - Ground Symbol used for net: GND
+Sheet 2      X19400 Y17100 - Ground Symbol used for net: GND
+Sheet 2      X20000 Y17100 - Ground Symbol used for net: GND
+Sheet 2      X20600 Y17100 - Ground Symbol used for net: GND
+Sheet 2      X22900 Y17500 - Ground Symbol used for net: GND
+Sheet 2      X14500 Y18800 - Ground Symbol used for net: GND
+Sheet 2      X18700 Y18700 - Ground Symbol used for net: GND
+Sheet 2      X19500 Y18700 - Ground Symbol used for net: GND
+Sheet 2      X22800 Y18800 - Ground Symbol used for net: GND
+Sheet 2      X17000 Y18900 - Ground Symbol used for net: GND
+
+VDDBU
+RNET_POE_SENSOR__SHEET1_REVA1 X13200 Y6000  - Power  Symbol used for net: +24V
+RNET_POE_SENSOR__SHEET1_REVA1 X20000 Y2400  - Power  Symbol used for net: +24V
