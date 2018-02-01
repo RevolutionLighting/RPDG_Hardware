@@ -1,0 +1,30 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0008\RL0008_Rev_A.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 1/30/2018 1:53:04 PM
+*CHGPART*
+J1  0532610671  0533980667
+J2  0532610671  0533980667
+*PART*
+J3  0533980667
+J4  1041880110
+J5  1041880110
+J6  1041880110
+*NET*
+*SIGNAL*  +24V
+J4.1  J5.1  J6.1  J4.2  J5.2  J6.2
+*SIGNAL*  A
+J3.6
+*SIGNAL*  B
+J3.5
+*SIGNAL*  CW
+J3.2
+*SIGNAL*  G
+J3.4
+*SIGNAL*  R
+J3.3
+*SIGNAL*  WW
+J3.1
+
+*REMARK*  Deleted pins: 0,  Added pins: 12
+*END*

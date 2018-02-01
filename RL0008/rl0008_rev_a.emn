@@ -1,0 +1,758 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout VX.2.1"    2018/01/31.15:21:14    1
+"c:\users\ward\dropbox\work\revolution\rpdg_hardware\rl0008\rl0008_rev_a.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+0.56938
+0     0.0                           0.0                           0     
+0     27.0                          0.0                           0     
+0     27.0                          547.2                         0     
+0     0.0                           547.2                         0     
+0     0.0                           0.0                           0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+0.304800 18.000000 4.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 5.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 5.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 1.900000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 8.600000 PTH    X6    PIN    UNOWNED
+0.304800 16.000000 9.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 8.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 7.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 9.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 10.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 13.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 17.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 18.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 20.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 19.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 17.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 20.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 22.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 21.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 24.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 24.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 30.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 29.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 30.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 28.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 27.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 28.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 28.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 32.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 36.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 32.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 36.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 39.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 39.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 43.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 43.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 47.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 51.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 47.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 51.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 55.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 55.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 58.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 58.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 66.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 62.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 62.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 66.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 4.000000 71.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 70.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 70.300000 PTH    BOARD    VIA    UNOWNED
+3.175000 23.000000 71.100000 PTH    X7    PIN    UNOWNED
+0.304800 11.000000 74.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 74.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 77.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 81.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 77.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 81.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 85.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 85.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 89.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 89.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 93.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 96.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 93.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 96.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 100.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 100.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 104.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 104.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 108.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 112.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 108.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 112.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 115.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 115.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 119.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 119.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 127.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 123.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.500000 127.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 123.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 6.600000 128.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 131.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 131.100000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 133.600000 PTH    X5    PIN    UNOWNED
+0.304800 0.700000 137.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.900000 137.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 134.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 134.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.700000 141.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.300000 142.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 142.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 138.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 142.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 138.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.800000 146.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 146.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 146.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.300000 150.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 150.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 150.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.800000 153.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 153.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 153.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 157.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 161.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 161.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 165.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 165.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 169.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 172.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 169.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 172.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 176.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 176.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 180.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 180.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 188.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 184.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 184.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 188.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 191.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 191.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.100000 195.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 195.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 195.700000 PTH    BOARD    VIA    UNOWNED
+3.175000 23.000000 196.100000 PTH    X8    PIN    UNOWNED
+0.304800 11.000000 199.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 203.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 199.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 203.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 207.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 207.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 210.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 210.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 214.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 218.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 218.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 214.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 222.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 222.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 226.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 226.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 233.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 229.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 229.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 233.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 237.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 237.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 241.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 241.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 245.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 248.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 245.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 248.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.600000 253.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 252.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 252.700000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 258.600000 PTH    X1    PIN    UNOWNED
+0.304800 11.000000 256.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 256.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 260.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 264.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.500000 264.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 260.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 267.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 267.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 271.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 271.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.200000 279.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.800000 275.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 279.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 275.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 279.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 275.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.300000 285.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.800000 283.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 285.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 283.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 283.100000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 288.600000 PTH    X2    PIN    UNOWNED
+0.304800 16.000000 286.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.800000 292.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 292.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 305.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 302.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 298.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 294.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 290.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 305.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 302.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 298.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 324.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 321.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 317.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 313.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 309.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 324.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 321.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 317.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 313.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 309.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 343.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 340.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 336.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 332.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 328.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 343.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 340.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 336.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 332.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 328.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.100000 350.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 362.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 359.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 355.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 351.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 347.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 366.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 362.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 359.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 355.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 351.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 347.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 366.700000 PTH    BOARD    VIA    UNOWNED
+3.175000 23.000000 351.100000 PTH    X9    PIN    UNOWNED
+0.304800 16.000000 385.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 381.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 378.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 374.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 370.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 385.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 381.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 378.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 374.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 370.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.600000 408.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 397.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 393.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 389.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 389.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 404.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 400.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 397.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 393.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 404.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.500000 400.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 427.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 412.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 420.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.100000 423.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 419.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.800000 427.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 416.100000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 413.600000 PTH    X3    PIN    UNOWNED
+0.304800 11.000000 419.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.100000 425.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 427.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 423.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 419.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 416.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 412.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 408.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 423.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 408.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 446.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 442.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 438.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 435.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 431.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 446.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 442.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 438.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 435.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 469.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 465.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 461.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 457.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 454.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 450.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 469.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 465.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 461.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 457.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 454.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 450.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 488.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 484.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 480.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 476.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.900000 473.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 488.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 484.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 480.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 476.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 473.100000 PTH    BOARD    VIA    UNOWNED
+3.175000 23.000000 476.100000 PTH    X10    PIN    UNOWNED
+0.304800 16.000000 507.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 499.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 495.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 492.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.900000 507.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.900000 503.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.900000 499.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.900000 495.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.900000 492.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 503.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 513.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 514.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 514.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 515.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 516.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 521.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 523.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 523.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 524.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 525.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 526.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.600000 526.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 522.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 524.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 520.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 514.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 513.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 514.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 515.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 516.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 521.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 523.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 523.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 524.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 525.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 526.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.600000 526.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 526.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 526.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 525.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 524.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 523.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 523.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 521.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 513.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 514.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 514.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 515.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 516.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 526.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 526.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 525.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 524.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 523.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 523.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 521.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 513.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 514.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 514.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 515.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.400000 516.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 530.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 526.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 526.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 518.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 514.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 511.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 530.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 522.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 518.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 514.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 511.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 527.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 526.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 23.500000 523.800000 PTH    BOARD    VIA    UNOWNED
+3.175000 4.300000 538.600000 PTH    X4    PIN    UNOWNED
+0.304800 21.000000 532.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.000000 534.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 538.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 535.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.000000 537.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 545.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 541.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 537.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.000000 533.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 25.500000 540.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.000000 539.400000 PTH    BOARD    VIA    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+MH125                                        MH125                                        X1                                           
+4.3                           258.6                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X2                                           
+4.3                           288.6                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X3                                           
+4.3                           413.6                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X4                                           
+4.3                           538.6                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X5                                           
+4.3                           133.6                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X6                                           
+4.3                           8.6                           0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X7                                           
+23.0                          71.1                          0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X8                                           
+23.0                          196.1                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X9                                           
+23.0                          351.1                         0.0                           0.0       TOP       PLACED    
+MH125                                        MH125                                        X10                                          
+23.0                          476.1                         0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D1                                           
+13.5                          1.9                           0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D97                                          
+13.5                          366.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D103                                         
+13.5                          389.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D7                                           
+13.5                          24.7                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D109                                         
+13.5                          412.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D115                                         
+13.5                          435.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D121                                         
+13.5                          457.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D127                                         
+13.5                          480.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D133                                         
+13.5                          503.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D139                                         
+13.5                          526.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D13                                          
+13.5                          47.5                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D19                                          
+13.5                          70.3                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D25                                          
+13.5                          93.1                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D31                                          
+13.5                          115.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D37                                          
+13.5                          138.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D43                                          
+13.5                          161.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D49                                          
+13.5                          184.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D55                                          
+13.5                          207.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D61                                          
+13.5                          229.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D67                                          
+13.5                          252.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D73                                          
+13.5                          275.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D79                                          
+13.5                          298.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D85                                          
+13.5                          321.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW27-H001                               D91                                          
+13.5                          343.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D10                                          
+13.5                          36.1                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D106                                         
+13.5                          400.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D112                                         
+13.5                          423.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D118                                         
+13.5                          446.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D124                                         
+13.5                          469.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D130                                         
+13.5                          492.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D136                                         
+13.5                          514.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D16                                          
+13.5                          58.9                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D142                                         
+13.5                          537.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D22                                          
+13.5                          81.7                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D28                                          
+13.5                          104.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D34                                          
+13.5                          127.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D40                                          
+13.5                          150.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D4                                           
+13.5                          13.3                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D46                                          
+13.5                          172.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D52                                          
+13.5                          195.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D58                                          
+13.5                          218.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D64                                          
+13.5                          241.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D70                                          
+13.5                          264.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D76                                          
+13.5                          286.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D82                                          
+13.5                          309.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D88                                          
+13.5                          332.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D94                                          
+13.5                          355.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D100                                         
+13.5                          378.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D101                                         
+13.5                          381.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D11                                          
+13.5                          39.9                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D107                                         
+13.5                          404.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D113                                         
+13.5                          427.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D119                                         
+13.5                          450.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D125                                         
+13.5                          473.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D131                                         
+13.5                          495.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D137                                         
+13.5                          518.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D143                                         
+13.5                          541.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D17                                          
+13.5                          62.7                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D23                                          
+13.5                          85.5                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D29                                          
+13.5                          108.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D35                                          
+13.5                          131.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D41                                          
+13.5                          153.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D47                                          
+13.5                          176.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D5                                           
+13.5                          17.1                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D53                                          
+13.5                          199.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D59                                          
+13.5                          222.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D65                                          
+13.5                          245.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D71                                          
+13.5                          267.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D77                                          
+13.5                          290.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D83                                          
+13.5                          313.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D89                                          
+13.5                          336.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D95                                          
+13.5                          359.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D102                                         
+13.5                          385.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D108                                         
+13.5                          408.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D114                                         
+13.5                          431.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D120                                         
+13.5                          454.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D126                                         
+13.5                          476.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D132                                         
+13.5                          499.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D18                                          
+13.5                          66.5                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D138                                         
+13.5                          522.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D144                                         
+13.5                          545.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D24                                          
+13.5                          89.3                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D30                                          
+13.5                          112.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D36                                          
+13.5                          134.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D42                                          
+13.5                          157.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D48                                          
+13.5                          180.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D54                                          
+13.5                          203.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D60                                          
+13.5                          226.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D6                                           
+13.5                          20.9                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D66                                          
+13.5                          248.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D72                                          
+13.5                          271.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D12                                          
+13.5                          43.7                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D78                                          
+13.5                          294.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D84                                          
+13.5                          317.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D90                                          
+13.5                          340.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D96                                          
+13.5                          362.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D104                                         
+13.5                          393.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D98                                          
+13.5                          370.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D110                                         
+13.5                          416.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D8                                           
+13.5                          28.5                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D116                                         
+13.5                          438.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D122                                         
+13.5                          461.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D128                                         
+13.5                          484.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D134                                         
+13.5                          507.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D140                                         
+13.5                          530.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D14                                          
+13.5                          51.3                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D2                                           
+13.5                          5.7                           0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D20                                          
+13.5                          74.1                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D26                                          
+13.5                          96.9                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D32                                          
+13.5                          119.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D38                                          
+13.5                          142.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D44                                          
+13.5                          165.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D50                                          
+13.5                          188.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D56                                          
+13.5                          210.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D62                                          
+13.5                          233.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D68                                          
+13.5                          256.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D74                                          
+13.5                          279.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D80                                          
+13.5                          302.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D86                                          
+13.5                          324.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    MXA9-PW65-H001                               D92                                          
+13.5                          347.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D105                                         
+13.5                          397.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D111                                         
+13.5                          419.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D117                                         
+13.5                          442.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D123                                         
+13.5                          465.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D129                                         
+13.5                          488.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D135                                         
+13.5                          511.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D141                                         
+13.5                          533.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D15                                          
+13.5                          55.1                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D21                                          
+13.5                          77.9                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D27                                          
+13.5                          100.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D3                                           
+13.5                          9.5                           0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D33                                          
+13.5                          123.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D39                                          
+13.5                          146.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D45                                          
+13.5                          169.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D51                                          
+13.5                          191.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D57                                          
+13.5                          214.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D63                                          
+13.5                          237.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D69                                          
+13.5                          260.3                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D75                                          
+13.5                          283.1                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D81                                          
+13.5                          305.9                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D87                                          
+13.5                          328.7                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D9                                           
+13.5                          32.3                          0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D93                                          
+13.5                          351.5                         0.0                           90.0      TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D99                                          
+13.5                          374.3                         0.0                           90.0      TOP       PLACED    
+SMC                                          B560C                                        D146                                         
+4.0                           66.6                          0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D145                                         
+4.0                           52.6                          0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D147                                         
+4.5                           110.6                         0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D149                                         
+5.0                           177.6                         0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D151                                         
+5.5                           235.6                         0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D153                                         
+6.0                           332.6                         0.0                           180.0     TOP       PLACED    
+DPAK                                         NSI50350ADT4G                                D155                                         
+6.5                           390.6                         0.0                           180.0     TOP       PLACED    
+SMC                                          B560C                                        D148                                         
+4.5                           124.6                         0.0                           180.0     TOP       PLACED    
+SMC                                          B560C                                        D150                                         
+5.0                           191.6                         0.0                           180.0     TOP       PLACED    
+SMC                                          B560C                                        D152                                         
+5.5                           249.6                         0.0                           180.0     TOP       PLACED    
+SMC                                          B560C                                        D154                                         
+6.0                           346.6                         0.0                           180.0     TOP       PLACED    
+SMC                                          B560C                                        D156                                         
+6.5                           404.6                         0.0                           180.0     TOP       PLACED    
+0533980667                                   0533980667                                   J1                                           
+25.1                          7.7                           0.0                           270.0     TOP       PLACED    
+0533980667                                   0533980667                                   J6                                           
+25.1                          537.6                         0.0                           270.0     TOP       PLACED    
+0533980667                                   0533980667                                   J5                                           
+25.1                          524.5                         0.0                           270.0     TOP       PLACED    
+1041880110                                   1041880110                                   J3                                           
+7.0                           520.0                         0.0                           90.0      TOP       PLACED    
+1041880110                                   1041880110                                   J4                                           
+2.0                           520.0                         0.0                           90.0      TOP       PLACED    
+1041880110                                   1041880110                                   J2                                           
+2.0                           24.0                          0.0                           270.0     TOP       PLACED    
+FIDUCIAL                                     FIDUCIAL                                     J7                                           
+3.5                           543.7                         0.0                           0.0       TOP       PLACED    
+FIDUCIAL                                     FIDUCIAL                                     J8                                           
+23.5                          273.6                         0.0                           0.0       TOP       PLACED    
+FIDUCIAL                                     FIDUCIAL                                     J9                                           
+3.5                           3.5                           0.0                           0.0       TOP       PLACED    
+.END_PLACEMENT

@@ -1,0 +1,9 @@
+from pyvxi11 import Vxi11, Vxi11Error
+import time
+period=1
+SW = Vxi11(host="192.168.20.101",name="inst0")
+SW.open()
+print SW.ask("*IDN?")
+
+print SW.write("ROUT:OPEN (@1103,1113)")
+print SW.ask("MEAS:VOLT:DC?")
