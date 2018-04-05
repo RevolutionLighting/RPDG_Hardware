@@ -1,0 +1,94 @@
+/**
+ * This is template for main module created by New Kinetis SDK 2.x Project Wizard. Enjoy!
+ **/
+
+#include "board.h"
+#include "pin_mux.h"
+#include "clock_config.h"
+
+/*******************************************************************************
+ * Definitions
+ ******************************************************************************/
+/* The Flextimer instance/channel used for board */
+#define BOARD_FTM_BASEADDR FTM0
+#define BOARD_FTM_CHANNEL kFTM_Chnl_3
+
+/* Interrupt number and interrupt handler for the FTM instance used */
+#define FTM_INTERRUPT_NUMBER FTM0_IRQn
+#define FTM_LED_HANDLER FTM0_IRQHandler
+
+/* Interrupt to enable and flag to read; depends on the FTM channel used */
+#define FTM_CHANNEL_INTERRUPT_ENABLE kFTM_Chnl3InterruptEnable
+#define FTM_CHANNEL_FLAG kFTM_Chnl3Flag
+
+/* Get source clock for FTM driver */
+#define FTM_SOURCE_CLOCK CLOCK_GetFreq(kCLOCK_CoreSysClk)
+
+
+static void delay(volatile uint32_t nof) {
+  while(nof!=0) {
+    __asm("NOP");
+    nof--;
+  }
+}
+
+int main(void) {
+  /* Init board hardware. */
+  BOARD_InitPins();
+  BOARD_BootClockRUN();
+  BOARD_InitDebugConsole();
+
+  /* Add your code here */
+  CH1_INIT(0);
+  CH2_INIT(0);
+  CH3_INIT(0);
+  CH4_INIT(0);
+  CH5_INIT(0);
+  CH6_INIT(0);
+  CH7_INIT(0);
+  CH8_INIT(0);
+  CH9_INIT(0);
+  CH10_INIT(0);
+  CH11_INIT(0);
+  CH12_INIT(0);
+  for(;;) { /* Infinite loop to avoid leaving the main function */
+	  CH1_ON();
+	  delay(5000000);
+	  CH1_OFF();
+	  CH2_ON();
+	  delay(5000000);
+	  CH2_OFF();
+	  CH3_ON();
+	  delay(5000000);
+	  CH3_OFF();
+	  CH4_ON();
+	  delay(5000000);
+	  CH4_OFF();
+	  CH5_ON();
+	  delay(5000000);
+	  CH5_OFF();
+	  CH6_ON();
+	  delay(5000000);
+	  CH6_OFF();
+	  CH7_ON();
+	  delay(5000000);
+	  CH7_OFF();
+	  CH8_ON();
+	  delay(5000000);
+	  CH8_OFF();
+	  CH9_ON();
+	  delay(5000000);
+	  CH9_OFF();
+	  CH10_ON();
+	  delay(5000000);
+	  CH10_OFF();
+	  CH11_ON();
+	  delay(5000000);
+	  CH11_OFF();
+	  CH12_ON();
+	  delay(5000000);
+	  CH12_OFF();
+	  delay(10000000);
+*/	  __asm("NOP"); /* something to use as a breakpoint stop while looping */
+  }
+}

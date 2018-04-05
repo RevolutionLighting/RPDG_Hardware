@@ -1,0 +1,324 @@
+/*
+ * The Clear BSD License
+ * Copyright (c) 2015, Freescale Semiconductor, Inc.
+ * Copyright 2016-2017 NXP
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted (subject to the limitations in the disclaimer below) provided
+ * that the following conditions are met:
+ *
+ * o Redistributions of source code must retain the above copyright notice, this list
+ *   of conditions and the following disclaimer.
+ *
+ * o Redistributions in binary form must reproduce the above copyright notice, this
+ *   list of conditions and the following disclaimer in the documentation and/or
+ *   other materials provided with the distribution.
+ *
+ * o Neither the name of the copyright holder nor the names of its
+ *   contributors may be used to endorse or promote products derived from this
+ *   software without specific prior written permission.
+ *
+ * NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE.
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+#ifndef _BOARD_H_
+#define _BOARD_H_
+
+#include "clock_config.h"
+#include "fsl_gpio.h"
+
+/*******************************************************************************
+ * Definitions
+ ******************************************************************************/
+/*! @brief The board name */
+#define BOARD_NAME "SmartStrip"
+
+/*! @brief The UART to use for debug messages. */
+#define BOARD_USE_UART
+#define BOARD_DEBUG_UART_TYPE DEBUG_CONSOLE_DEVICE_TYPE_UART
+#define BOARD_DEBUG_UART_BASEADDR (uint32_t) UART0
+#define BOARD_DEBUG_UART_INSTANCE 0U
+#define BOARD_DEBUG_UART_CLKSRC SYS_CLK
+#define BOARD_DEBUG_UART_CLK_FREQ CLOCK_GetCoreSysClkFreq()
+#define BOARD_UART_IRQ UART0_IRQn
+#define BOARD_UART_IRQ_HANDLER UART0_IRQHandler
+
+#ifndef BOARD_DEBUG_UART_BAUDRATE
+#define BOARD_DEBUG_UART_BAUDRATE 115200
+#endif /* BOARD_DEBUG_UART_BAUDRATE */
+
+/*! @brief The i2c instance used for board. */
+#define BOARD_I2C_COMM_BASEADDR I2C0
+
+/*! @brief The i2c instance used for i2c connection by default */
+#define BOARD_I2C_BASEADDR I2C0
+
+#ifndef BOARD_CH1_GPIO
+#define BOARD_CH1_GPIO GPIOE
+#endif
+#ifndef BOARD_CH1_GPIO_PORT
+#define BOARD_CH1_GPIO_PORT PORTE
+#endif
+#ifndef BOARD_CH1_GPIO_PIN
+#define BOARD_CH1_GPIO_PIN 30U
+#endif
+
+#ifndef BOARD_CH2_GPIO
+#define BOARD_CH2_GPIO GPIOE
+#endif
+#ifndef BOARD_CH2_GPIO_PORT
+#define BOARD_CH2_GPIO_PORT PORTE
+#endif
+#ifndef BOARD_CH2_GPIO_PIN
+#define BOARD_CH2_GPIO_PIN 24U
+#endif
+
+#ifndef BOARD_CH3_GPIO
+#define BOARD_CH3_GPIO GPIOE
+#endif
+#ifndef BOARD_CH3_GPIO_PORT
+#define BOARD_CH3_GPIO_PORT PORTE
+#endif
+#ifndef BOARD_CH3_GPIO_PIN
+#define BOARD_CH3_GPIO_PIN 25U
+#endif
+
+#ifndef BOARD_CH4_GPIO
+#define BOARD_CH4_GPIO GPIOA
+#endif
+#ifndef BOARD_CH4_GPIO_PORT
+#define BOARD_CH4_GPIO_PORT PORTA
+#endif
+#ifndef BOARD_CH4_GPIO_PIN
+#define BOARD_CH4_GPIO_PIN 1U
+#endif
+
+#ifndef BOARD_CH5_GPIO
+#define BOARD_CH5_GPIO GPIOA
+#endif
+#ifndef BOARD_CH5_GPIO_PORT
+#define BOARD_CH5_GPIO_PORT PORTA
+#endif
+#ifndef BOARD_CH5_GPIO_PIN
+#define BOARD_CH5_GPIO_PIN 2U
+#endif
+
+#ifndef BOARD_CH6_GPIO
+#define BOARD_CH6_GPIO GPIOB
+#endif
+#ifndef BOARD_CH6_GPIO_PORT
+#define BOARD_CH6_GPIO_PORT PORTB
+#endif
+#ifndef BOARD_CH6_GPIO_PIN
+#define BOARD_CH6_GPIO_PIN 0U
+#endif
+
+#ifndef BOARD_CH7_GPIO
+#define BOARD_CH7_GPIO GPIOB
+#endif
+#ifndef BOARD_CH7_GPIO_PORT
+#define BOARD_CH7_GPIO_PORT PORTB
+#endif
+#ifndef BOARD_CH7_GPIO_PIN
+#define BOARD_CH7_GPIO_PIN 1U
+#endif
+
+#ifndef BOARD_CH8_GPIO
+#define BOARD_CH8_GPIO GPIOC
+#endif
+#ifndef BOARD_CH8_GPIO_PORT
+#define BOARD_CH8_GPIO_PORT PORTC
+#endif
+#ifndef BOARD_CH8_GPIO_PIN
+#define BOARD_CH8_GPIO_PIN 3U
+#endif
+
+#ifndef BOARD_CH9_GPIO
+#define BOARD_CH9_GPIO GPIOD
+#endif
+#ifndef BOARD_CH9_GPIO_PORT
+#define BOARD_CH9_GPIO_PORT PORTD
+#endif
+#ifndef BOARD_CH9_GPIO_PIN
+#define BOARD_CH9_GPIO_PIN 4U
+#endif
+
+#ifndef BOARD_CH10_GPIO
+#define BOARD_CH10_GPIO GPIOD
+#endif
+#ifndef BOARD_CH10_GPIO_PORT
+#define BOARD_CH10_GPIO_PORT PORTD
+#endif
+#ifndef BOARD_CH10_GPIO_PIN
+#define BOARD_CH10_GPIO_PIN 5U
+#endif
+
+#ifndef BOARD_CH11_GPIO
+#define BOARD_CH11_GPIO GPIOD
+#endif
+#ifndef BOARD_CH11_GPIO_PORT
+#define BOARD_CH11_GPIO_PORT PORTD
+#endif
+#ifndef BOARD_CH11_GPIO_PIN
+#define BOARD_CH11_GPIO_PIN 6U
+#endif
+
+#ifndef BOARD_CH12_GPIO
+#define BOARD_CH12_GPIO GPIOD
+#endif
+#ifndef BOARD_CH12_GPIO_PORT
+#define BOARD_CH12_GPIO_PORT PORTD
+#endif
+#ifndef BOARD_CH12_GPIO_PIN
+#define BOARD_CH12_GPIO_PIN 7U
+#endif
+
+
+#define CH1_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH1_GPIO, BOARD_CH1_GPIO_PIN, output); \
+    BOARD_CH1_GPIO->PDDR |= (1U << BOARD_CH1_GPIO_PIN) /*!< Enable target */
+#define CH1_ON() \
+    GPIO_PortClear(BOARD_CH1_GPIO, 1U << BOARD_CH1_GPIO_PIN) /*!< Turn on target */
+#define CH1_OFF() \
+    GPIO_PortSet(BOARD_CH1_GPIO, 1U << BOARD_CH1_GPIO_PIN) /*!< Turn off target */
+#define CH1_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH1_GPIO, 1U << BOARD_CH1_GPIO_PIN) /*!< Toggle on target */
+
+#define CH2_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH2_GPIO, BOARD_CH2_GPIO_PIN, output); \
+    BOARD_CH2_GPIO->PDDR |= (1U << BOARD_CH2_GPIO_PIN) /*!< Enable target */
+#define CH2_ON() \
+    GPIO_PortClear(BOARD_CH2_GPIO, 1U << BOARD_CH2_GPIO_PIN) /*!< Turn on target */
+#define CH2_OFF() \
+    GPIO_PortSet(BOARD_CH2_GPIO, 1U << BOARD_CH2_GPIO_PIN) /*!< Turn off target */
+#define CH2_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH2_GPIO, 1U << BOARD_CH2_GPIO_PIN) /*!< Toggle on target */
+
+#define CH3_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH3_GPIO, BOARD_CH3_GPIO_PIN, output); \
+    BOARD_CH3_GPIO->PDDR |= (1U << BOARD_CH3_GPIO_PIN) /*!< Enable target */
+#define CH3_ON() \
+    GPIO_PortClear(BOARD_CH3_GPIO, 1U << BOARD_CH3_GPIO_PIN) /*!< Turn on target */
+#define CH3_OFF() \
+    GPIO_PortSet(BOARD_CH3_GPIO, 1U << BOARD_CH3_GPIO_PIN) /*!< Turn off target */
+#define CH3_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH3_GPIO, 1U << BOARD_CH3_GPIO_PIN) /*!< Toggle on target */
+
+#define CH4_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH4_GPIO, BOARD_CH4_GPIO_PIN, output); \
+    BOARD_CH4_GPIO->PDDR |= (1U << BOARD_CH4_GPIO_PIN) /*!< Enable target */
+#define CH4_ON() \
+    GPIO_PortClear(BOARD_CH4_GPIO, 1U << BOARD_CH4_GPIO_PIN) /*!< Turn on target */
+#define CH4_OFF() \
+    GPIO_PortSet(BOARD_CH4_GPIO, 1U << BOARD_CH4_GPIO_PIN) /*!< Turn off target */
+#define CH4_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH4_GPIO, 1U << BOARD_CH4_GPIO_PIN) /*!< Toggle on target */
+
+#define CH5_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH5_GPIO, BOARD_CH5_GPIO_PIN, output); \
+    BOARD_CH5_GPIO->PDDR |= (1U << BOARD_CH5_GPIO_PIN) /*!< Enable target */
+#define CH5_ON() \
+    GPIO_PortClear(BOARD_CH5_GPIO, 1U << BOARD_CH5_GPIO_PIN) /*!< Turn on target */
+#define CH5_OFF() \
+    GPIO_PortSet(BOARD_CH5_GPIO, 1U << BOARD_CH5_GPIO_PIN) /*!< Turn off target */
+#define CH5_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH5_GPIO, 1U << BOARD_CH5_GPIO_PIN) /*!< Toggle on target */
+
+#define CH6_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH6_GPIO, BOARD_CH6_GPIO_PIN, output); \
+    BOARD_CH6_GPIO->PDDR |= (1U << BOARD_CH6_GPIO_PIN) /*!< Enable target */
+#define CH6_ON() \
+    GPIO_PortClear(BOARD_CH6_GPIO, 1U << BOARD_CH6_GPIO_PIN) /*!< Turn on target */
+#define CH6_OFF() \
+    GPIO_PortSet(BOARD_CH6_GPIO, 1U << BOARD_CH6_GPIO_PIN) /*!< Turn off target */
+#define CH6_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH6_GPIO, 1U << BOARD_CH6_GPIO_PIN) /*!< Toggle on target */
+
+#define CH7_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH7_GPIO, BOARD_CH7_GPIO_PIN, output); \
+    BOARD_CH7_GPIO->PDDR |= (1U << BOARD_CH7_GPIO_PIN) /*!< Enable target */
+#define CH7_ON() \
+    GPIO_PortClear(BOARD_CH7_GPIO, 1U << BOARD_CH7_GPIO_PIN) /*!< Turn on target */
+#define CH7_OFF() \
+    GPIO_PortSet(BOARD_CH7_GPIO, 1U << BOARD_CH7_GPIO_PIN) /*!< Turn off target */
+#define CH7_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH7_GPIO, 1U << BOARD_CH7_GPIO_PIN) /*!< Toggle on target */
+
+#define CH8_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH8_GPIO, BOARD_CH8_GPIO_PIN, output); \
+    BOARD_CH8_GPIO->PDDR |= (1U << BOARD_CH8_GPIO_PIN) /*!< Enable target */
+#define CH8_ON() \
+    GPIO_PortClear(BOARD_CH8_GPIO, 1U << BOARD_CH8_GPIO_PIN) /*!< Turn on target */
+#define CH8_OFF() \
+    GPIO_PortSet(BOARD_CH8_GPIO, 1U << BOARD_CH8_GPIO_PIN) /*!< Turn off target */
+#define CH8_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH8_GPIO, 1U << BOARD_CH8_GPIO_PIN) /*!< Toggle on target */
+
+#define CH9_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH9_GPIO, BOARD_CH9_GPIO_PIN, output); \
+    BOARD_CH9_GPIO->PDDR |= (1U << BOARD_CH9_GPIO_PIN) /*!< Enable target */
+#define CH9_ON() \
+    GPIO_PortClear(BOARD_CH9_GPIO, 1U << BOARD_CH9_GPIO_PIN) /*!< Turn on target */
+#define CH9_OFF() \
+    GPIO_PortSet(BOARD_CH9_GPIO, 1U << BOARD_CH9_GPIO_PIN) /*!< Turn off target */
+#define CH9_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH9_GPIO, 1U << BOARD_CH9_GPIO_PIN) /*!< Toggle on target */
+
+#define CH10_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH10_GPIO, BOARD_CH10_GPIO_PIN, output); \
+    BOARD_CH10_GPIO->PDDR |= (1U << BOARD_CH10_GPIO_PIN) /*!< Enable target */
+#define CH10_ON() \
+    GPIO_PortClear(BOARD_CH10_GPIO, 1U << BOARD_CH10_GPIO_PIN) /*!< Turn on target */
+#define CH10_OFF() \
+    GPIO_PortSet(BOARD_CH10_GPIO, 1U << BOARD_CH10_GPIO_PIN) /*!< Turn off target */
+#define CH10_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH10_GPIO, 1U << BOARD_CH10_GPIO_PIN) /*!< Toggle on target */
+
+#define CH11_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH11_GPIO, BOARD_CH11_GPIO_PIN, output); \
+    BOARD_CH11_GPIO->PDDR |= (1U << BOARD_CH11_GPIO_PIN) /*!< Enable target */
+#define CH11_ON() \
+    GPIO_PortClear(BOARD_CH11_GPIO, 1U << BOARD_CH11_GPIO_PIN) /*!< Turn on target */
+#define CH11_OFF() \
+    GPIO_PortSet(BOARD_CH11_GPIO, 1U << BOARD_CH11_GPIO_PIN) /*!< Turn off target */
+#define CH11_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH11_GPIO, 1U << BOARD_CH11_GPIO_PIN) /*!< Toggle on target */
+
+#define CH12_INIT(output)                                                 \
+    GPIO_PinWrite(BOARD_CH12_GPIO, BOARD_CH12_GPIO_PIN, output); \
+    BOARD_CH12_GPIO->PDDR |= (1U << BOARD_CH12_GPIO_PIN) /*!< Enable target */
+#define CH12_ON() \
+    GPIO_PortClear(BOARD_CH12_GPIO, 1U << BOARD_CH12_GPIO_PIN) /*!< Turn on target */
+#define CH12_OFF() \
+    GPIO_PortSet(BOARD_CH12_GPIO, 1U << BOARD_CH12_GPIO_PIN) /*!< Turn off target */
+#define CH12_TOGGLE() \
+    GPIO_PortToggle(BOARD_CH12_GPIO, 1U << BOARD_CH12_GPIO_PIN) /*!< Toggle on target */
+
+
+
+#if defined(__cplusplus)
+extern "C" {
+#endif /* __cplusplus */
+
+/*******************************************************************************
+ * API
+ ******************************************************************************/
+
+void BOARD_InitDebugConsole(void);
+
+#if defined(__cplusplus)
+}
+#endif /* __cplusplus */
+
+#endif /* _BOARD_H_ */

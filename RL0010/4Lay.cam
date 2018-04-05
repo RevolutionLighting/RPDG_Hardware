@@ -1,0 +1,1224 @@
+*REMARK*    PARENT_KEYWORD PARENT_VALUE
+*REMARK*  [ { 
+*REMARK*       CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ CHILD_KEYWORD CHILD_VALUE
+*REMARK*     [ { 
+*REMARK*          GRAND_CHILD_KEYWORD GRAND_CHILD_VALUE [...] 
+*REMARK*       } ]] 
+*REMARK*    } ] 
+
+CAM_SECTION PARENT
+{
+CAM_VERSION V2007.0
+CAM_DOC_LIST PARENT
+{
+CAM_DOC_DIRECTORY default
+CAM_DOC_NAME Top
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Top.pho
+DOC_LAYER_NAMES Top
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 1
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Layer 2 (ground)
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE L2.pho
+DOC_LAYER_NAMES Inner_Layer_2
+DOC_LAYER_NUMBERS 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 2
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Layer 3 (power)
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE L3.pho
+DOC_LAYER_NAMES Inner_Layer_3
+DOC_LAYER_NUMBERS 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 3
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_TEXT Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black Black
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Bot
+{
+DOC_PLOT_TYPE Routing
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Bot.pho
+DOC_LAYER_NAMES Bottom
+DOC_LAYER_NUMBERS 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 4
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Top_Mask
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Top_Mask.pho
+DOC_LAYER_NAMES Top Solder_Mask_Top
+DOC_LAYER_NUMBERS 1 21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 21
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 112500
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Top_Silk
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Top_Silk.pho
+DOC_LAYER_NAMES Top Silkscreen_Top
+DOC_LAYER_NUMBERS 1 26 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 26
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES Black None
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Bot_Mask
+{
+DOC_PLOT_TYPE Solder_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Bot_Mask.pho
+DOC_LAYER_NAMES Bottom Solder_Mask_Bottom
+DOC_LAYER_NUMBERS 4 28 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component SilkScreen
+DOC_FABRICATION_LAYER_NUMBER 28
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 112500
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Bot_Silk
+{
+DOC_PLOT_TYPE Silkscreen
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Bot_Silk.pho
+DOC_LAYER_NAMES Bottom Silkscreen_Bottom
+DOC_LAYER_NUMBERS 4 29 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Plane
+DOC_FABRICATION_LAYER_NUMBER 29
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None Black
+DOC_SLOTS None None
+DOC_REFDES Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N Y N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Fab
+{
+DOC_PLOT_TYPE Custom
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Fab.pho
+DOC_LAYER_NAMES Fab Title_Block_Entries Title_Block Drill_Drawing
+DOC_LAYER_NUMBERS 17 18 19 24 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Unassigned Unassigned Unassigned Routing
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD Black
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER Black Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES Black Black Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT Black Black Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS N
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Plated Through Holes
+{
+DOC_PLOT_TYPE NC_Drill
+DOC_DEVICE_TYPE Drill
+DOC_OUTPUT_FILE PTH.drl
+DOC_LAYER_NAMES Top
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_DRILL_PLATED Y
+DOC_DRILL_NONPLATED N
+DOC_DRILL_THRU_VIA Y
+DOC_DRILL_PARTIAL_VIA N
+DOC_DRILL_TESTPOINTS N
+DOC_REPEAT_COUNTS 0 0
+DOC_STEP_SIZES 0 0
+DOC_DRILL_LIST Y
+DOC_DRILL_FILE Y
+}
+CAM_DOC_NAME Non-Plated Through Holes
+{
+DOC_PLOT_TYPE NC_Drill
+DOC_DEVICE_TYPE Drill
+DOC_OUTPUT_FILE NPTH.drl
+DOC_LAYER_NAMES Top
+DOC_LAYER_NUMBERS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component
+DOC_FABRICATION_LAYER_NUMBER 0
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_DRILL_PLATED N
+DOC_DRILL_NONPLATED Y
+DOC_DRILL_THRU_VIA N
+DOC_DRILL_PARTIAL_VIA N
+DOC_DRILL_TESTPOINTS N
+DOC_REPEAT_COUNTS 0 0
+DOC_STEP_SIZES 0 0
+DOC_DRILL_LIST Y
+DOC_DRILL_FILE Y
+}
+CAM_DOC_NAME Bot_Paste
+{
+DOC_PLOT_TYPE Paste_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Bot_Paste.pho
+DOC_LAYER_NAMES Bottom Paste_Mask_Bottom
+DOC_LAYER_NUMBERS 4 22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Drill
+DOC_FABRICATION_LAYER_NUMBER 22
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+CAM_DOC_NAME Top_Paste
+{
+DOC_PLOT_TYPE Paste_Mask
+DOC_DEVICE_TYPE Photo
+DOC_OUTPUT_FILE Top_Paste.pho
+DOC_LAYER_NAMES Top Paste_Mask_Top
+DOC_LAYER_NUMBERS 1 23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_LAYER_TYPES Component Drill
+DOC_FABRICATION_LAYER_NUMBER 23
+DOC_SCALE 1 1
+DOC_ORIENTATION 0
+DOC_MIRROR N
+DOC_JUSTIFICATION OO
+DOC_OFFSET 38100000 38100000
+DOC_CLIP 0
+DOC_FIT_OUTPUT 0
+DOC_NO_PLANE_THERMALS 0
+DOC_ASSEMBLY_OPTION ""
+DOC_CUSTOM_THERMALS 0
+DOC_BOARD None
+DOC_CONNECTIONS None
+DOC_OUTLINES None None
+DOC_SLOTS None None
+DOC_REFDES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PARTTYPES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ATTRIBUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TESTPOINTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_OUTLINE_LAYERS N N N N N N N N N N N N N N N N N N N N N N N N N N N N N N
+DOC_PADS Black Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_VIAS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_ROUTES None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_COPPER None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_LINES None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_TEXT None Black None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_KEEPOUTS None None None None None None None None None None None None None None None None None None None None None None None None None None None None None None
+DOC_PINS_ADV 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+DOC_PAD_OVERSIZE 0
+DOC_PLOT_JOBNAME Y
+DOC_PLOT_OLE N
+DOC_MIRROR_REFS N
+DOC_SUPRESS_PREFIXES ""
+DOC_PLOT_QUALITY Filled
+DOC_DRILL_CHART Y
+DOC_CHART_OFFSET 0 0
+DOC_SUPRESS_EXCLUDE_PADS Y
+DOC_COLOR_BY_NET 0
+}
+}
+CAM_DRILL_SPEED_FEED_TABLE PARENT
+{
+DRILL_RANGE_1 381000 761625 95 300
+DRILL_RANGE_2 762000 1523619 197 550
+DRILL_RANGE_3 1524000 1904619 139 550
+DRILL_RANGE_4 1905000 2285619 107 550
+DRILL_RANGE_5 2286000 2666619 89 550
+DRILL_RANGE_6 2667000 3047619 81 550
+DRILL_RANGE_7 3048000 3428619 74 550
+DRILL_RANGE_8 3429000 3809619 66 550
+DRILL_RANGE_9 3810000 4571619 69 658
+DRILL_RANGE_10 4572000 5333619 35 794
+DRILL_RANGE_11 5334000 6095619 35 900
+DRILL_RANGE_12 6096000 7619619 35 1033
+}
+CAM_AUGMENT_ON_THE_FLY Y
+CAM_APERTURE_TABLE PARENT
+{
+APERTURE_1 10 762000 0 RECT
+APERTURE_2 11 952500 762000 RECT
+APERTURE_3 12 1371600 0 SQR
+APERTURE_4 13 1905000 1371600 RECT
+APERTURE_5 14 1371600 1905000 RECT
+APERTURE_6 15 2286000 0 SQR
+APERTURE_7 16 2286000 0 RND
+APERTURE_8 17 1905000 0 RND
+APERTURE_9 18 2476500 1714500 RECT
+APERTURE_10 19 2476500 4495800 RECT
+APERTURE_11 20 19050000 0 RND
+APERTURE_12 21 495300 2476500 OVAL
+APERTURE_13 22 1524000 1028700 RECT
+APERTURE_14 23 2476500 4500000 RECT
+APERTURE_15 24 3000000 2400000 RECT
+APERTURE_16 25 914400 2819400 OVAL
+APERTURE_17 26 1371000 0 RND
+APERTURE_18 27 1500000 480000 OVAL
+APERTURE_19 28 480000 1500000 OVAL
+APERTURE_20 29 7650000 0 SQR
+APERTURE_21 30 3429000 7620000 RECT
+APERTURE_22 31 3619500 7620000 RECT
+APERTURE_23 32 3600000 0 RND
+APERTURE_24 33 2819400 914400 OVAL
+APERTURE_25 34 1143000 1447800 RECT
+APERTURE_26 35 1125000 750000 RECT
+APERTURE_27 36 1447800 1143000 RECT
+APERTURE_28 37 5334000 0 RND
+APERTURE_29 38 381000 0 RND
+APERTURE_30 39 952500 0 RND
+APERTURE_31 40 762000 0 RND
+APERTURE_32 41 419100 0 RND
+APERTURE_33 42 304800 0 RND
+APERTURE_34 43 457200 0 RND
+APERTURE_35 44 300000 0 RND
+APERTURE_36 45 600000 0 RND
+APERTURE_37 46 38100 0 RND
+APERTURE_38 47 266700 0 RND
+APERTURE_39 48 190500 0 RND
+APERTURE_40 49 10350000 0 SQR
+APERTURE_41 50 600000 0 SQR
+APERTURE_42 51 457200 0 SQR
+APERTURE_43 52 1905000 0 SQR
+APERTURE_44 53 4038600 0 RND
+APERTURE_45 54 571500 0 SQR
+APERTURE_46 55 3619500 0 SQR
+APERTURE_47 56 2476500 0 SQR
+APERTURE_48 57 914400 0 SQR
+APERTURE_49 58 525000 0 SQR
+APERTURE_50 59 609600 0 SQR
+APERTURE_51 60 533400 0 RND
+APERTURE_52 61 571500 0 RND
+APERTURE_53 62 495300 0 RND
+APERTURE_54 63 4762500 0 RND
+APERTURE_55 64 5715000 0 RND
+APERTURE_56 65 1143000 0 SQR
+APERTURE_57 66 3981000 0 RND
+APERTURE_58 67 1524000 0 SQR
+APERTURE_59 68 861000 0 RND
+APERTURE_60 69 10731000 0 SQR
+APERTURE_61 70 981000 0 SQR
+APERTURE_62 71 838200 0 SQR
+APERTURE_63 72 2667000 0 SQR
+APERTURE_64 73 2667000 0 RND
+APERTURE_65 74 4419600 0 RND
+APERTURE_66 75 952500 0 SQR
+APERTURE_67 76 4000500 0 SQR
+APERTURE_68 77 2857500 0 SQR
+APERTURE_69 78 1295400 0 SQR
+APERTURE_70 79 2781000 0 SQR
+APERTURE_71 80 906000 0 SQR
+APERTURE_72 81 990600 0 SQR
+APERTURE_73 82 914400 0 RND
+APERTURE_74 83 1295400 0 RND
+APERTURE_75 84 1143000 0 RND
+APERTURE_76 85 1028700 0 RND
+APERTURE_77 86 2565000 0 RND
+APERTURE_78 87 2362200 0 SQR
+APERTURE_79 88 2362200 0 RND
+APERTURE_80 89 4191000 0 RND
+APERTURE_81 90 447672 0 RND
+APERTURE_82 91 228600 0 RND
+APERTURE_83 92 762000 0 SQR
+APERTURE_84 93 342900 0 RND
+APERTURE_85 94 1409700 0 RND
+APERTURE_86 95 2946000 0 RND
+APERTURE_87 96 3238500 0 SQR
+APERTURE_88 97 1409700 0 SQR
+APERTURE_89 98 2743200 0 SQR
+APERTURE_90 99 2743200 0 RND
+APERTURE_91 100 4572000 0 RND
+APERTURE_92 101 900000 0 RND
+APERTURE_93 102 374904 0 RND
+APERTURE_94 103 375000 0 RND
+APERTURE_95 104 76200 0 RND
+APERTURE_96 105 95250 0 RND
+APERTURE_97 106 285750 0 RND
+APERTURE_98 107 187800 0 RND
+APERTURE_99 108 1 0 RND
+APERTURE_100 109 447675 0 RND
+APERTURE_101 110 3048000 0 RND
+APERTURE_102 111 3048000 0 SQR
+APERTURE_103 112 3429000 0 RND
+APERTURE_104 113 3429000 0 SQR
+APERTURE_105 114 1200000 0 SQR
+APERTURE_106 115 2141982 0 RND
+APERTURE_107 116 4229100 0 RND
+APERTURE_108 117 1650000 0 SQR
+APERTURE_109 118 360000 0 RND
+APERTURE_110 119 11250000 0 SQR
+APERTURE_111 120 750000 0 RND
+APERTURE_112 121 1028700 0 SQR
+APERTURE_113 122 2100000 0 SQR
+APERTURE_114 123 2475000 0 SQR
+APERTURE_115 124 5715000 0 SQR
+APERTURE_116 125 2400000 0 SQR
+APERTURE_117 126 1333500 0 RND
+APERTURE_118 127 1050189 0 RND
+APERTURE_119 128 1581000 0 SQR
+APERTURE_120 129 2522982 0 RND
+APERTURE_121 130 4610100 0 RND
+APERTURE_122 131 2031000 0 SQR
+APERTURE_123 132 741000 0 RND
+APERTURE_124 133 11631000 0 SQR
+APERTURE_125 134 1131000 0 RND
+APERTURE_126 135 2481000 0 SQR
+APERTURE_127 136 2856000 0 SQR
+APERTURE_128 137 2095500 0 SQR
+APERTURE_129 138 6096000 0 SQR
+APERTURE_130 139 133350 0 RND
+APERTURE_131 140 114300 0 RND
+APERTURE_132 141 762000 914400 RECT
+APERTURE_133 142 3150000 1950000 RECT
+APERTURE_134 143 1200000 1200000 RECT
+APERTURE_135 144 600000 1500000 RECT
+APERTURE_136 145 1650000 1650000 RECT
+APERTURE_137 146 1200000 1350000 RECT
+APERTURE_138 147 7050000 0 SQR
+APERTURE_139 148 2476500 495300 OVAL
+APERTURE_140 149 914400 762000 RECT
+APERTURE_141 150 3810000 2286000 RECT
+APERTURE_142 151 609600 914400 RECT
+APERTURE_143 152 375000 900000 OVAL
+APERTURE_144 153 900000 375000 OVAL
+APERTURE_145 154 1028700 1524000 RECT
+APERTURE_146 155 1050000 450000 OVAL
+APERTURE_147 156 450000 1050000 OVAL
+APERTURE_148 157 1050000 375000 OVAL
+APERTURE_149 158 375000 1050000 OVAL
+APERTURE_150 159 3600000 2700000 RECT
+APERTURE_151 160 750000 600000 RECT
+APERTURE_152 161 1950000 3150000 RECT
+APERTURE_153 162 1575000 2100000 RECT
+APERTURE_154 163 2286000 3810000 RECT
+APERTURE_155 164 750000 375000 RECT
+APERTURE_156 165 1500000 1800000 RECT
+APERTURE_157 166 2850000 1200000 RECT
+APERTURE_158 167 5025000 1350000 RECT
+APERTURE_159 168 2625000 0 RND
+APERTURE_160 169 4500000 0 SQR
+APERTURE_161 170 3300000 0 SQR
+APERTURE_162 171 2550000 0 SQR
+APERTURE_163 172 609600 0 RND
+APERTURE_164 173 6858000 2286000 RECT
+APERTURE_165 174 3450000 750000 RECT
+APERTURE_166 175 3750000 3000000 RECT
+APERTURE_167 176 1350000 0 RND
+APERTURE_168 177 1500000 1125000 RECT
+APERTURE_169 178 1143000 1295400 RECT
+APERTURE_170 179 3531000 2331000 RECT
+APERTURE_171 180 1581000 1581000 RECT
+APERTURE_172 181 981000 1881000 RECT
+APERTURE_173 182 2031000 2031000 RECT
+APERTURE_174 183 1581000 1731000 RECT
+APERTURE_175 184 1881000 861000 OVAL
+APERTURE_176 185 861000 1881000 OVAL
+APERTURE_177 186 7431000 0 SQR
+APERTURE_178 187 838200 0 RND
+APERTURE_179 188 2857500 876300 OVAL
+APERTURE_180 189 1295400 1143000 RECT
+APERTURE_181 190 4191000 2667000 RECT
+APERTURE_182 191 990600 1295400 RECT
+APERTURE_183 192 756000 1281000 OVAL
+APERTURE_184 193 1281000 756000 OVAL
+APERTURE_185 194 1409700 1905000 RECT
+APERTURE_186 195 1431000 831000 OVAL
+APERTURE_187 196 831000 1431000 OVAL
+APERTURE_188 197 1431000 756000 OVAL
+APERTURE_189 198 756000 1431000 OVAL
+APERTURE_190 199 3981000 3081000 RECT
+APERTURE_191 200 1131000 981000 RECT
+APERTURE_192 201 1828800 1524000 RECT
+APERTURE_193 202 2331000 3531000 RECT
+APERTURE_194 203 1905000 1409700 RECT
+APERTURE_195 204 1956000 2481000 RECT
+APERTURE_196 205 1524000 1828800 RECT
+APERTURE_197 206 2667000 4191000 RECT
+APERTURE_198 207 1131000 756000 RECT
+APERTURE_199 208 1881000 2181000 RECT
+APERTURE_200 209 3231000 1581000 RECT
+APERTURE_201 210 5406000 1731000 RECT
+APERTURE_202 211 3006000 0 RND
+APERTURE_203 212 7239000 2667000 RECT
+APERTURE_204 213 3831000 1131000 RECT
+APERTURE_205 214 4131000 3381000 RECT
+APERTURE_206 215 1731000 0 RND
+APERTURE_207 216 1881000 1506000 RECT
+APERTURE_208 217 225000 0 RND
+APERTURE_209 218 299847 0 RND
+APERTURE_210 219 150000 0 RND
+APERTURE_211 220 152400 0 RND
+APERTURE_212 221 899922 0 RND
+APERTURE_213 222 381 0 RND
+APERTURE_214 223 1500000 600000 RECT
+APERTURE_215 224 1350000 1200000 RECT
+APERTURE_216 225 375000 1050000 RECT
+APERTURE_217 226 1050000 375000 RECT
+APERTURE_218 227 2100000 1575000 RECT
+APERTURE_219 228 600000 750000 RECT
+APERTURE_220 229 2100000 2400000 RECT
+APERTURE_221 230 3300000 0 RND
+APERTURE_222 231 4800000 1050000 RECT
+APERTURE_223 232 11430000 1455000 RECT
+APERTURE_224 233 1125000 1500000 RECT
+APERTURE_225 234 1881000 981000 RECT
+APERTURE_226 235 1731000 1581000 RECT
+APERTURE_227 236 876300 2857500 OVAL
+APERTURE_228 237 756000 1431000 RECT
+APERTURE_229 238 1431000 756000 RECT
+APERTURE_230 239 4881000 0 SQR
+APERTURE_231 240 2931000 0 SQR
+APERTURE_232 241 2481000 1956000 RECT
+APERTURE_233 242 981000 1131000 RECT
+APERTURE_234 243 2481000 2781000 RECT
+APERTURE_235 244 3681000 0 RND
+APERTURE_236 245 5181000 1431000 RECT
+APERTURE_237 246 11811000 1836000 RECT
+APERTURE_238 247 1506000 1881000 RECT
+APERTURE_239 248 375000 750000 RECT
+APERTURE_240 249 1800000 1500000 RECT
+APERTURE_241 250 900000 375000 RECT
+APERTURE_242 251 375000 900000 RECT
+APERTURE_243 252 2700000 0 SQR
+APERTURE_244 253 562500 1500000 RECT
+APERTURE_245 254 900000 480000 RECT
+APERTURE_246 255 2250000 2250000 RECT
+APERTURE_247 256 1905000 2286000 RECT
+APERTURE_248 257 1575000 1200000 RECT
+APERTURE_249 258 3150000 1500000 RECT
+APERTURE_250 259 900000 450000 RECT
+APERTURE_251 260 900000 750000 RECT
+APERTURE_252 261 3750000 900000 RECT
+APERTURE_253 262 914400 609600 RECT
+APERTURE_254 263 2476500 0 RND
+APERTURE_255 264 3162300 0 RND
+APERTURE_256 265 420000 1035000 OVAL
+APERTURE_257 266 1035000 420000 OVAL
+APERTURE_258 267 723900 0 RND
+APERTURE_259 268 1500000 0 RND
+APERTURE_260 269 685800 0 RND
+APERTURE_261 270 914400 1066800 RECT
+APERTURE_262 271 1352400 1352400 RECT
+APERTURE_263 272 1502400 1352400 RECT
+APERTURE_264 273 1066800 914400 RECT
+APERTURE_265 274 1295400 1600200 RECT
+APERTURE_266 275 527400 902400 RECT
+APERTURE_267 276 1952400 1652400 RECT
+APERTURE_268 277 1052400 527400 RECT
+APERTURE_269 278 527400 1052400 RECT
+APERTURE_270 279 2852400 0 SQR
+APERTURE_271 280 714900 1652400 RECT
+APERTURE_272 281 902400 527400 RECT
+APERTURE_273 282 1652400 1952400 RECT
+APERTURE_274 283 1052400 632400 RECT
+APERTURE_275 284 2402400 2402400 RECT
+APERTURE_276 285 1600200 1295400 RECT
+APERTURE_277 286 2057400 2438400 RECT
+APERTURE_278 287 1727400 1352400 RECT
+APERTURE_279 288 3302400 1652400 RECT
+APERTURE_280 289 1052400 602400 RECT
+APERTURE_281 290 3902400 3152400 RECT
+APERTURE_282 291 1052400 902400 RECT
+APERTURE_283 292 3902400 1052400 RECT
+APERTURE_284 293 752400 902400 RECT
+APERTURE_285 294 1066800 762000 RECT
+APERTURE_286 295 2628900 0 RND
+APERTURE_287 296 3602400 902400 RECT
+APERTURE_288 297 1502400 0 RND
+APERTURE_289 298 3314700 0 RND
+APERTURE_290 299 572400 1187400 OVAL
+APERTURE_291 300 1187400 572400 OVAL
+APERTURE_292 301 7202400 0 SQR
+APERTURE_293 302 225171 0 RND
+APERTURE_294 303 150120 0 RND
+APERTURE_295 304 449961 0 RND
+APERTURE_296 305 2286000 1905000 RECT
+APERTURE_297 306 2438400 2057400 RECT
+APERTURE_298 307 1500000 900000 RECT
+APERTURE_299 308 1500000 675000 RECT
+APERTURE_300 309 900000 1500000 RECT
+APERTURE_301 310 675000 1500000 RECT
+APERTURE_302 311 1652400 1052400 RECT
+APERTURE_303 312 1652400 827400 RECT
+APERTURE_304 313 1052400 1652400 RECT
+APERTURE_305 314 827400 1652400 RECT
+APERTURE_306 315 8250000 0 RND
+APERTURE_307 316 3810000 0 RND
+APERTURE_308 317 1500000 3600000 OVAL
+APERTURE_309 318 1524000 0 RND
+APERTURE_310 319 899922 374904 RECT
+APERTURE_311 320 374904 899922 RECT
+APERTURE_312 321 2700147 0 SQR
+APERTURE_313 322 1499997 562356 RECT
+APERTURE_314 323 480000 900000 RECT
+APERTURE_315 324 1200150 1575054 RECT
+APERTURE_316 325 1499997 3150108 RECT
+APERTURE_317 326 449961 899922 RECT
+APERTURE_318 327 2999994 3750183 RECT
+APERTURE_319 328 1035177 419862 OVAL
+APERTURE_320 329 419862 1035177 OVAL
+APERTURE_321 330 7050024 0 SQR
+APERTURE_322 331 525000 750000 RECT
+APERTURE_323 332 675000 1950000 RECT
+APERTURE_324 333 1500000 2850000 OVAL
+APERTURE_325 334 8402400 0 RND
+APERTURE_326 335 1352400 1502400 RECT
+APERTURE_327 336 1052322 527304 RECT
+APERTURE_328 337 527304 1052322 RECT
+APERTURE_329 338 2852547 0 SQR
+APERTURE_330 339 1652397 714756 RECT
+APERTURE_331 340 632400 1052400 RECT
+APERTURE_332 341 1352550 1727454 RECT
+APERTURE_333 342 1652397 3302508 RECT
+APERTURE_334 343 602361 1052322 RECT
+APERTURE_335 344 3152394 3902583 RECT
+APERTURE_336 345 1187577 572262 OVAL
+APERTURE_337 346 572262 1187577 OVAL
+APERTURE_338 347 7202424 0 SQR
+APERTURE_339 348 1676400 0 RND
+APERTURE_340 349 677400 902400 RECT
+APERTURE_341 350 827400 2102400 RECT
+APERTURE_342 351 1652400 0 RND
+APERTURE_343 352 1652400 3002400 OVAL
+APERTURE_344 353 3962400 0 RND
+APERTURE_345 354 1652400 3752400 OVAL
+APERTURE_346 355 150114 0 RND
+APERTURE_347 356 1725000 0 RND
+APERTURE_348 357 1500000 562500 RECT
+APERTURE_349 358 1200000 1575000 RECT
+APERTURE_350 359 1500000 3150000 RECT
+APERTURE_351 360 1950000 2775000 RECT
+APERTURE_352 361 2857500 3429000 RECT
+APERTURE_353 362 750000 525000 RECT
+APERTURE_354 363 1800000 675000 RECT
+APERTURE_355 364 1875000 0 SQR
+APERTURE_356 365 1875000 0 RND
+APERTURE_357 366 8055000 0 RND
+APERTURE_358 367 1500000 3000000 OVAL
+APERTURE_359 368 1652400 714900 RECT
+APERTURE_360 369 1352400 1727400 RECT
+APERTURE_361 370 1652400 3302400 RECT
+APERTURE_362 371 902400 752400 RECT
+APERTURE_363 372 1181100 1676400 RECT
+APERTURE_364 373 2102400 2927400 RECT
+APERTURE_365 374 3009900 3581400 RECT
+APERTURE_366 375 1676400 1181100 RECT
+APERTURE_367 376 902400 677400 RECT
+APERTURE_368 377 1952400 827400 RECT
+APERTURE_369 378 2027400 0 SQR
+APERTURE_370 379 2027400 0 RND
+APERTURE_371 380 8207400 0 RND
+APERTURE_372 381 1652400 3152400 OVAL
+APERTURE_373 382 299850 0 RND
+APERTURE_374 383 1104900 0 SQR
+APERTURE_375 384 374910 0 RND
+APERTURE_376 385 2438400 0 SQR
+APERTURE_377 386 1950000 0 SQR
+APERTURE_378 387 375000 0 SQR
+APERTURE_379 388 1500000 0 SQR
+APERTURE_380 389 3238500 0 RND
+APERTURE_381 390 1050000 0 SQR
+APERTURE_382 391 2102400 0 SQR
+APERTURE_383 392 647700 0 RND
+APERTURE_384 393 2252400 0 SQR
+APERTURE_385 394 527400 0 SQR
+APERTURE_386 395 1652400 0 SQR
+APERTURE_387 396 3390900 0 RND
+APERTURE_388 397 1202400 0 SQR
+APERTURE_389 398 675000 0 RND
+APERTURE_390 399 827400 0 SQR
+APERTURE_391 400 1952400 0 SQR
+APERTURE_392 401 2552400 0 RND
+APERTURE_393 402 1502400 0 SQR
+APERTURE_394 403 1352400 0 SQR
+APERTURE_395 404 289941 0 RND
+APERTURE_396 405 675000 0 SQR
+APERTURE_397 406 1800000 0 SQR
+APERTURE_398 407 2400000 0 RND
+APERTURE_399 408 1350000 0 SQR
+APERTURE_400 409 1650000 0 RND
+APERTURE_401 410 108000 0 RND
+APERTURE_402 411 2100000 0 RND
+APERTURE_403 412 3000000 0 RND
+APERTURE_404 413 4200000 0 RND
+APERTURE_405 414 3075000 0 RND
+APERTURE_406 415 231000 0 RND
+APERTURE_407 416 1200000 0 RND
+APERTURE_408 417 5400000 5400000 RECT
+APERTURE_409 418 375000 1200000 RECT
+APERTURE_410 419 1200000 375000 RECT
+APERTURE_411 420 975000 1125000 RECT
+APERTURE_412 421 2100000 1125000 RECT
+APERTURE_413 422 457200 381000 RECT
+APERTURE_414 423 381000 457200 RECT
+APERTURE_415 424 750000 0 SQR
+APERTURE_416 425 187500 0 RND
+APERTURE_417 426 825000 0 RND
+APERTURE_418 427 1181100 0 RND
+APERTURE_419 428 487500 1012500 RECT
+APERTURE_420 429 1012500 487500 RECT
+APERTURE_421 430 5512500 5512500 RECT
+APERTURE_422 431 487500 1312500 RECT
+APERTURE_423 432 1312500 487500 RECT
+APERTURE_424 433 1087500 1237500 RECT
+APERTURE_425 434 2212500 1237500 RECT
+APERTURE_426 435 862500 0 SQR
+APERTURE_427 436 1462500 0 SQR
+APERTURE_428 437 2017500 0 SQR
+APERTURE_429 438 760200 684000 RECT
+APERTURE_430 439 684000 760200 RECT
+APERTURE_431 440 262500 0 RND
+APERTURE_432 441 1293600 0 RND
+APERTURE_433 442 3570000 13365000 RECT
+APERTURE_434 443 2552700 3733800 RECT
+APERTURE_435 444 3733800 2552700 RECT
+APERTURE_436 445 4500000 7500000 RECT
+APERTURE_437 446 1905000 915000 RECT
+APERTURE_438 447 5715000 5865000 RECT
+APERTURE_439 448 915000 1905000 RECT
+APERTURE_440 449 5865000 5715000 RECT
+APERTURE_441 450 450000 900000 RECT
+APERTURE_442 451 7500000 7500000 RECT
+APERTURE_443 452 2400000 4050000 RECT
+APERTURE_444 453 1200000 6150000 RECT
+APERTURE_445 454 1275000 450000 RECT
+APERTURE_446 455 450000 1274826 RECT
+APERTURE_447 456 3750000 4950000 RECT
+APERTURE_448 457 4050000 2400000 RECT
+APERTURE_449 458 6150000 1200000 RECT
+APERTURE_450 459 525000 900000 RECT
+APERTURE_451 460 3150000 2400000 RECT
+APERTURE_452 461 900000 1800000 RECT
+APERTURE_453 462 2400000 900000 RECT
+APERTURE_454 463 3900000 5250000 RECT
+APERTURE_455 464 1500000 9450000 RECT
+APERTURE_456 465 9450000 1500000 RECT
+APERTURE_457 466 7962900 4191000 RECT
+APERTURE_458 467 1800000 2700000 RECT
+APERTURE_459 468 3750000 0 RND
+APERTURE_460 469 2175000 675000 RECT
+APERTURE_461 470 675000 2475000 RECT
+APERTURE_462 471 7500000 4500000 RECT
+APERTURE_463 472 900000 2100000 RECT
+APERTURE_464 473 2100000 900000 RECT
+APERTURE_465 474 750000 2250000 RECT
+APERTURE_466 475 1950000 750000 RECT
+APERTURE_467 476 600000 1800000 RECT
+APERTURE_468 477 1050000 1500000 RECT
+APERTURE_469 478 2250000 0 RND
+APERTURE_470 479 1255500 1560300 RECT
+APERTURE_471 480 3682500 13477500 RECT
+APERTURE_472 481 1162500 487500 RECT
+APERTURE_473 482 487500 1162500 RECT
+APERTURE_474 483 4612500 7612500 RECT
+APERTURE_475 484 2398500 0 SQR
+APERTURE_476 485 1912500 0 SQR
+APERTURE_477 486 2017500 1027500 RECT
+APERTURE_478 487 5827500 5977500 RECT
+APERTURE_479 488 1027500 2017500 RECT
+APERTURE_480 489 5977500 5827500 RECT
+APERTURE_481 490 562500 1012500 RECT
+APERTURE_482 491 1012500 562500 RECT
+APERTURE_483 492 7612500 7612500 RECT
+APERTURE_484 493 2512500 4162500 RECT
+APERTURE_485 494 1312500 6262500 RECT
+APERTURE_486 495 1387500 562500 RECT
+APERTURE_487 496 562500 1387326 RECT
+APERTURE_488 497 3862500 5062500 RECT
+APERTURE_489 498 1560300 1255500 RECT
+APERTURE_490 499 4162500 2512500 RECT
+APERTURE_491 500 6262500 1312500 RECT
+APERTURE_492 501 637500 1012500 RECT
+APERTURE_493 502 3262500 2512500 RECT
+APERTURE_494 503 1012500 1912500 RECT
+APERTURE_495 504 2512500 1012500 RECT
+APERTURE_496 505 4012500 5362500 RECT
+APERTURE_497 506 1612500 9562500 RECT
+APERTURE_498 507 9562500 1612500 RECT
+APERTURE_499 508 3112500 0 RND
+APERTURE_500 509 1912500 2812500 RECT
+APERTURE_501 510 3862500 0 RND
+APERTURE_502 511 2287500 787500 RECT
+APERTURE_503 512 787500 2587500 RECT
+APERTURE_504 513 7612500 4612500 RECT
+APERTURE_505 514 1012500 2212500 RECT
+APERTURE_506 515 2212500 1012500 RECT
+APERTURE_507 516 1484100 0 SQR
+APERTURE_508 517 1484100 2017500 RECT
+APERTURE_509 518 862500 2362500 RECT
+APERTURE_510 519 712500 1612500 RECT
+APERTURE_511 520 2062500 862500 RECT
+APERTURE_512 521 712500 1912500 RECT
+APERTURE_513 522 2017500 1484100 RECT
+APERTURE_514 523 1162500 1612500 RECT
+APERTURE_515 524 2017500 2398500 RECT
+APERTURE_516 525 2893800 4074900 RECT
+APERTURE_517 526 4074900 2893800 RECT
+APERTURE_518 527 8304000 4532100 RECT
+APERTURE_519 528 2398500 0 RND
+APERTURE_520 529 15000 0 RND
+APERTURE_521 530 2100000 1350000 RECT
+APERTURE_522 531 1200000 2400000 RECT
+APERTURE_523 532 3150000 4500000 RECT
+APERTURE_524 533 2250000 750000 RECT
+APERTURE_525 534 2550000 2550000 RECT
+APERTURE_526 535 1950000 1800000 RECT
+APERTURE_527 536 1800000 1950000 RECT
+APERTURE_528 537 2100000 3000000 RECT
+APERTURE_529 538 8250000 3000000 RECT
+APERTURE_530 539 4800000 1800000 RECT
+APERTURE_531 540 6900000 900000 RECT
+APERTURE_532 541 5850000 2550000 RECT
+APERTURE_533 542 3000000 3000000 RECT
+APERTURE_534 543 1425000 1500000 RECT
+APERTURE_535 544 1200000 1800000 RECT
+APERTURE_536 545 1800000 1200000 RECT
+APERTURE_537 546 1425000 900000 RECT
+APERTURE_538 547 1500000 3300000 RECT
+APERTURE_539 548 5250000 1500000 RECT
+APERTURE_540 549 5250000 2250000 RECT
+APERTURE_541 550 4800000 2250000 RECT
+APERTURE_542 551 1950000 1125000 RECT
+APERTURE_543 552 2700000 900000 RECT
+APERTURE_544 553 1200000 1950000 RECT
+APERTURE_545 554 450000 1800000 RECT
+APERTURE_546 555 1800000 450000 RECT
+APERTURE_547 556 914400 2286000 RECT
+APERTURE_548 557 3450000 1500000 RECT
+APERTURE_549 558 1500000 3450000 RECT
+APERTURE_550 559 900000 2700000 RECT
+APERTURE_551 560 6090000 4950000 RECT
+APERTURE_552 561 9525000 5715000 RECT
+APERTURE_553 562 900000 3600000 RECT
+APERTURE_554 563 3600000 900000 RECT
+APERTURE_555 564 3900000 1800000 RECT
+APERTURE_556 565 3900000 9750000 RECT
+APERTURE_557 566 13800000 7200000 RECT
+APERTURE_558 567 450000 0 RND
+APERTURE_559 568 2212500 1462500 RECT
+APERTURE_560 569 1312500 2512500 RECT
+APERTURE_561 570 3262500 4612500 RECT
+APERTURE_562 571 2362500 862500 RECT
+APERTURE_563 572 2662500 2662500 RECT
+APERTURE_564 573 4912500 1912500 RECT
+APERTURE_565 574 7012500 1012500 RECT
+APERTURE_566 575 5962500 2662500 RECT
+APERTURE_567 576 3112500 3112500 RECT
+APERTURE_568 577 1612500 3412500 RECT
+APERTURE_569 578 5362500 1612500 RECT
+APERTURE_570 579 5362500 2362500 RECT
+APERTURE_571 580 2062500 1237500 RECT
+APERTURE_572 581 2812500 1012500 RECT
+APERTURE_573 582 1312500 2062500 RECT
+APERTURE_574 583 1026900 2398500 RECT
+APERTURE_575 584 3562500 1612500 RECT
+APERTURE_576 585 1612500 3562500 RECT
+APERTURE_577 586 6202500 5062500 RECT
+APERTURE_578 587 9637500 5827500 RECT
+APERTURE_579 588 1012500 3712500 RECT
+APERTURE_580 589 3712500 1012500 RECT
+APERTURE_581 590 4012500 1912500 RECT
+APERTURE_582 591 4012500 9862500 RECT
+APERTURE_583 592 13912500 7312500 RECT
+APERTURE_584 593 2062500 1912500 RECT
+APERTURE_585 594 1912500 2062500 RECT
+APERTURE_586 595 2212500 3112500 RECT
+APERTURE_587 596 8362500 3112500 RECT
+APERTURE_588 597 1762500 1837500 RECT
+APERTURE_589 598 1312500 1912500 RECT
+APERTURE_590 599 1912500 1312500 RECT
+APERTURE_591 600 1537500 1012500 RECT
+APERTURE_592 601 4912500 2362500 RECT
+APERTURE_593 602 562500 1912500 RECT
+APERTURE_594 603 1912500 562500 RECT
+APERTURE_595 604 1837500 0 RND
+}
+CAM_DRILL_SYMBOL_TABLE_EXTENDED PARENT
+{
+MARKER_SIZE 900000
+MARKER_LINE_WIDTH 75000
+MARKER_CHAR_HEIGHT 1905000
+CHART_TEXT_HEIGHT 9000000
+CHART_LINE_WIDTH 750000
+SIZE_VALUES_SORTING_ORDER 0
+QUANTITY_VALUES_SORTING_ORDER 0
+PLATED_VALUES_SORTING_ORDER 0
+DEFAULT_TOLERANCE +/-0.05
+DRILL_UNIT 1
+THROUGH_PARTIAL N
+NUMBER_1 375000 P + 0 Y 0 0 
+NUMBER_2 1485900 N X 0 Y 0 0 
+NUMBER_3 4953000 P Rectangle 0 Y 0 0 
+NUMBER_4 600000 P Diamond 0 Y 0 0 
+}
+}

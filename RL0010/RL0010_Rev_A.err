@@ -1,0 +1,60 @@
+PCB Net List Errors Report - RL0010_Rev_A.sch - Thu Feb 22 11:26:05 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections with a Net Name
+
+A
+MAIN         X10300 Y11100
+
+B
+MAIN         X10300 Y11400
+
+CW
+MAIN         X10300 Y12300
+
+G
+MAIN         X10300 Y11700
+
+R
+MAIN         X10300 Y12000
+
+WW
+MAIN         X10300 Y12600
+
+Power or Ground Symbols used with wrong Net Name
+
++24V
+MAIN         X4200  Y12700 - Power  Symbol used for net: +5V
+
++24V_2
+2            X4400  Y12600 - Power  Symbol used for net: +5V
+
+Subnets with Off-Page Reference to no other Subnet
+
+A2
+2            X11800 Y11600
+
+B2
+2            X11800 Y11300
+
+CW2
+2            X11800 Y12200
+
+G2
+2            X11800 Y11000
+
+R2
+2            X11800 Y12500
+
+WW2
+2            X11800 Y11900

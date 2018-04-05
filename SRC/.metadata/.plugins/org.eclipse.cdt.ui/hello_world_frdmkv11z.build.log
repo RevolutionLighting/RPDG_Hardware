@@ -1,0 +1,6 @@
+22:35:15 **** Incremental Build of configuration debug for project hello_world_frdmkv11z ****
+make -k -j4 all 
+make: Nothing to be done for 'all'.
+
+22:35:16 Build Finished (took 558ms)
+
