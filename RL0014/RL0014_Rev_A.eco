@@ -1,0 +1,21 @@
+*PADS-ECO-V10.0-INCHES*
+
+*REMARK* -- RL0010_Rev_A.pcb -- Tue Apr 17 17:03:27 2018
+
+
+*PART*
+X1 MH125
+
+*SET_ATTRIBUTE* PARTTYPE MH125
+"Description" Mounting hole
+
+*PART*
+X2 MH125
+
+*SET_ATTRIBUTE* PARTTYPE MH125
+"Description" Mounting hole
+
+*PART*
+X3 MH125
+X4 MH125
+*END*

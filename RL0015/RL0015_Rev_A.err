@@ -1,0 +1,138 @@
+PCB Net List Errors Report - RL0015_Rev_A.sch - Tue Apr 24 09:23:21 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net IOUT0 has less than two pins in PCB net list file.
+Net PGOOD has less than two pins in PCB net list file.
+Net IOUT3 has less than two pins in PCB net list file.
+Net IOUT1 has less than two pins in PCB net list file.
+Net IOUT2 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections with a Net Name
+
++5V
+POWER        X9500  Y4700 
+
+LED0_M
+OUTPUT_DRIVERS X8900  Y8000 
+OUTPUT_DRIVERS X18600 Y2800 
+
+LED0_P
+OUTPUT_DRIVERS X8900  Y10300
+OUTPUT_DRIVERS X18600 Y2900 
+
+LED1_M
+OUTPUT_DRIVERS X8900  Y2100 
+OUTPUT_DRIVERS X18600 Y2600 
+
+LED1_P
+OUTPUT_DRIVERS X8900  Y4400 
+OUTPUT_DRIVERS X18600 Y2700 
+
+LED2_M
+OUTPUT_DRIVERS X16900 Y8100 
+OUTPUT_DRIVERS X18600 Y2400 
+
+LED2_P
+OUTPUT_DRIVERS X16900 Y10400
+OUTPUT_DRIVERS X18600 Y2500 
+
+LED3_M
+OUTPUT_DRIVERS X16900 Y2200 
+OUTPUT_DRIVERS X18600 Y2200 
+
+LED3_P
+OUTPUT_DRIVERS X16900 Y4500 
+OUTPUT_DRIVERS X18600 Y2300 
+
+Power or Ground Symbols used with wrong Net Name
+
++24V
+OUTPUT_DRIVERS X7700  Y12600 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X7700  Y6700  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15700 Y12700 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15700 Y6800  - Power  Symbol used for net: VDD_AP_IO_3P3
+POWER        X2100  Y5700  - Power  Symbol used for net: VDD_AP_IO_3P3
+POWER        X3300  Y7600  - Power  Symbol used for net: VDD_AP_IO_3P3
+
++3.3V
+OUTPUT_DRIVERS X8300  Y14900 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X3200  Y11300 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X5100  Y11900 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X7200  Y10800 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X7200  Y8500  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X7200  Y4900  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X7200  Y2600  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X11200 Y11400 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X13100 Y12000 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15200 Y10900 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15200 Y8600  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15200 Y5000  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X15200 Y2700  - Power  Symbol used for net: VDD_AP_IO_3P3
+
++5V
+OUTPUT_DRIVERS X9500  Y13300 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X9500  Y7200  - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X17500 Y13400 - Power  Symbol used for net: VDD_AP_IO_3P3
+OUTPUT_DRIVERS X17500 Y7300  - Power  Symbol used for net: VDD_AP_IO_3P3
+
+Subnets with Missing Off-Page Reference
+
++5V
+POWER        X7000  Y4600  - Pin: R50.2
+
+LED0_M
+OUTPUT_DRIVERS X8100  Y8100  - Pin: U1.4
+OUTPUT_DRIVERS X19200 Y2800  - Pin: J17.2
+
+LED0_P
+OUTPUT_DRIVERS X8100  Y10300 - Pin: U10.8
+OUTPUT_DRIVERS X19200 Y2900  - Pin: J17.1
+
+LED1_M
+OUTPUT_DRIVERS X8100  Y2200  - Pin: U6.4
+OUTPUT_DRIVERS X19200 Y2600  - Pin: J17.4
+
+LED1_P
+OUTPUT_DRIVERS X8100  Y4500  - Pin: U5.4
+OUTPUT_DRIVERS X19200 Y2700  - Pin: J17.3
+
+LED2_M
+OUTPUT_DRIVERS X16100 Y8200  - Pin: U12.4
+OUTPUT_DRIVERS X19200 Y2400  - Pin: J17.6
+
+LED2_P
+OUTPUT_DRIVERS X16100 Y10500 - Pin: U8.4
+OUTPUT_DRIVERS X19200 Y2500  - Pin: J17.5
+
+LED3_M
+OUTPUT_DRIVERS X16100 Y2300  - Pin: U15.4
+OUTPUT_DRIVERS X19200 Y2200  - Pin: J17.8
+
+LED3_P
+OUTPUT_DRIVERS X16100 Y4600  - Pin: U14.4
+OUTPUT_DRIVERS X19200 Y2300  - Pin: J17.7
+
+Subnets with Off-Page Reference to no other Subnet
+
+IOUT0
+OUTPUT_DRIVERS X10000 Y12300
+
+IOUT1
+OUTPUT_DRIVERS X10000 Y6400 
+
+IOUT2
+OUTPUT_DRIVERS X18000 Y12400
+
+IOUT3
+OUTPUT_DRIVERS X18000 Y6500 
+
+PGOOD
+POWER        X2900  Y4800 

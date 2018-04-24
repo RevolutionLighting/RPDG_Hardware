@@ -8,6 +8,9 @@
 #include "fsl_ftm.h"
 #include "fsl_uart.h"
 
+#define BASEADDRESS 0
+#define BAUDRATE 38400
+
 /* Get source clock for FTM driver */
 #define FTM_SOURCE_CLOCK CLOCK_GetFreq(kCLOCK_CoreSysClk)
 
@@ -96,7 +99,7 @@ int main(void) {
   uint8_t ch;
   uart_config_t user_config;
   UART_GetDefaultConfig(&user_config);
-  user_config.baudRate_Bps = 19200U;
+  user_config.baudRate_Bps = BAUDRATE;
   user_config.enableTx = true;
   user_config.enableRx = true;
   UART_Init(UART0,&user_config,CLOCK_GetCoreSysClkFreq());
@@ -111,21 +114,17 @@ int main(void) {
   while(1)
   {
 	  UART_ReadBlocking(UART0, &ch, 1);
-      if(ch==0)
+      if(ch==BASEADDRESS)
       {
     	  index=0;
       }
-      else if(ch>4)
+      else if (ch>=5)
       {
     	  if (index<12)
     	  {
     		  setPwm(index,(ch-5)*4);
-    		  index++;
+        	  index++;
     	  }
-    	  else
-   		  {
-    		  __asm("NOP"); /* something to use as a breakpoint stop while looping */
-   		  }
       }
       __asm("NOP"); /* something to use as a breakpoint stop while looping */
   }

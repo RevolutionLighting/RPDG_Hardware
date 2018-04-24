@@ -1,11 +1,11 @@
-11:15:44 **** Incremental Build of configuration Debug for project SmartStrip ****
+10:45:31 **** Incremental Build of configuration Debug for project SmartStrip ****
 make -j4 all 
 Invoking: Cross ARM GNU Print Size
 arm-none-eabi-size --format=berkeley "SmartStrip.elf"
    text	   data	    bss	    dec	    hex	filename
-  14972	    180	   2172	  17324	   43ac	SmartStrip.elf
+  14968	    180	   2172	  17320	   43a8	SmartStrip.elf
 Finished building: SmartStrip.siz
  
 
-11:15:46 Build Finished (took 2s.69ms)
+10:45:33 Build Finished (took 1s.917ms)
 

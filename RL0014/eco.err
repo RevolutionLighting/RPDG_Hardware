@@ -1,0 +1,2040 @@
+** ECO In Report **
+
+Mon Apr 23 15:18:23 2018
+
+Input  File : C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0014\eco.eco
+Current Job : RL0010_Rev_A.pcb
+
+
+
+Line 7 , Section *PART*
+Q400  2N2222_0
+* Failed to get 2N2222_0 from library
+
+Line 8 , Section *PART*
+Q402  2N2222_0
+* Failed to get 2N2222_0 from library
+
+Line 9 , Section *PART*
+Q403  2N2222_0
+* Failed to get 2N2222_0 from library
+
+Line 10 , Section *PART*
+J1  5787617-1
+* Failed to get 5787617-1 from library
+
+Line 12 , Section *PART*
+Y400  BATT_0
+* Failed to get BATT_0 from library
+
+Line 13 , Section *PART*
+FB400  BEAD_0
+* Failed to get BEAD_0 from library
+
+Line 14 , Section *PART*
+FB401  BEAD_0
+* Failed to get BEAD_0 from library
+
+Line 15 , Section *PART*
+FB402  BEAD_0
+* Failed to get BEAD_0 from library
+
+Line 16 , Section *PART*
+U422  BQ32000DR_1
+* Failed to get BQ32000DR_1 from library
+
+Line 17 , Section *PART*
+D400  BZX84C3V6/SOT_1
+* Failed to get BZX84C3V6/SOT_1 from library
+
+Line 18 , Section *PART*
+C445  C1005
+* Failed to get C1005 from library
+
+Line 19 , Section *PART*
+C446  C1005
+* Failed to get C1005 from library
+
+Line 20 , Section *PART*
+C447  C1005_0
+* Failed to get C1005_0 from library
+
+Line 21 , Section *PART*
+C404  C1005_2
+* Failed to get C1005_2 from library
+
+Line 22 , Section *PART*
+C403  C1608
+* Failed to get C1608 from library
+
+Line 23 , Section *PART*
+C405  C1608
+* Failed to get C1608 from library
+
+Line 24 , Section *PART*
+C406  C1608
+* Failed to get C1608 from library
+
+Line 25 , Section *PART*
+C462  CAPACITOR
+* Failed to get CAPACITOR from library
+
+Line 26 , Section *PART*
+C463  CAPACITOR
+* Failed to get CAPACITOR from library
+
+Line 27 , Section *PART*
+C464  CAPACITOR
+* Failed to get CAPACITOR from library
+
+Line 28 , Section *PART*
+C465  CAPACITOR
+* Failed to get CAPACITOR from library
+
+Line 29 , Section *PART*
+C466  CAPACITOR
+* Failed to get CAPACITOR from library
+
+Line 30 , Section *PART*
+C440  CAPACITOR_NON-POL
+* Failed to get CAPACITOR_NON-POL from library
+
+Line 31 , Section *PART*
+C441  CAPACITOR_NON-POL
+* Failed to get CAPACITOR_NON-POL from library
+
+Line 32 , Section *PART*
+C419  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 33 , Section *PART*
+C420  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 34 , Section *PART*
+C421  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 35 , Section *PART*
+C422  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 36 , Section *PART*
+C423  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 37 , Section *PART*
+C424  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 38 , Section *PART*
+C425  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 39 , Section *PART*
+C426  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 40 , Section *PART*
+C427  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 41 , Section *PART*
+C428  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 42 , Section *PART*
+C429  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 43 , Section *PART*
+C430  CAPACITOR_NON-POL_2
+* Failed to get CAPACITOR_NON-POL_2 from library
+
+Line 49 , Section *PART*
+C438  CAP_NP
+* Failed to get CAP_NP from library
+
+Line 50 , Section *PART*
+C27  CAP_NP_0402
+* Failed to get CAP_NP_0402 from library
+
+Line 51 , Section *PART*
+JP400  CON6_0
+* Failed to get CON6_0 from library
+
+Line 52 , Section *PART*
+X400  CRYSTAL/SMD
+* Failed to get CRYSTAL/SMD from library
+
+Line 53 , Section *PART*
+C408  C_0
+* Failed to get C_0 from library
+
+Line 54 , Section *PART*
+C474  C_0
+* Failed to get C_0 from library
+
+Line 55 , Section *PART*
+C475  C_0
+* Failed to get C_0 from library
+
+Line 56 , Section *PART*
+C476  C_0
+* Failed to get C_0 from library
+
+Line 57 , Section *PART*
+C477  C_0
+* Failed to get C_0 from library
+
+Line 58 , Section *PART*
+C478  C_0
+* Failed to get C_0 from library
+
+Line 60 , Section *PART*
+L400  HCB2012KF-300T50_0
+* Failed to get HCB2012KF-300T50_0 from library
+
+Line 61 , Section *PART*
+J400  HEADER_5X2
+* Failed to get HEADER_5X2 from library
+
+Line 62 , Section *PART*
+U408  ICMEF112P900MFR_5
+* Failed to get ICMEF112P900MFR_5 from library
+
+Line 63 , Section *PART*
+U409  ICMEF112P900MFR_5
+* Failed to get ICMEF112P900MFR_5 from library
+
+Line 64 , Section *PART*
+LED400  LED-RED_SMD_0
+* Failed to get LED-RED_SMD_0 from library
+
+Line 65 , Section *PART*
+LED401  LED-RED_SMD_1
+* Failed to get LED-RED_SMD_1 from library
+
+Line 66 , Section *PART*
+D405  LED-RED_SMD_2_2
+* Failed to get LED-RED_SMD_2_2 from library
+
+Line 67 , Section *PART*
+LED402  LED-RED_SMD_3
+* Failed to get LED-RED_SMD_3 from library
+
+Line 68 , Section *PART*
+U400  LM3671
+* Failed to get LM3671 from library
+
+Line 69 , Section *PART*
+MTH400  MTH_P1_D0_2.6X12
+* Failed to get MTH_P1_D0_2.6X12 from library
+
+Line 70 , Section *PART*
+MTH401  MTH_P1_D0_2.6X12
+* Failed to get MTH_P1_D0_2.6X12 from library
+
+Line 71 , Section *PART*
+MTH402  MTH_P1_D0_2.6X12
+* Failed to get MTH_P1_D0_2.6X12 from library
+
+Line 72 , Section *PART*
+MTH403  MTH_P1_D0_2.6X12
+* Failed to get MTH_P1_D0_2.6X12 from library
+
+Line 73 , Section *PART*
+U403  NLSX4373DR2G_1
+* Failed to get NLSX4373DR2G_1 from library
+
+Line 74 , Section *PART*
+U406  NLSX4373DR2G_1
+* Failed to get NLSX4373DR2G_1 from library
+
+Line 75 , Section *PART*
+U402  NLSX4373DR2G_2
+* Failed to get NLSX4373DR2G_2 from library
+
+Line 76 , Section *PART*
+U404  NLSX4373DR2G_2
+* Failed to get NLSX4373DR2G_2 from library
+
+Line 77 , Section *PART*
+U405  NLSX4373DR2G_2
+* Failed to get NLSX4373DR2G_2 from library
+
+Line 78 , Section *PART*
+OSC400  OSCILLATOR_SMD_SCO-103_0
+* Failed to get OSCILLATOR_SMD_SCO-103_0 from library
+
+Line 79 , Section *PART*
+R407  R
+* Failed to get R from library
+
+Line 80 , Section *PART*
+R408  R
+* Failed to get R from library
+
+Line 81 , Section *PART*
+R409  R
+* Failed to get R from library
+
+Line 82 , Section *PART*
+R410  R
+* Failed to get R from library
+
+Line 83 , Section *PART*
+R411  R
+* Failed to get R from library
+
+Line 84 , Section *PART*
+R412  R
+* Failed to get R from library
+
+Line 85 , Section *PART*
+R413  R
+* Failed to get R from library
+
+Line 86 , Section *PART*
+R414  R
+* Failed to get R from library
+
+Line 87 , Section *PART*
+R416  R
+* Failed to get R from library
+
+Line 88 , Section *PART*
+R417  R
+* Failed to get R from library
+
+Line 89 , Section *PART*
+R424  R
+* Failed to get R from library
+
+Line 90 , Section *PART*
+R427  R
+* Failed to get R from library
+
+Line 91 , Section *PART*
+R438  R
+* Failed to get R from library
+
+Line 92 , Section *PART*
+R439  R
+* Failed to get R from library
+
+Line 93 , Section *PART*
+R440  R
+* Failed to get R from library
+
+Line 94 , Section *PART*
+R441  R
+* Failed to get R from library
+
+Line 95 , Section *PART*
+R442  R
+* Failed to get R from library
+
+Line 96 , Section *PART*
+R443  R
+* Failed to get R from library
+
+Line 97 , Section *PART*
+R444  R
+* Failed to get R from library
+
+Line 98 , Section *PART*
+R445  R
+* Failed to get R from library
+
+Line 99 , Section *PART*
+R446  R
+* Failed to get R from library
+
+Line 100 , Section *PART*
+R447  R
+* Failed to get R from library
+
+Line 101 , Section *PART*
+R449  R
+* Failed to get R from library
+
+Line 102 , Section *PART*
+R450  R
+* Failed to get R from library
+
+Line 103 , Section *PART*
+R451  R
+* Failed to get R from library
+
+Line 104 , Section *PART*
+R452  R
+* Failed to get R from library
+
+Line 105 , Section *PART*
+R453  R
+* Failed to get R from library
+
+Line 106 , Section *PART*
+R454  R
+* Failed to get R from library
+
+Line 107 , Section *PART*
+R455  R
+* Failed to get R from library
+
+Line 108 , Section *PART*
+R456  R
+* Failed to get R from library
+
+Line 109 , Section *PART*
+R522  R
+* Failed to get R from library
+
+Line 110 , Section *PART*
+R471  R1005_0
+* Failed to get R1005_0 from library
+
+Line 111 , Section *PART*
+R478  R1005_0
+* Failed to get R1005_0 from library
+
+Line 112 , Section *PART*
+R479  R1005_0
+* Failed to get R1005_0 from library
+
+Line 113 , Section *PART*
+R480  R1005_0
+* Failed to get R1005_0 from library
+
+Line 114 , Section *PART*
+R481  R1005_0
+* Failed to get R1005_0 from library
+
+Line 115 , Section *PART*
+R482  R1005_0
+* Failed to get R1005_0 from library
+
+Line 116 , Section *PART*
+R421  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 117 , Section *PART*
+R423  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 118 , Section *PART*
+R457  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 119 , Section *PART*
+R458  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 120 , Section *PART*
+R459  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 121 , Section *PART*
+R520  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 122 , Section *PART*
+R521  R1005_0_2
+* Failed to get R1005_0_2 from library
+
+Line 123 , Section *PART*
+R403  R1005_6
+* Failed to get R1005_6 from library
+
+Line 124 , Section *PART*
+R473  RESISTOR
+* Failed to get RESISTOR from library
+
+Line 125 , Section *PART*
+R420  RESISTOR_2
+* Failed to get RESISTOR_2 from library
+
+Line 126 , Section *PART*
+R422  RESISTOR_2
+* Failed to get RESISTOR_2 from library
+
+Line 130 , Section *PART*
+L401  R_0
+* Failed to get R_0 from library
+
+Line 131 , Section *PART*
+R402  R_3
+* Failed to get R_3 from library
+
+Line 132 , Section *PART*
+R404  R_3
+* Failed to get R_3 from library
+
+Line 133 , Section *PART*
+R499  R_3
+* Failed to get R_3 from library
+
+Line 134 , Section *PART*
+R500  R_3
+* Failed to get R_3 from library
+
+Line 135 , Section *PART*
+R501  R_3
+* Failed to get R_3 from library
+
+Line 136 , Section *PART*
+R502  R_3
+* Failed to get R_3 from library
+
+Line 137 , Section *PART*
+R503  R_3
+* Failed to get R_3 from library
+
+Line 138 , Section *PART*
+R504  R_3
+* Failed to get R_3 from library
+
+Line 139 , Section *PART*
+R505  R_3
+* Failed to get R_3 from library
+
+Line 140 , Section *PART*
+R506  R_3
+* Failed to get R_3 from library
+
+Line 141 , Section *PART*
+R507  R_3
+* Failed to get R_3 from library
+
+Line 142 , Section *PART*
+R508  R_3
+* Failed to get R_3 from library
+
+Line 143 , Section *PART*
+R509  R_3
+* Failed to get R_3 from library
+
+Line 144 , Section *PART*
+R510  R_3
+* Failed to get R_3 from library
+
+Line 145 , Section *PART*
+R511  R_3
+* Failed to get R_3 from library
+
+Line 146 , Section *PART*
+R512  R_3
+* Failed to get R_3 from library
+
+Line 147 , Section *PART*
+R513  R_3
+* Failed to get R_3 from library
+
+Line 148 , Section *PART*
+R514  R_3
+* Failed to get R_3 from library
+
+Line 149 , Section *PART*
+R515  R_3
+* Failed to get R_3 from library
+
+Line 150 , Section *PART*
+R516  R_3
+* Failed to get R_3 from library
+
+Line 151 , Section *PART*
+R517  R_3
+* Failed to get R_3 from library
+
+Line 152 , Section *PART*
+R518  R_3
+* Failed to get R_3 from library
+
+Line 153 , Section *PART*
+R472  R_4
+* Failed to get R_4 from library
+
+Line 154 , Section *PART*
+R474  R_4
+* Failed to get R_4 from library
+
+Line 155 , Section *PART*
+R475  R_4
+* Failed to get R_4 from library
+
+Line 156 , Section *PART*
+R476  R_4
+* Failed to get R_4 from library
+
+Line 157 , Section *PART*
+R477  R_4
+* Failed to get R_4 from library
+
+Line 158 , Section *PART*
+C431  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 159 , Section *PART*
+C432  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 160 , Section *PART*
+C433  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 161 , Section *PART*
+C434  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 162 , Section *PART*
+C435  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 163 , Section *PART*
+C436  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 164 , Section *PART*
+C437  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 165 , Section *PART*
+C439  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 166 , Section *PART*
+C442  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 167 , Section *PART*
+C443  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 168 , Section *PART*
+C444  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 169 , Section *PART*
+C448  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 170 , Section *PART*
+C449  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 171 , Section *PART*
+C450  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 172 , Section *PART*
+C451  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 173 , Section *PART*
+C452  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 174 , Section *PART*
+C453  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 175 , Section *PART*
+C454  SMALL_CAP
+* Failed to get SMALL_CAP from library
+
+Line 176 , Section *PART*
+SMA400  SMA_0
+* Failed to get SMA_0 from library
+
+Line 177 , Section *PART*
+SMA401  SMA_0
+* Failed to get SMA_0 from library
+
+Line 179 , Section *PART*
+SW402  SW_DIP-4/SM_1
+* Failed to get SW_DIP-4/SM_1 from library
+
+Line 180 , Section *PART*
+SW401  SW_PUSHBUTTON-SPST/SM
+* Failed to get SW_PUSHBUTTON-SPST/SM from library
+
+Line 181 , Section *PART*
+SW403  SW_PUSHBUTTON-SPST/SM
+* Failed to get SW_PUSHBUTTON-SPST/SM from library
+
+Line 182 , Section *PART*
+SW404  SW_PUSHBUTTON-SPST/SM
+* Failed to get SW_PUSHBUTTON-SPST/SM from library
+
+Line 183 , Section *PART*
+TP401  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 184 , Section *PART*
+TP402  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 185 , Section *PART*
+TP403  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 186 , Section *PART*
+TP404  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 187 , Section *PART*
+TP405  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 188 , Section *PART*
+TP406  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 189 , Section *PART*
+TP407  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 190 , Section *PART*
+TP408  TESTPKT03MM
+* Failed to get TESTPKT03MM from library
+
+Line 191 , Section *PART*
+X401  TFX-03_0
+* Failed to get TFX-03_0 from library
+
+Line 192 , Section *PART*
+TPH400  TPH_P1.5_D1
+* Failed to get TPH_P1.5_D1 from library
+
+Line 193 , Section *PART*
+TPH401  TPH_P1.5_D1
+* Failed to get TPH_P1.5_D1 from library
+
+Line 194 , Section *PART*
+U410  TPS7A3701DRVT_0
+* Failed to get TPS7A3701DRVT_0 from library
+
+Line 195 , Section *PART*
+TP400  TP_P0_0.8_D0
+* Failed to get TP_P0_0.8_D0 from library
+
+Line 196 , Section *PART*
+U414  USB3803_0
+* Failed to get USB3803_0 from library
+
+Line 197 , Section *PART*
+J402  U_2.FL-R-SMT
+* Failed to get U_2.FL-R-SMT from library
+
+Line 198 , Section *PART*
+J403  U_2.FL-R-SMT
+* Failed to get U_2.FL-R-SMT from library
+
+Line 199 , Section *PART*
+CON402  XMV-01-4-H11-151-1P0_2
+* Failed to get XMV-01-4-H11-151-1P0_2 from library
+
+Line 217 , Section *NET*
+J1.3
+* Part name J1 not found
+
+Line 219 , Section *NET*
+J1.2
+* Part name J1 not found
+
+Line 221 , Section *NET*
+J1.1
+* Part name J1 not found
+
+Line 223 , Section *NET*
+J1.5
+* Part name J1 not found
+
+Line 225 , Section *NET*
+J1.7
+* Part name J1 not found
+
+Line 227 , Section *NET*
+J1.6
+* Part name J1 not found
+
+Line 229 , Section *NET*
+C27.1  J1.10  J1.11  J1.12  J1.9
+* Part name C27 not found
+* Part name J1 not found
+* Part name J1 not found
+* Part name J1 not found
+* Part name J1 not found
+
+Line 238 , Section *NET*
+C437.1  C450.2  C449.2  C448.2  FB401.2
+* Part name C437 not found
+* Part name C450 not found
+* Part name C449 not found
+* Part name C448 not found
+* Part name FB401 not found
+
+Line 240 , Section *NET*
+C453.2  FB402.2  C454.2
+* Part name C453 not found
+* Part name FB402 not found
+* Part name C454 not found
+
+Line 250 , Section *NET*
+R518.1  U401.PAL15
+* Part name R518 not found
+
+Line 252 , Section *NET*
+R517.2  U401.PAK15
+* Part name R517 not found
+
+Line 254 , Section *NET*
+SW401.1  C408.1  D400.1  C435.1  C436.1  C453.1  C454.1
+* Part name SW401 not found
+* Part name C408 not found
+* Part name D400 not found
+* Part name C435 not found
+* Part name C436 not found
+* Part name C453 not found
+* Part name C454 not found
+
+Line 255 , Section *NET*
+R453.1  R452.1  R454.1  R455.1  R456.1  C450.1  C449.1
+* Part name R453 not found
+* Part name R452 not found
+* Part name R454 not found
+* Part name R455 not found
+* Part name R456 not found
+* Part name C450 not found
+* Part name C449 not found
+
+Line 256 , Section *NET*
+C448.1  C439.1  C438.1  C440.1  C441.1  C451.1  C452.1
+* Part name C448 not found
+* Part name C439 not found
+* Part name C438 not found
+* Part name C440 not found
+* Part name C441 not found
+* Part name C451 not found
+* Part name C452 not found
+
+Line 257 , Section *NET*
+R459.1  C442.1  C443.1  C444.1  C433.1  C432.1  C431.1
+* Part name R459 not found
+* Part name C442 not found
+* Part name C443 not found
+* Part name C444 not found
+* Part name C433 not found
+* Part name C432 not found
+* Part name C431 not found
+
+Line 258 , Section *NET*
+SW403.1  R514.1  TPH401.1  MTH402.1  C474.1  C475.1  R515.1
+* Part name SW403 not found
+* Part name R514 not found
+* Part name TPH401 not found
+* Part name MTH402 not found
+* Part name C474 not found
+* Part name C475 not found
+* Part name R515 not found
+
+Line 259 , Section *NET*
+MTH401.1  MTH403.1  R516.1  C476.1  TPH400.1  MTH400.1  SW404.1
+* Part name MTH401 not found
+* Part name MTH403 not found
+* Part name R516 not found
+* Part name C476 not found
+* Part name TPH400 not found
+* Part name MTH400 not found
+* Part name SW404 not found
+
+Line 260 , Section *NET*
+R513.1  J9.1  U16.12  U16.13  U16.14  CON402.15  U16.15
+* Part name R513 not found
+* Part name CON402 not found
+
+Line 261 , Section *NET*
+CON402.16  U16.16  U16.17  U16.18  U16.19  C405.2  C403.2
+* Part name CON402 not found
+* Part name C405 not found
+* Part name C403 not found
+
+Line 262 , Section *NET*
+U400.2  Q403.2  C406.2  C404.2  C426.2  C422.2  C425.2
+* Part name U400 not found
+* Part name Q403 not found
+* Part name C406 not found
+* Part name C404 not found
+* Part name C426 not found
+* Part name C422 not found
+* Part name C425 not found
+
+Line 263 , Section *NET*
+C428.2  C427.2  C423.2  C421.2  C424.2  C419.2  C420.2
+* Part name C428 not found
+* Part name C427 not found
+* Part name C423 not found
+* Part name C421 not found
+* Part name C424 not found
+* Part name C419 not found
+* Part name C420 not found
+
+Line 264 , Section *NET*
+R451.2  C437.2  C430.2  C429.2  C447.2  C445.2  C434.2
+* Part name R451 not found
+* Part name C437 not found
+* Part name C430 not found
+* Part name C429 not found
+* Part name C447 not found
+* Part name C445 not found
+* Part name C434 not found
+
+Line 265 , Section *NET*
+C446.2  X400.2  C466.2  C465.2  R473.2  C463.2  OSC400.2
+* Part name C446 not found
+* Part name X400 not found
+* Part name C466 not found
+* Part name C465 not found
+* Part name R473 not found
+* Part name C463 not found
+* Part name OSC400 not found
+
+Line 266 , Section *NET*
+C462.2  C464.2  C27.2  Q402.2  Q400.2  MTH402.2  MTH401.2
+* Part name C462 not found
+* Part name C464 not found
+* Part name C27 not found
+* Part name Q402 not found
+* Part name Q400 not found
+* Part name MTH402 not found
+* Part name MTH401 not found
+
+Line 267 , Section *NET*
+MTH403.2  R503.2  R505.2  Y400.2  SMA401.2  J400.2  MTH400.2
+* Part name MTH403 not found
+* Part name R503 not found
+* Part name R505 not found
+* Part name Y400 not found
+* Part name SMA401 not found
+* Part name J400 not found
+* Part name MTH400 not found
+
+Line 268 , Section *NET*
+SMA400.2  J403.2  J402.2  C32.2  C33.2  C30.2  C31.2
+* Part name SMA400 not found
+* Part name J403 not found
+* Part name J402 not found
+
+Line 269 , Section *NET*
+C29.2  U16.26  U16.29  JP400.3  U409.3  U408.3  U410.3
+* Part name JP400 not found
+* Part name U409 not found
+* Part name U408 not found
+* Part name U410 not found
+
+Line 270 , Section *NET*
+MTH402.3  MTH401.3  MTH403.3  SMA401.3  MTH400.3  SMA400.3  J403.3
+* Part name MTH402 not found
+* Part name MTH401 not found
+* Part name MTH403 not found
+* Part name SMA401 not found
+* Part name MTH400 not found
+* Part name SMA400 not found
+* Part name J403 not found
+
+Line 271 , Section *NET*
+J402.3  U16.3  J9.3  U16.31  U414.33  U404.4  U405.4
+* Part name J402 not found
+* Part name U414 not found
+* Part name U404 not found
+* Part name U405 not found
+
+Line 272 , Section *NET*
+U402.4  X400.4  J1.4  MTH402.4  U422.4  MTH401.4  MTH403.4
+* Part name U402 not found
+* Part name X400 not found
+* Part name J1 not found
+* Part name MTH402 not found
+* Part name U422 not found
+* Part name MTH401 not found
+* Part name MTH403 not found
+
+Line 273 , Section *NET*
+SMA401.4  MTH400.4  SMA400.4  U16.4  J9.4  MTH402.5  MTH401.5
+* Part name SMA401 not found
+* Part name MTH400 not found
+* Part name SMA400 not found
+* Part name MTH402 not found
+* Part name MTH401 not found
+
+Line 274 , Section *NET*
+MTH403.5  SMA401.5  MTH400.5  SMA400.5  U403.6  U406.6  MTH402.6
+* Part name MTH403 not found
+* Part name SMA401 not found
+* Part name MTH400 not found
+* Part name SMA400 not found
+* Part name U403 not found
+* Part name U406 not found
+* Part name MTH402 not found
+
+Line 275 , Section *NET*
+MTH401.6  MTH403.6  MTH400.6  U410.7  MTH402.7  MTH401.7  MTH403.7
+* Part name MTH401 not found
+* Part name MTH403 not found
+* Part name MTH400 not found
+* Part name U410 not found
+* Part name MTH402 not found
+* Part name MTH401 not found
+* Part name MTH403 not found
+
+Line 276 , Section *NET*
+MTH400.7  U409.8  U408.8  J1.8  MTH402.8  MTH401.8  MTH403.8
+* Part name MTH400 not found
+* Part name U409 not found
+* Part name U408 not found
+* Part name J1 not found
+* Part name MTH402 not found
+* Part name MTH401 not found
+* Part name MTH403 not found
+
+Line 277 , Section *NET*
+MTH400.8  U414.9
+* Part name MTH400 not found
+* Part name U414 not found
+
+Line 287 , Section *NET*
+R422.2  C432.2  U407.35
+* Part name R422 not found
+* Part name C432 not found
+
+Line 289 , Section *NET*
+R420.2  C431.2  U407.34
+* Part name R420 not found
+* Part name C431 not found
+
+Line 291 , Section *NET*
+CON402.2  U408.2  U407.2  U408.9
+* Part name CON402 not found
+* Part name U408 not found
+* Part name U408 not found
+
+Line 293 , Section *NET*
+CON402.1  U408.1  U407.1  U408.10
+* Part name CON402 not found
+* Part name U408 not found
+* Part name U408 not found
+
+Line 295 , Section *NET*
+CON402.4  U408.5  U407.5  U408.6
+* Part name CON402 not found
+* Part name U408 not found
+* Part name U408 not found
+
+Line 297 , Section *NET*
+CON402.3  U408.4  U407.4  U408.7
+* Part name CON402 not found
+* Part name U408 not found
+* Part name U408 not found
+
+Line 299 , Section *NET*
+U409.2  CON402.8  U407.8  U409.9
+* Part name U409 not found
+* Part name CON402 not found
+* Part name U409 not found
+
+Line 301 , Section *NET*
+U409.1  U409.10  CON402.7  U407.7
+* Part name U409 not found
+* Part name U409 not found
+* Part name CON402 not found
+
+Line 303 , Section *NET*
+CON402.10  U407.11  U409.5  U409.6
+* Part name CON402 not found
+* Part name U409 not found
+* Part name U409 not found
+
+Line 305 , Section *NET*
+U407.10  U409.4  U409.7  CON402.9
+* Part name U409 not found
+* Part name U409 not found
+* Part name CON402 not found
+
+Line 309 , Section *NET*
+C465.1  U414.11  U414.13  U414.6
+* Part name C465 not found
+* Part name U414 not found
+* Part name U414 not found
+* Part name U414 not found
+
+Line 311 , Section *NET*
+R472.1  U414.10
+* Part name R472 not found
+* Part name U414 not found
+
+Line 313 , Section *NET*
+R471.1  OSC400.1
+* Part name R471 not found
+* Part name OSC400 not found
+
+Line 315 , Section *NET*
+R473.1  U414.30
+* Part name R473 not found
+* Part name U414 not found
+
+Line 317 , Section *NET*
+SMA400.1  C477.1  R514.2
+* Part name SMA400 not found
+* Part name C477 not found
+* Part name R514 not found
+
+Line 319 , Section *NET*
+R421.1  CON402.11
+* Part name R421 not found
+* Part name CON402 not found
+
+Line 321 , Section *NET*
+R423.1  CON402.13
+* Part name R423 not found
+* Part name CON402 not found
+
+Line 323 , Section *NET*
+C430.1  CON402.6
+* Part name C430 not found
+* Part name CON402 not found
+
+Line 325 , Section *NET*
+C429.1  CON402.5
+* Part name C429 not found
+* Part name CON402 not found
+
+Line 327 , Section *NET*
+R422.1  CON402.14
+* Part name R422 not found
+* Part name CON402 not found
+
+Line 329 , Section *NET*
+R420.1  CON402.12
+* Part name R420 not found
+* Part name CON402 not found
+
+Line 331 , Section *NET*
+C436.2
+* Part name C436 not found
+
+Line 333 , Section *NET*
+L401.2  U407.48
+* Part name L401 not found
+
+Line 335 , Section *NET*
+R458.2  U410.4
+* Part name R458 not found
+* Part name U410 not found
+
+Line 337 , Section *NET*
+R457.1  U410.2  R459.2
+* Part name R457 not found
+* Part name U410 not found
+* Part name R459 not found
+
+Line 339 , Section *NET*
+R411.1  U401.PAK19
+* Part name R411 not found
+
+Line 341 , Section *NET*
+R522.1  U401.PAL19
+* Part name R522 not found
+
+Line 343 , Section *NET*
+C406.1  R403.2  U400.3
+* Part name C406 not found
+* Part name R403 not found
+* Part name U400 not found
+
+Line 345 , Section *NET*
+L400.1  U400.5
+* Part name L400 not found
+* Part name U400 not found
+
+Line 347 , Section *NET*
+R504.1  SW402.7
+* Part name R504 not found
+* Part name SW402 not found
+
+Line 349 , Section *NET*
+R506.1  SW402.6
+* Part name R506 not found
+* Part name SW402 not found
+
+Line 351 , Section *NET*
+R503.1  SW402.8
+* Part name R503 not found
+* Part name SW402 not found
+
+Line 353 , Section *NET*
+R505.1  SW402.5
+* Part name R505 not found
+* Part name SW402 not found
+
+Line 355 , Section *NET*
+Q400.1  R511.2
+* Part name Q400 not found
+* Part name R511 not found
+
+Line 357 , Section *NET*
+LED400.2  Q400.3
+* Part name LED400 not found
+* Part name Q400 not found
+
+Line 359 , Section *NET*
+LED400.1  R508.1
+* Part name LED400 not found
+* Part name R508 not found
+
+Line 361 , Section *NET*
+Q402.1  R512.2
+* Part name Q402 not found
+* Part name R512 not found
+
+Line 363 , Section *NET*
+LED401.1  R510.1
+* Part name LED401 not found
+* Part name R510 not found
+
+Line 365 , Section *NET*
+LED401.2  Q402.3
+* Part name LED401 not found
+* Part name Q402 not found
+
+Line 367 , Section *NET*
+R424.2  U407.37
+* Part name R424 not found
+
+Line 369 , Section *NET*
+TP401.1  U407.46
+* Part name TP401 not found
+
+Line 371 , Section *NET*
+R404.1  R402.1  SW401.2  C408.2  D400.2
+* Part name R404 not found
+* Part name R402 not found
+* Part name SW401 not found
+* Part name C408 not found
+* Part name D400 not found
+
+Line 373 , Section *NET*
+J402.1  C477.2  R513.2
+* Part name J402 not found
+* Part name C477 not found
+* Part name R513 not found
+
+Line 375 , Section *NET*
+J403.1  C478.2  R515.2
+* Part name J403 not found
+* Part name C478 not found
+* Part name R515 not found
+
+Line 377 , Section *NET*
+C478.1  SMA401.1  R516.2
+* Part name C478 not found
+* Part name SMA401 not found
+* Part name R516 not found
+
+Line 379 , Section *NET*
+Y400.1  R499.2
+* Part name Y400 not found
+* Part name R499 not found
+
+Line 381 , Section *NET*
+D405.1  R499.1  C474.2  U422.8
+* Part name D405 not found
+* Part name R499 not found
+* Part name C474 not found
+* Part name U422 not found
+
+Line 383 , Section *NET*
+U422.1  X401.2
+* Part name U422 not found
+* Part name X401 not found
+
+Line 385 , Section *NET*
+X401.1  U422.2
+* Part name X401 not found
+* Part name U422 not found
+
+Line 387 , Section *NET*
+R517.1  J400.4
+* Part name R517 not found
+* Part name J400 not found
+
+Line 389 , Section *NET*
+R518.2  J400.5
+* Part name R518 not found
+* Part name J400 not found
+
+Line 391 , Section *NET*
+LED402.1  R521.1
+* Part name LED402 not found
+* Part name R521 not found
+
+Line 393 , Section *NET*
+LED402.2  Q403.3
+* Part name LED402 not found
+* Part name Q403 not found
+
+Line 395 , Section *NET*
+Q403.1  R520.1
+* Part name Q403 not found
+* Part name R520 not found
+
+Line 397 , Section *NET*
+TP404.1  U401.PR42
+* Part name TP404 not found
+
+Line 399 , Section *NET*
+TP403.1  U401.PR41
+* Part name TP403 not found
+
+Line 401 , Section *NET*
+TP405.1  U401.PAK6
+* Part name TP405 not found
+
+Line 403 , Section *NET*
+TP407.1  U401.PAK5
+* Part name TP407 not found
+
+Line 405 , Section *NET*
+TP406.1  U401.PAL6
+* Part name TP406 not found
+
+Line 407 , Section *NET*
+TP408.1  U401.PAL5
+* Part name TP408 not found
+
+Line 411 , Section *NET*
+R443.1  TP402.1  U407.33
+* Part name R443 not found
+* Part name TP402 not found
+
+Line 413 , Section *NET*
+R427.1  TP400.1  U410.1  C446.1  C447.1  FB402.1  FB400.1
+* Part name R427 not found
+* Part name TP400 not found
+* Part name U410 not found
+* Part name C446 not found
+* Part name C447 not found
+* Part name FB402 not found
+* Part name FB400 not found
+
+Line 414 , Section *NET*
+R457.2  R423.2  R421.2
+* Part name R457 not found
+* Part name R423 not found
+* Part name R421 not found
+
+Line 416 , Section *NET*
+R449.1  R446.1  U407.20
+* Part name R449 not found
+* Part name R446 not found
+
+Line 418 , Section *NET*
+R447.1  R450.1  U407.29
+* Part name R447 not found
+* Part name R450 not found
+
+Line 420 , Section *NET*
+R451.1  U407.39
+* Part name R451 not found
+
+Line 422 , Section *NET*
+C441.2  X400.3
+* Part name C441 not found
+* Part name X400 not found
+
+Line 424 , Section *NET*
+X400.1  C440.2
+* Part name X400 not found
+* Part name C440 not found
+
+Line 426 , Section *NET*
+R439.1  R453.2
+* Part name R439 not found
+* Part name R453 not found
+
+Line 428 , Section *NET*
+R440.1  R454.2
+* Part name R440 not found
+* Part name R454 not found
+
+Line 430 , Section *NET*
+R441.1
+* Part name R441 not found
+
+Line 432 , Section *NET*
+R442.1
+* Part name R442 not found
+
+Line 434 , Section *NET*
+R444.1  R455.2  U407.32
+* Part name R444 not found
+* Part name R455 not found
+
+Line 436 , Section *NET*
+R452.2
+* Part name R452 not found
+
+Line 438 , Section *NET*
+R445.1  R456.2  U407.38
+* Part name R445 not found
+* Part name R456 not found
+
+Line 440 , Section *NET*
+U414.29  OSC400.3
+* Part name U414 not found
+* Part name OSC400 not found
+
+Line 442 , Section *NET*
+R480.1  U414.2
+* Part name R480 not found
+* Part name U414 not found
+
+Line 444 , Section *NET*
+R482.1  R477.2  U414.8
+* Part name R482 not found
+* Part name R477 not found
+* Part name U414 not found
+
+Line 446 , Section *NET*
+R481.1  R476.2  U414.7
+* Part name R481 not found
+* Part name R476 not found
+* Part name U414 not found
+
+Line 448 , Section *NET*
+R478.1  R474.2  U414.5
+* Part name R478 not found
+* Part name R474 not found
+* Part name U414 not found
+
+Line 450 , Section *NET*
+R479.1  U414.12  R475.2
+* Part name R479 not found
+* Part name U414 not found
+* Part name R475 not found
+
+Line 452 , Section *NET*
+L401.1  FB401.1  C439.2  C438.2  C451.2  C452.2
+* Part name L401 not found
+* Part name FB401 not found
+* Part name C439 not found
+* Part name C438 not found
+* Part name C451 not found
+* Part name C452 not found
+
+Line 454 , Section *NET*
+R424.1  FB400.2  C442.2  C443.2  C444.2
+* Part name R424 not found
+* Part name FB400 not found
+* Part name C442 not found
+* Part name C443 not found
+* Part name C444 not found
+
+Line 456 , Section *NET*
+C466.1  U414.1  C462.1  U414.19  R472.2  U414.20  U414.21
+* Part name C466 not found
+* Part name U414 not found
+* Part name C462 not found
+* Part name U414 not found
+* Part name R472 not found
+* Part name U414 not found
+* Part name U414 not found
+
+Line 457 , Section *NET*
+U414.22  U414.26  U414.28  U414.32
+* Part name U414 not found
+* Part name U414 not found
+* Part name U414 not found
+* Part name U414 not found
+
+Line 459 , Section *NET*
+C434.1  R427.2  C433.2
+* Part name C434 not found
+* Part name R427 not found
+* Part name C433 not found
+
+Line 461 , Section *NET*
+C405.1  C404.1  C426.1  C422.1  C424.1  C428.1  C420.1
+* Part name C405 not found
+* Part name C404 not found
+* Part name C426 not found
+* Part name C422 not found
+* Part name C424 not found
+* Part name C428 not found
+* Part name C420 not found
+
+Line 462 , Section *NET*
+R476.1  R477.1  R475.1  R474.1  U403.11  U406.11  L400.2
+* Part name R476 not found
+* Part name R477 not found
+* Part name R475 not found
+* Part name R474 not found
+* Part name U403 not found
+* Part name U406 not found
+* Part name L400 not found
+
+Line 463 , Section *NET*
+R520.2  R416.2  R417.2  R409.2  R410.2  R412.2  R413.2
+* Part name R520 not found
+* Part name R416 not found
+* Part name R417 not found
+* Part name R409 not found
+* Part name R410 not found
+* Part name R412 not found
+* Part name R413 not found
+
+Line 464 , Section *NET*
+R414.2  R407.2  R408.2  R509.2  R507.2  R504.2  R506.2
+* Part name R414 not found
+* Part name R407 not found
+* Part name R408 not found
+* Part name R509 not found
+* Part name R507 not found
+* Part name R504 not found
+* Part name R506 not found
+
+Line 465 , Section *NET*
+U400.4  U405.8  U404.8  U402.8
+* Part name U400 not found
+* Part name U405 not found
+* Part name U404 not found
+* Part name U402 not found
+
+Line 467 , Section *NET*
+U403.1  C421.1  C425.1  U405.1  U404.1  C423.1  U406.1
+* Part name U403 not found
+* Part name C421 not found
+* Part name C425 not found
+* Part name U405 not found
+* Part name U404 not found
+* Part name C423 not found
+* Part name U406 not found
+
+Line 468 , Section *NET*
+C427.1  U402.1  C419.1  U403.12  U406.12  U404.5  U405.5
+* Part name C427 not found
+* Part name U402 not found
+* Part name C419 not found
+* Part name U403 not found
+* Part name U406 not found
+* Part name U404 not found
+* Part name U405 not found
+
+Line 469 , Section *NET*
+U402.5
+* Part name U402 not found
+
+Line 471 , Section *NET*
+C464.1  JP400.2  R438.2  R439.2  R440.2  R441.2  R442.2
+* Part name C464 not found
+* Part name JP400 not found
+* Part name R438 not found
+* Part name R439 not found
+* Part name R440 not found
+* Part name R441 not found
+* Part name R442 not found
+
+Line 472 , Section *NET*
+R443.2  R445.2  R444.2  R446.2  R447.2  R471.2  R501.2
+* Part name R443 not found
+* Part name R445 not found
+* Part name R444 not found
+* Part name R446 not found
+* Part name R447 not found
+* Part name R471 not found
+* Part name R501 not found
+
+Line 473 , Section *NET*
+R502.2  OSC400.4
+* Part name R502 not found
+* Part name OSC400 not found
+
+Line 475 , Section *NET*
+R402.2  D405.2  R500.2
+* Part name R402 not found
+* Part name D405 not found
+* Part name R500 not found
+
+Line 477 , Section *NET*
+C463.1  U414.25
+* Part name C463 not found
+* Part name U414 not found
+
+Line 479 , Section *NET*
+R403.1  R458.1  R522.2
+* Part name R403 not found
+* Part name R458 not found
+* Part name R522 not found
+
+Line 481 , Section *NET*
+C403.1  U400.1  C445.1  R521.2  R510.2  R508.2  U410.6
+* Part name C403 not found
+* Part name U400 not found
+* Part name C445 not found
+* Part name R521 not found
+* Part name R510 not found
+* Part name R508 not found
+* Part name U410 not found
+
+Line 513 , Section *NET*
+SW402.1  U401.PAK32
+* Part name SW402 not found
+
+Line 515 , Section *NET*
+SW402.2  U401.PAL32
+* Part name SW402 not found
+
+Line 517 , Section *NET*
+SW402.3  U401.PAK31
+* Part name SW402 not found
+
+Line 519 , Section *NET*
+SW402.4  U401.PAL31
+* Part name SW402 not found
+
+Line 523 , Section *NET*
+R410.1  U403.10  U401.PAL41
+* Part name R410 not found
+* Part name U403 not found
+
+Line 525 , Section *NET*
+U403.2
+* Part name U403 not found
+
+Line 527 , Section *NET*
+R408.1  U402.7  U401.PAK10
+* Part name R408 not found
+* Part name U402 not found
+
+Line 529 , Section *NET*
+U402.2
+* Part name U402 not found
+
+Line 531 , Section *NET*
+R407.1  U402.6  U401.PAL10
+* Part name R407 not found
+* Part name U402 not found
+
+Line 533 , Section *NET*
+U402.3
+* Part name U402 not found
+
+Line 535 , Section *NET*
+R409.1  U403.9  U401.PAL42
+* Part name R409 not found
+* Part name U403 not found
+
+Line 537 , Section *NET*
+U403.3
+* Part name U403 not found
+
+Line 549 , Section *NET*
+R449.2  U401.PB42
+* Part name R449 not found
+
+Line 551 , Section *NET*
+R450.2  U401.PA42
+* Part name R450 not found
+
+Line 553 , Section *NET*
+R411.2
+* Part name R411 not found
+
+Line 559 , Section *NET*
+R438.1
+* Part name R438 not found
+
+Line 561 , Section *NET*
+C435.2
+* Part name C435 not found
+
+Line 609 , Section *NET*
+U414.15  U401.PB38
+* Part name U414 not found
+
+Line 611 , Section *NET*
+R480.2  U401.PAK39
+* Part name R480 not found
+
+Line 613 , Section *NET*
+R478.2  U401.PAL38
+* Part name R478 not found
+
+Line 615 , Section *NET*
+R479.2  U401.PAL39
+* Part name R479 not found
+
+Line 617 , Section *NET*
+R482.2  U401.PAK24
+* Part name R482 not found
+
+Line 619 , Section *NET*
+R481.2  U401.PAL24
+* Part name R481 not found
+
+Line 621 , Section *NET*
+U414.16  U401.PA38
+* Part name U414 not found
+
+Line 623 , Section *NET*
+R413.1  U401.PAK9
+* Part name R413 not found
+
+Line 625 , Section *NET*
+R412.1  U401.PAL9
+* Part name R412 not found
+
+Line 637 , Section *NET*
+U403.8  U401.PAH42
+* Part name U403 not found
+
+Line 639 , Section *NET*
+U403.4
+* Part name U403 not found
+
+Line 643 , Section *NET*
+U406.8  U401.PAK34
+* Part name U406 not found
+
+Line 645 , Section *NET*
+U406.4
+* Part name U406 not found
+
+Line 647 , Section *NET*
+U406.10  U401.PAL7
+* Part name U406 not found
+
+Line 649 , Section *NET*
+U406.2
+* Part name U406 not found
+
+Line 651 , Section *NET*
+U406.9  U401.PAL34
+* Part name U406 not found
+
+Line 653 , Section *NET*
+U406.3
+* Part name U406 not found
+
+Line 655 , Section *NET*
+R507.1  SW403.2  C475.2  U401.PAK27
+* Part name R507 not found
+* Part name SW403 not found
+* Part name C475 not found
+
+Line 657 , Section *NET*
+R511.1  U401.PAK26
+* Part name R511 not found
+
+Line 659 , Section *NET*
+R509.1  SW404.2  C476.2  U401.PAK25
+* Part name R509 not found
+* Part name SW404 not found
+* Part name C476 not found
+
+Line 661 , Section *NET*
+R512.1  U401.PAL27
+* Part name R512 not found
+
+Line 733 , Section *NET*
+JP400.1
+* Part name JP400 not found
+
+Line 735 , Section *NET*
+R404.2  U401.PAG1
+* Part name R404 not found
+
+Line 737 , Section *NET*
+R500.1  U422.3  U401.PAE2
+* Part name R500 not found
+* Part name U422 not found
+
+Line 739 , Section *NET*
+R501.1  U422.6  U401.PAL20
+* Part name R501 not found
+* Part name U422 not found
+
+Line 741 , Section *NET*
+R502.1  U422.5  U401.PAL25
+* Part name R502 not found
+* Part name U422 not found
+
+Line 765 , Section *NET*
+U403.7  U401.PAL35
+* Part name U403 not found
+
+Line 767 , Section *NET*
+U403.5
+* Part name U403 not found
+
+Line 769 , Section *NET*
+R414.1  U404.7  U401.PAL36
+* Part name R414 not found
+* Part name U404 not found
+
+Line 771 , Section *NET*
+U404.2
+* Part name U404 not found
+
+Line 777 , Section *NET*
+U406.7  U401.PAH41
+* Part name U406 not found
+
+Line 779 , Section *NET*
+U406.5
+* Part name U406 not found
+
+Line 781 , Section *NET*
+R417.1  U405.7  U401.PAK8
+* Part name R417 not found
+* Part name U405 not found
+
+Line 783 , Section *NET*
+U405.2
+* Part name U405 not found
+
+Line 785 , Section *NET*
+R416.1  U405.6  U401.PAL8
+* Part name R416 not found
+* Part name U405 not found
+
+Line 787 , Section *NET*
+U405.3
+* Part name U405 not found
+
+Line 793 , Section *NET*
+U414.23
+* Part name U414 not found
+
+Line 795 , Section *NET*
+U414.24
+* Part name U414 not found
+
+Line 811 , Section *NET*
+J400.8  U401.PAK14
+* Part name J400 not found
+
+Line 813 , Section *NET*
+J400.6  U401.PAK12
+* Part name J400 not found
+
+Line 815 , Section *NET*
+J400.7  U401.PAL12
+* Part name J400 not found
+
+Line 817 , Section *NET*
+J400.10  U401.PAK13
+* Part name J400 not found
+
+Line 819 , Section *NET*
+J400.9  U401.PAL13
+* Part name J400 not found
+
+Line 821 , Section *NET*
+J400.3  U401.PAL14
+* Part name J400 not found
+
+Line 823 , Section *NET*
+J400.1  JP400.4
+* Part name J400 not found
+* Part name JP400 not found
+* Warning: deleting single-pin signal BT_PCM_CLK
+* Warning: deleting single-pin signal BT_PCM_DIN
+* Warning: deleting single-pin signal BT_PCM_DOUT
+* Warning: deleting single-pin signal BT_PCM_LRCLK
+* Warning: deleting single-pin signal COMBO_ZIG_UART_RXD
+* Warning: deleting single-pin signal COMBO_ZIG_UART_TXD
+* Warning: deleting single-pin signal IOUT0
+* Warning: deleting single-pin signal IOUT1
+* Warning: deleting single-pin signal IOUT2
+* Warning: deleting single-pin signal IOUT3
+* Warning: deleting single-pin signal LED0_AD0
+* Warning: deleting single-pin signal LED1_AD1
+* Warning: deleting single-pin signal MDIP0_N
+* Warning: deleting single-pin signal MDIP0_P
+* Warning: deleting single-pin signal MDIP1_N
+* Warning: deleting single-pin signal MDIP1_P
+* Warning: deleting single-pin signal MDIP2_N
+* Warning: deleting single-pin signal MDIP2_P
+* Warning: deleting single-pin signal MDIP3_N
+* Warning: deleting single-pin signal MDIP3_P
+* Warning: deleting single-pin signal MICOM_INT
+* Warning: deleting single-pin signal N18305571
+* Warning: deleting single-pin signal N18502480
+* Warning: deleting single-pin signal N18502528
+* Warning: deleting single-pin signal N18548076
+* Warning: deleting single-pin signal N18590311
+* Warning: deleting single-pin signal N18924244
+* Warning: deleting single-pin signal N18924247
+* Warning: deleting single-pin signal N18930659
+* Warning: deleting single-pin signal N18930660
+* Warning: deleting single-pin signal N18930661
+* Warning: deleting single-pin signal N18930662
+* Warning: deleting single-pin signal PGOOD
+* Warning: deleting single-pin signal PME
+* Warning: deleting single-pin signal RTL_NINT
+* Warning: deleting single-pin signal RTL_NRST
+* Warning: deleting single-pin signal RTL_RSET
+* Warning: deleting single-pin signal RXDLY
+* Warning: deleting single-pin signal SWREG_EN
+* Warning: deleting single-pin signal XADC0
+* Warning: deleting single-pin signal XADC1
+* Warning: deleting single-pin signal XADC2
+* Warning: deleting single-pin signal XADC3
+* Warning: deleting single-pin signal XADC4
+* Warning: deleting single-pin signal XADC5
+* Warning: deleting single-pin signal XAGPIO0
+* Warning: deleting single-pin signal XAUDIO_I2S0_CDCLK
+* Warning: deleting single-pin signal XAUDIO_I2S0_DIN
+* Warning: deleting single-pin signal XAUDIO_I2S0_DOUT
+* Warning: deleting single-pin signal XAUDIO_I2S0_LRCLK
+* Warning: deleting single-pin signal XAUDIO_I2S0_SCLK
+* Warning: deleting single-pin signal XAUDIO_IRQ
+* Warning: deleting single-pin signal XAUDIO_SCL
+* Warning: deleting single-pin signal XAUDIO_SDA
+* Warning: deleting single-pin signal XBOOT_CONFIG0
+* Warning: deleting single-pin signal XBOOT_CONFIG1
+* Warning: deleting single-pin signal XBOOT_CONFIG2
+* Warning: deleting single-pin signal XBOOT_CONFIG3
+* Warning: deleting single-pin signal XCAM_LDO_EN
+* Warning: deleting single-pin signal XCAM_RESET
+* Warning: deleting single-pin signal XCAM_SCL
+* Warning: deleting single-pin signal XCAM_SDA
+* Warning: deleting single-pin signal XCAM_STBY
+* Warning: deleting single-pin signal XCHG_INT
+* Warning: deleting single-pin signal XCHG_SCL
+* Warning: deleting single-pin signal XCHG_SDA
+* Warning: deleting single-pin signal XDEBUG_RXD
+* Warning: deleting single-pin signal XDEBUG_TXD
+* Warning: deleting single-pin signal XETHPHY_INT
+* Warning: deleting single-pin signal XETHPHY_RST
+* Warning: deleting single-pin signal XFUEL_SCL
+* Warning: deleting single-pin signal XFUEL_SDA
+* Warning: deleting single-pin signal XGPIO0
+* Warning: deleting single-pin signal XGPIO1
+* Warning: deleting single-pin signal XGPIO2
+* Warning: deleting single-pin signal XGPIO3
+* Warning: deleting single-pin signal XGPIO4
+* Warning: deleting single-pin signal XGPIO5
+* Warning: deleting single-pin signal XGPIO6
+* Warning: deleting single-pin signal XGPIO7
+* Warning: deleting single-pin signal XGPIO8
+* Warning: deleting single-pin signal XGPIO9
+* Warning: deleting single-pin signal XHDMI_CEC
+* Warning: deleting single-pin signal XHDMI_HPD
+* Warning: deleting single-pin signal XHDMI_LS_OE
+* Warning: deleting single-pin signal XHDMI_SCL
+* Warning: deleting single-pin signal XHDMI_SDA
+* Warning: deleting single-pin signal XHDMI_TX0N
+* Warning: deleting single-pin signal XHDMI_TX0P
+* Warning: deleting single-pin signal XHDMI_TX1N
+* Warning: deleting single-pin signal XHDMI_TX1P
+* Warning: deleting single-pin signal XHDMI_TX2N
+* Warning: deleting single-pin signal XHDMI_TX2P
+* Warning: deleting single-pin signal XHDMI_TXCN
+* Warning: deleting single-pin signal XHDMI_TXCP
+* Warning: deleting single-pin signal XHSIC_DATA
+* Warning: deleting single-pin signal XHSIC_HUB_CONNECT
+* Warning: deleting single-pin signal XHSIC_HUB_INT
+* Warning: deleting single-pin signal XHSIC_HUB_RST
+* Warning: deleting single-pin signal XHSIC_HUB_SCL
+* Warning: deleting single-pin signal XHSIC_HUB_SDA
+* Warning: deleting single-pin signal XHSIC_STROBE
+* Warning: deleting single-pin signal XI2C0_SCL
+* Warning: deleting single-pin signal XI2C0_SDA
+* Warning: deleting single-pin signal XJTAG_RSTN
+* Warning: deleting single-pin signal XJTAG_TCK
+* Warning: deleting single-pin signal XJTAG_TDI
+* Warning: deleting single-pin signal XJTAG_TDO
+* Warning: deleting single-pin signal XJTAG_TMS
+* Warning: deleting single-pin signal XLCD1_GPIO1
+* Warning: deleting single-pin signal XLCD2_GPIO1
+* Warning: deleting single-pin signal XLCD_GPIO
+* Warning: deleting single-pin signal XLCD_PWMOUT
+* Warning: deleting single-pin signal XLCD_RESET
+* Warning: deleting single-pin signal XLED1_IN
+* Warning: deleting single-pin signal XLED1_OUT
+* Warning: deleting single-pin signal XLED2_IN
+* Warning: deleting single-pin signal XLED2_OUT
+* Warning: deleting single-pin signal XLVDS_DN0
+* Warning: deleting single-pin signal XLVDS_DN1
+* Warning: deleting single-pin signal XLVDS_DN2
+* Warning: deleting single-pin signal XLVDS_DN3
+* Warning: deleting single-pin signal XLVDS_DN4
+* Warning: deleting single-pin signal XLVDS_DNCLK
+* Warning: deleting single-pin signal XLVDS_DP0
+* Warning: deleting single-pin signal XLVDS_DP1
+* Warning: deleting single-pin signal XLVDS_DP2
+* Warning: deleting single-pin signal XLVDS_DP3
+* Warning: deleting single-pin signal XLVDS_DP4
+* Warning: deleting single-pin signal XLVDS_DPCLK
+* Warning: deleting single-pin signal XMCU_SCL
+* Warning: deleting single-pin signal XMCU_SDA
+* Warning: deleting single-pin signal XMIPICSI1_DN0
+* Warning: deleting single-pin signal XMIPICSI1_DN1
+* Warning: deleting single-pin signal XMIPICSI1_DN2
+* Warning: deleting single-pin signal XMIPICSI1_DN3
+* Warning: deleting single-pin signal XMIPICSI1_DNCLK
+* Warning: deleting single-pin signal XMIPICSI1_DP0
+* Warning: deleting single-pin signal XMIPICSI1_DP1
+* Warning: deleting single-pin signal XMIPICSI1_DP2
+* Warning: deleting single-pin signal XMIPICSI1_DP3
+* Warning: deleting single-pin signal XMIPICSI1_DPCLK
+* Warning: deleting single-pin signal XMIPIDSI1_DN0
+* Warning: deleting single-pin signal XMIPIDSI1_DN1
+* Warning: deleting single-pin signal XMIPIDSI1_DN2
+* Warning: deleting single-pin signal XMIPIDSI1_DN3
+* Warning: deleting single-pin signal XMIPIDSI1_DNCLK
+* Warning: deleting single-pin signal XMIPIDSI1_DP0
+* Warning: deleting single-pin signal XMIPIDSI1_DP1
+* Warning: deleting single-pin signal XMIPIDSI1_DP2
+* Warning: deleting single-pin signal XMIPIDSI1_DP3
+* Warning: deleting single-pin signal XMIPIDSI1_DPCLK
+* Warning: deleting single-pin signal XPWM0_OUT
+* Warning: deleting single-pin signal XRESET
+* Warning: deleting single-pin signal XRTC_INT
+* Warning: deleting single-pin signal XRTC_SCL
+* Warning: deleting single-pin signal XRTC_SDA
+* Warning: deleting single-pin signal XSD0_CDN
+* Warning: deleting single-pin signal XSD0_CLK
+* Warning: deleting single-pin signal XSD0_CMD
+* Warning: deleting single-pin signal XSD0_D0
+* Warning: deleting single-pin signal XSD0_D1
+* Warning: deleting single-pin signal XSD0_D2
+* Warning: deleting single-pin signal XSD0_D3
+* Warning: deleting single-pin signal XSPI0_CLK
+* Warning: deleting single-pin signal XSPI0_CS
+* Warning: deleting single-pin signal XSPI0_MISO
+* Warning: deleting single-pin signal XSPI0_MOSI
+* Warning: deleting single-pin signal XTSP1_GPIO1
+* Warning: deleting single-pin signal XTSP1_INT
+* Warning: deleting single-pin signal XTSP2_GPIO1
+* Warning: deleting single-pin signal XTSP2_INT
+* Warning: deleting single-pin signal XTSP_RESET
+* Warning: deleting single-pin signal XTSP_SCL
+* Warning: deleting single-pin signal XTSP_SDA
+* Warning: deleting single-pin signal XUART0_RX
+* Warning: deleting single-pin signal XUART0_TX
+* Warning: deleting single-pin signal XUHOST1_DM
+* Warning: deleting single-pin signal XUHOST1_DP
+* Warning: deleting single-pin signal XUHOST_VBUSCTRL
+* Warning: deleting single-pin signal XUSB3_DM
+* Warning: deleting single-pin signal XUSB3_DP
+* Warning: deleting single-pin signal XUSB3_ID
+* Warning: deleting single-pin signal XUSB3_VBUSCTRL
+* Warning: deleting single-pin signal ZB_DEBUG_TCK_SWCLK
+* Warning: deleting single-pin signal ZB_DEBUG_TDO_SWO
+* Warning: deleting single-pin signal ZB_DEBUG_TMS_SWDIO
+* Warning: deleting single-pin signal ZB_PTI_DATA_FRC_DOUT
+* Warning: deleting single-pin signal ZB_PTI_SYNC_FRC_DFRAME
+* Warning: deleting single-pin signal ZB_RSTN

@@ -1,0 +1,215 @@
+PCB Net List Errors Report - RL0012_Rev_A.sch - Fri Apr 13 00:59:13 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type CAP_0603_2.2UF_10V_X5R:
+ C25 C5 C27 C7 C21 C3 C31 C33 C23 C35
+ C29 C37.
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type RES_0603_59K_1%:
+ R36 R5 R37 R8 R32 R4 R41 R43 R34 R48
+ R39 R60.
+Part Type CAP_0402_10000P_GRM155R71E103KA01D not found in Library - not able to check following parts:
+ C10.
+PCB Decal 0603 not found in Library - not able to check following parts of Part Type FB_0:
+ FB1.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net WW has less than two pins in PCB net list file.
+Net CW has less than two pins in PCB net list file.
+Net WW2 has less than two pins in PCB net list file.
+Net CW2 has less than two pins in PCB net list file.
+Net R2 has less than two pins in PCB net list file.
+Net G2 has less than two pins in PCB net list file.
+Net B2 has less than two pins in PCB net list file.
+Net A2 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections with a Net Name
+
+\RESET\
+MAIN         X13800 Y9600 
+MAIN         X15400 Y5400 
+
+CH10_DIM
+DRIVERS      X9500  Y7800 
+
+CH11_DIM
+DRIVERS      X9500  Y5600 
+
+CH12_DIM
+DRIVERS      X9500  Y3400 
+
+CH1_DIM
+DRIVERS      X4300  Y14400
+
+CH2_DIM
+DRIVERS      X4300  Y12200
+
+CH3_DIM
+DRIVERS      X4300  Y10000
+
+CH4_DIM
+DRIVERS      X4300  Y7800 
+
+CH5_DIM
+DRIVERS      X4300  Y5600 
+
+CH6_DIM
+DRIVERS      X4300  Y3400 
+
+CH7_DIM
+DRIVERS      X9500  Y14400
+
+CH8_DIM
+DRIVERS      X9500  Y12200
+
+CH9_DIM
+DRIVERS      X9500  Y10000
+
+PSA
+MAIN         X5500  Y13500
+
+PSB
+MAIN         X7500  Y13500
+
+SCL
+MAIN         X11100 Y9600 
+MAIN         X10700 Y6400 
+
+SDA
+MAIN         X11100 Y9700 
+MAIN         X10700 Y6500 
+
+SWD_CLK
+MAIN         X12500 Y8300 
+MAIN         X15400 Y5700 
+
+SWD_DIO
+MAIN         X12800 Y8300 
+MAIN         X15400 Y5800 
+
+UART0_RX
+MAIN         X7600  Y9500 
+
+Power or Ground Symbols used with wrong Net Name
+
++24V
+MAIN         X6400  Y14700 - Power  Symbol used for net: +5V
+MAIN         X4300  Y6000  - Power  Symbol used for net: +5V
+DRIVERS      X3600  Y14700 - Power  Symbol used for net: +5V
+DRIVERS      X8800  Y14700 - Power  Symbol used for net: +5V
+
++3.3V
+MAIN         X11400 Y12600 - Power  Symbol used for net: +5V
+MAIN         X6500  Y10800 - Power  Symbol used for net: +5V
+MAIN         X8200  Y6300  - Power  Symbol used for net: +5V
+MAIN         X12300 Y6700  - Power  Symbol used for net: +5V
+MAIN         X13700 Y6700  - Power  Symbol used for net: +5V
+MAIN         X11300 Y7600  - Power  Symbol used for net: +5V
+
++48V
+LED1         X5100  Y12500 - Power  Symbol used for net: +5V
+LED2         X5500  Y13600 - Power  Symbol used for net: +5V
+
+PSA
+MAIN         X4000  Y11900 - Power  Symbol used for net: +5V
+
+PSB
+MAIN         X4500  Y11900 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+\RESET\
+MAIN         X13400 Y9600  - Pin: U7.19
+MAIN         X14700 Y5900  - Pin: R30.1
+
+CH10_DIM
+DRIVERS      X10100 Y7800  - Pin: U15.6
+
+CH11_DIM
+DRIVERS      X10100 Y5600  - Pin: U12.6
+
+CH12_DIM
+DRIVERS      X10100 Y3400  - Pin: U16.6
+
+CH1_DIM
+DRIVERS      X4900  Y14400 - Pin: U10.6
+
+CH2_DIM
+DRIVERS      X4900  Y12200 - Pin: U2.6
+
+CH3_DIM
+DRIVERS      X4900  Y10000 - Pin: U11.6
+
+CH4_DIM
+DRIVERS      X4900  Y7800  - Pin: U3.6
+
+CH5_DIM
+DRIVERS      X4900  Y5600  - Pin: U8.6
+
+CH6_DIM
+DRIVERS      X4900  Y3400  - Pin: U1.6
+
+CH7_DIM
+DRIVERS      X10100 Y14400 - Pin: U13.6
+
+CH8_DIM
+DRIVERS      X10100 Y12200 - Pin: U14.6
+
+CH9_DIM
+DRIVERS      X10100 Y10000 - Pin: U9.6
+
+PSA
+MAIN         X6200  Y13900 - Pin: D30.1
+
+PSB
+MAIN         X6600  Y13900 - Pin: D30.3
+
+SCL
+MAIN         X11700 Y9600  - Pin: U7.6
+MAIN         X11000 Y6800  - Pin: R24.1
+
+SDA
+MAIN         X11700 Y9700  - Pin: U7.5
+MAIN         X11300 Y6800  - Pin: R25.1
+
+SWD_CLK
+MAIN         X12500 Y8900  - Pin: U7.12
+MAIN         X14600 Y5700  - Pin: J3.4
+
+SWD_DIO
+MAIN         X12800 Y8900  - Pin: U7.15
+MAIN         X14600 Y5800  - Pin: J3.2
+
+UART0_RX
+MAIN         X7000  Y9500  - Pin: U6.3
+MAIN         X12700 Y11200 - Pin: TP1.1
+
+Subnets with Off-Page Reference to no other Subnet
+
+A2
+DRIVERS      X12500 Y8000 
+
+B2
+DRIVERS      X12500 Y10200
+
+CW
+DRIVERS      X7200  Y3600 
+
+CW2
+DRIVERS      X12500 Y3600 
+
+G2
+DRIVERS      X12500 Y12400
+
+R2
+DRIVERS      X12500 Y14600
+
+WW
+DRIVERS      X7200  Y5800 
+
+WW2
+DRIVERS      X12500 Y5800 

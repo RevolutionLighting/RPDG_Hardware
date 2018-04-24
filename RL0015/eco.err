@@ -1,0 +1,13 @@
+** ECO In Report **
+
+Tue Apr 24 09:25:02 2018
+
+Input  File : C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0015\eco.eco
+Current Job : RL0010_Rev_A.pcb
+
+
+* Warning: deleting single-pin signal IOUT0
+* Warning: deleting single-pin signal IOUT1
+* Warning: deleting single-pin signal IOUT2
+* Warning: deleting single-pin signal IOUT3
+* Warning: deleting single-pin signal PGOOD
