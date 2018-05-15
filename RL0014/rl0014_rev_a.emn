@@ -1,0 +1,708 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout VX.2.3"    2018/04/30.10:01:16    1
+"c:\users\ward\dropbox\work\revolution\rpdg_hardware\rl0014\rl0014_rev_a.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+1.14596
+0     -50.0                         -28.5                         0     
+0     -43.0                         -28.5                         0     
+0     -43.0                         -35.0                         0     
+0     25.0                          -35.0                         0     
+0     25.0                          -23.0                         0     
+0     41.3                          -23.0                         0     
+0     41.3                          -28.5                         0     
+0     50.0                          -28.5                         0     
+0     50.0                          28.5                          0     
+0     41.0                          28.5                          0     
+0     41.0                          23.0                          0     
+0     25.0                          23.0                          0     
+0     25.0                          35.0                          0     
+0     -43.0                         35.0                          0     
+0     -43.0                         28.5                          0     
+0     -50.0                         28.5                          0     
+0     -50.0                         -28.5                         0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+0.304800 -23.300000 -30.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 -18.500000 -31.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.300000 -30.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -13.100000 -34.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 -14.900000 -32.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -12.100000 -32.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.000000 -33.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -11.200000 -32.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -32.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.350000 -30.150000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.300000 -30.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -23.300000 -28.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.300000 -29.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.300000 -28.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.300000 -27.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -19.700000 -26.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -17.600000 -25.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -7.700000 -28.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -7.700000 -27.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.950000 -29.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.100000 -28.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.500000 -27.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.200000 -28.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.800000 -27.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.600000 -28.550000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.050000 -26.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.300000 -29.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.050000 -26.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.000000 -27.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.000000 -27.050000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.400000 -25.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.400000 -26.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 -26.600000 PTH    BOARD    VIA    UNOWNED
+3.175000 -45.085000 -24.765000 PTH    MH1    PIN    UNOWNED
+0.304800 -29.500000 -24.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.600000 -22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -20.800000 -24.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -10.200000 -22.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -6.700000 -22.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.700000 -22.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.700000 -23.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.700000 -24.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.000000 -22.750000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.050000 -24.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.050000 -23.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.150000 -22.150000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.900000 -20.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.600000 -22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.400000 -23.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.450000 -22.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.800000 -22.750000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.300000 -21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.900000 -23.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.300000 -19.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.600000 -21.800000 PTH    BOARD    VIA    UNOWNED
+3.175000 45.085000 -24.765000 PTH    MH2    PIN    UNOWNED
+0.889000 -44.530000 -17.780000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -17.780000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 -15.240000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -15.240000 PTH    J2    PIN    UNOWNED
+0.304800 -39.300000 -15.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -32.000000 -17.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -25.760000 -14.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 -25.760000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 -18.980000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 -18.980000 -14.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 -11.070000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 -11.070000 -14.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 -5.420000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 -5.420000 -14.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.360000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.360000 -14.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.880000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 4.750000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.140000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.010000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.880000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.140000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 7.010000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 4.750000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.620000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.100000 -18.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.270000 -15.885000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.270000 -17.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.300000 -19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.200000 -19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.000000 -19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.900000 -19.050000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.800000 -17.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.200000 -18.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.100000 -19.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 -19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.300000 -15.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 23.100000 -19.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 20.500000 -19.500000 PTH    BOARD    VIA    UNOWNED
+1.020000 26.515000 -16.570000 PTH    CON2    PIN    UNOWNED
+1.020000 40.085000 -16.570000 PTH    CON2    PIN    UNOWNED
+0.889000 -44.530000 -12.700000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -12.700000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 -10.160000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -10.160000 PTH    J2    PIN    UNOWNED
+0.304800 -36.212500 -10.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -32.540000 -13.625000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 -13.625000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -13.625000 PTH    BOARD    VIA    UNOWNED
+0.304800 -31.410000 -13.625000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -10.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -11.365000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -10.235000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -9.670000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -11.930000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.200000 -12.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.800000 -10.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.900000 -10.100000 PTH    BOARD    VIA    UNOWNED
+3.260000 27.585000 -12.000000 NPTH    CON2    PIN    UNOWNED
+1.020000 26.515000 -14.540000 PTH    CON2    PIN    UNOWNED
+3.260000 39.015000 -12.000000 NPTH    CON2    PIN    UNOWNED
+1.020000 40.085000 -14.540000 PTH    CON2    PIN    UNOWNED
+0.889000 -44.530000 -7.620000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -7.620000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 -5.080000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -5.080000 PTH    J2    PIN    UNOWNED
+0.304800 -40.100000 -5.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -40.200000 -8.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -41.000000 -7.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -37.700000 -5.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -37.600000 -8.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -9.105000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -9.105000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -7.975000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -6.845000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -6.845000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -5.715000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -4.585000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -4.585000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -5.715000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -7.410000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -4.585000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -5.150000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -5.715000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -7.975000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -8.540000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -6.280000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -6.845000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.300000 -9.400000 PTH    BOARD    VIA    UNOWNED
+1.580000 25.505000 -8.950000 PTH    CON2    PIN    UNOWNED
+0.890000 31.395000 -5.650000 PTH    CON2    PIN    UNOWNED
+0.890000 28.855000 -5.650000 PTH    CON2    PIN    UNOWNED
+0.890000 36.475000 -5.650000 PTH    CON2    PIN    UNOWNED
+0.890000 33.935000 -5.650000 PTH    CON2    PIN    UNOWNED
+1.580000 41.095000 -8.950000 PTH    CON2    PIN    UNOWNED
+0.890000 39.015000 -5.650000 PTH    CON2    PIN    UNOWNED
+0.889000 -44.530000 -2.540000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 -2.540000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 0.000000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 0.000000 PTH    J2    PIN    UNOWNED
+0.304800 -39.700000 0.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.400000 -2.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -3.455000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -3.455000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 -2.325000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 -0.065000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 -0.065000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.000000 0.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 0.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -2.890000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -1.760000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -0.065000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -0.630000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -1.195000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 -4.020000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 -3.455000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.200000 -0.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.000000 -1.900000 PTH    BOARD    VIA    UNOWNED
+0.890000 27.585000 -3.110000 PTH    CON2    PIN    UNOWNED
+0.890000 32.665000 -3.110000 PTH    CON2    PIN    UNOWNED
+0.890000 30.125000 -3.110000 PTH    CON2    PIN    UNOWNED
+0.890000 37.745000 -3.110000 PTH    CON2    PIN    UNOWNED
+0.890000 35.205000 -3.110000 PTH    CON2    PIN    UNOWNED
+0.889000 -44.530000 2.540000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 2.540000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 5.080000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 5.080000 PTH    J2    PIN    UNOWNED
+0.304800 -39.100000 1.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.100000 2.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.100000 4.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.600000 5.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.600000 2.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 1.065000 PTH    BOARD    VIA    UNOWNED
+0.304800 -34.800000 1.065000 PTH    BOARD    VIA    UNOWNED
+0.304800 6.100000 5.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 2.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.800000 2.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.900000 4.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.400000 5.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.100000 5.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 2.760000 PTH    BOARD    VIA    UNOWNED
+0.304800 11.812500 1.630000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.900000 1.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.700000 1.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 22.300000 2.600000 PTH    BOARD    VIA    UNOWNED
+0.890000 28.855000 3.110000 PTH    CON1    PIN    UNOWNED
+0.890000 31.395000 3.110000 PTH    CON1    PIN    UNOWNED
+0.890000 33.935000 3.110000 PTH    CON1    PIN    UNOWNED
+0.890000 36.475000 3.110000 PTH    CON1    PIN    UNOWNED
+0.890000 39.015000 3.110000 PTH    CON1    PIN    UNOWNED
+0.304800 -34.800000 8.975000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 8.975000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 10.105000 PTH    BOARD    VIA    UNOWNED
+0.304800 -33.670000 12.365000 PTH    BOARD    VIA    UNOWNED
+0.304800 -35.930000 12.365000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.100000 6.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.100000 7.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.100000 9.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -31.000000 21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -31.900000 21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.800000 11.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -39.500000 7.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -40.200000 12.700000 PTH    BOARD    VIA    UNOWNED
+0.889000 -44.530000 7.620000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 7.620000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 10.160000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 10.160000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 12.700000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 12.700000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 15.240000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 15.240000 PTH    J2    PIN    UNOWNED
+0.889000 -44.530000 17.780000 PTH    J2    PIN    UNOWNED
+0.889000 -47.070000 17.780000 PTH    J2    PIN    UNOWNED
+0.304800 -15.600000 15.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -19.400000 15.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -18.400000 15.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.800000 19.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -15.200000 18.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -16.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -16.700000 15.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.400000 15.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -23.700000 18.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -19.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -20.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -21.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -23.000000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -18.400000 20.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -15.000000 21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -16.000000 21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -29.500000 21.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -10.500000 11.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -11.700000 10.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -14.600000 18.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 -13.500000 18.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 2.000000 13.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 -4.900000 19.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 -3.800000 19.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 -5.700000 19.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -5.420000 18.015000 PTH    BOARD    VIA    UNOWNED
+0.304800 -5.420000 15.755000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.270000 7.845000 PTH    BOARD    VIA    UNOWNED
+0.304800 0.900000 18.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 5.200000 18.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.000000 18.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -0.100000 18.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -7.600000 19.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.400000 16.900000 PTH    BOARD    VIA    UNOWNED
+3.260000 27.585000 12.000000 NPTH    CON1    PIN    UNOWNED
+1.580000 25.505000 8.950000 PTH    CON1    PIN    UNOWNED
+1.020000 26.515000 14.540000 PTH    CON1    PIN    UNOWNED
+1.020000 26.515000 16.570000 PTH    CON1    PIN    UNOWNED
+0.890000 27.585000 5.650000 PTH    CON1    PIN    UNOWNED
+0.890000 30.125000 5.650000 PTH    CON1    PIN    UNOWNED
+0.304800 15.200000 13.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 14.200000 11.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.000000 10.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.100000 14.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.000000 13.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.700000 15.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.700000 16.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.200000 16.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.600000 17.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.500000 17.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.800000 19.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.200000 18.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 11.235000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.400000 7.845000 PTH    BOARD    VIA    UNOWNED
+3.260000 39.015000 12.000000 NPTH    CON1    PIN    UNOWNED
+1.580000 41.095000 8.950000 PTH    CON1    PIN    UNOWNED
+1.020000 40.085000 14.540000 PTH    CON1    PIN    UNOWNED
+1.020000 40.085000 16.570000 PTH    CON1    PIN    UNOWNED
+0.890000 32.665000 5.650000 PTH    CON1    PIN    UNOWNED
+0.890000 35.205000 5.650000 PTH    CON1    PIN    UNOWNED
+0.890000 37.745000 5.650000 PTH    CON1    PIN    UNOWNED
+0.304800 -30.500000 32.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 -32.200000 26.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -31.400000 26.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -30.700000 24.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -30.700000 25.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -30.700000 26.000000 PTH    BOARD    VIA    UNOWNED
+3.175000 -45.085000 24.765000 PTH    MH4    PIN    UNOWNED
+0.304800 -25.300000 33.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.700000 31.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.700000 30.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -29.400000 30.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -27.800000 23.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.700000 29.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 29.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 29.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 28.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 27.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 26.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 26.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -22.100000 25.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 -29.900000 26.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -29.200000 26.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -27.500000 25.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -27.500000 25.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.200000 25.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.200000 25.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 -28.200000 24.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 -30.200000 22.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.900000 25.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.900000 24.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.700000 22.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 9.700000 23.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 10.200000 24.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 8.900000 25.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 -3.100000 32.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.800000 32.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 3.200000 22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 2.100000 22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 1.000000 22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -1.200000 22.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 -2.300000 22.800000 PTH    BOARD    VIA    UNOWNED
+0.889000 9.300000 29.030000 PTH    J4    PIN    UNOWNED
+0.889000 9.300000 31.570000 PTH    J4    PIN    UNOWNED
+0.304800 10.900000 24.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.800000 22.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 13.800000 23.200000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.900000 23.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 12.200000 23.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.500000 27.100000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.200000 26.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.900000 24.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 21.900000 25.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.300000 25.400000 PTH    BOARD    VIA    UNOWNED
+3.175000 45.085000 24.765000 PTH    MH3    PIN    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+ARTIK_530                                    ARTIK_LGA_PAD_18                             U401                                         
+-12.2                         0.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C409                                         
+-38.0                         9.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C410                                         
+-38.0                         8.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C411                                         
+-38.0                         7.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C412                                         
+-38.0                         6.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C413                                         
+-38.0                         5.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C414                                         
+-38.0                         4.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C415                                         
+-38.0                         3.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C416                                         
+-38.0                         2.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C417                                         
+-38.0                         1.5                           0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C418                                         
+-38.0                         0.5                           0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R418                                         
+8.4                           -25.8                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R419                                         
+8.4                           -24.9                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R425                                         
+13.3                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R426                                         
+17.8                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R428                                         
+16.9                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R429                                         
+16.0                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R430                                         
+15.1                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R431                                         
+14.2                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R432                                         
+12.4                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R433                                         
+9.9                           -24.0                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R434                                         
+11.5                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R435                                         
+10.6                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R436                                         
+9.9                           -22.2                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_22_1__ERJ2RKF22R0X                  R437                                         
+9.9                           -23.1                         0.0                           0.0       TOP       PLACED    
+6X6_QFN48                                    RTL8211E                                     U407                                         
+14.2                          -24.9                         0.0                           180.0     TOP       PLACED    
+MH125                                        MH125                                        MH1                                          
+-45.085                       -24.765                       0.0                           0.0       TOP       MCAD      
+MH125                                        MH125                                        MH2                                          
+45.085                        -24.765                       0.0                           0.0       TOP       MCAD      
+MH125                                        MH125                                        MH3                                          
+45.085                        24.765                        0.0                           0.0       TOP       MCAD      
+MH125                                        MH125                                        MH4                                          
+-45.085                       24.765                        0.0                           0.0       TOP       MCAD      
+0402                                         CAP_0402_0_1UF_50V_X5R                       C1                                           
+19.3                          -32.1                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C4                                           
+-31.4                         -24.6                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C5                                           
+-30.4                         -24.6                         0.0                           270.0     TOP       PLACED    
+0603                                         CAP_0603_10UF_16V_X5R                        C2                                           
+5.4                           -26.2                         0.0                           90.0      TOP       PLACED    
+0603                                         CAP_0603_10UF_16V_X5R                        C3                                           
+19.6                          -33.1                         0.0                           0.0       TOP       PLACED    
+0603                                         FB_0                                         FB1                                          
+6.6                           -26.2                         0.0                           270.0     TOP       PLACED    
+NRS2012                                      NRS2012T1R0NGJ                               L4                                           
+18.8                          -30.2                         0.0                           270.0     TOP       PLACED    
+5X5QFN32                                     USB3803_0                                    U1                                           
+-29.4                         -20.9                         0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C8                                           
+-35.2                         -23.9                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_1UF_25V_X5R                         C7                                           
+-26.1                         -19.7                         0.0                           90.0      TOP       PLACED    
+0603                                         CAP_0603_4_7UF_16V_X5R                       C6                                           
+-35.3                         -19.6                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R3                                           
+-24.7                         -18.5                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R4                                           
+-37.4                         -21.7                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_12K_1__ERJ2RKF1202X                 R2                                           
+-28.7                         -24.6                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C10                                          
+18.5                          -21.8                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C11                                          
+9.65                          -20.9                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C12                                          
+13.3                          -29.2                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C13                                          
+21.3                          -20.0                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C15                                          
+0.4                           19.6                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C9                                           
+11.35                         -28.85                        0.0                           180.0     TOP       PLACED    
+0603                                         CAP_0603_4_7UF_16V_X5R                       C14                                          
+-2.1                          19.6                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R10                                          
+-29.5                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R5                                           
+-20.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R6                                           
+-22.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R7                                           
+-23.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R8                                           
+-19.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R9                                           
+-21.0                         20.0                          0.0                           90.0      TOP       PLACED    
+DM3CS                                        DM3CS                                        J10                                          
+0.0                           34.7                          0.0                           0.0       TOP       PLACED    
+0402                                         R                                            R411                                         
+-10.3                         19.8                          0.0                           90.0      TOP       PLACED    
+0402                                         R                                            R412                                         
+2.5                           19.4                          0.0                           0.0       TOP       PLACED    
+0402                                         R                                            R413                                         
+4.7                           19.4                          0.0                           0.0       TOP       PLACED    
+0402                                         R                                            R522                                         
+-8.8                          19.7                          0.0                           0.0       TOP       PLACED    
+0603LED                                      0603LED                                      D1                                           
+19.5                          20.5                          0.0                           270.0     TOP       PLACED    
+100MIL_1X2                                   100MIL_1X2                                   J4                                           
+9.3                           30.3                          0.0                           0.0       TOP       PLACED    
+SOT23                                        MMBT2222                                     Q1                                           
+17.0                          20.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R14                                          
+-16.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R15                                          
+-15.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R16                                          
+-31.9                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R17                                          
+-31.0                         20.0                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R11                                          
+14.0                          19.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R13                                          
+8.9                           26.6                          0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_300_1__ERJ-2RKF3000X                R12                                          
+19.0                          18.0                          0.0                           180.0     TOP       PLACED    
+ZX62-B-5PA_11_                               ZX62-AB-5PA_31_                              J1                                           
+0.0                           -33.4                         0.0                           0.0       TOP       PLACED    
+0603                                         FB_0                                         FB2                                          
+-21.6                         -30.1                         0.0                           180.0     TOP       PLACED    
+0603                                         FB_0                                         FB3                                          
+-20.9                         -22.4                         0.0                           180.0     TOP       PLACED    
+64LQFP                                       FT4232H                                      U8                                           
+-12.6                         -27.3                         0.0                           0.0       TOP       PLACED    
+0402                                         RES-SM0402                                   R19                                          
+-21.6                         -31.2                         0.0                           180.0     TOP       PLACED    
+ZX62-B-5PA_11_                               ZX62-AB-5PA_31_                              J5                                           
+-33.3                         -33.4                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C23                                          
+24.0                          -18.3                         0.0                           225.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C24                                          
+28.1                          -12.8                         0.0                           0.0       TOP       PLACED    
+0936273606                                   CON_ETH_0936273606                           CON1                                         
+33.3                          12.0                          0.0                           180.0     TOP       PLACED    
+0936273606                                   CON_ETH_0936273606                           CON2                                         
+33.3                          -12.0                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_330_1__ERJ2RKF3300X                 R18                                          
+23.2                          -33.3                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_330_1__ERJ2RKF3300X                 R20                                          
+23.5                          -15.6                         0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R28                                          
+9.0                           -26.7                         0.0                           180.0     TOP       PLACED    
+AOZ8804A                                     AOZ8804A                                     U2                                           
+18.5                          -26.5                         0.0                           90.0      TOP       PLACED    
+AOZ8804A                                     AOZ8804A                                     U3                                           
+18.5                          -23.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_2K_1__ERJ-2RKF2001X                 R21                                          
+8.8                           -28.8                         0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R22                                          
+18.7                          -20.4                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R23                                          
+17.6                          -17.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R24                                          
+16.7                          -17.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R25                                          
+15.8                          -17.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R26                                          
+14.9                          -17.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R27                                          
+9.0                           -27.6                         0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R1                                           
+-38.1                         -15.3                         0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C25                                          
+20.4                          -20.9                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C28                                          
+16.5                          -30.1                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C30                                          
+18.7                          -28.5                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C31                                          
+6.6                           -23.7                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C32                                          
+5.6                           -23.7                         0.0                           90.0      TOP       PLACED    
+0603                                         FB_0                                         FB4                                          
+10.0                          -29.8                         0.0                           0.0       TOP       PLACED    
+0603                                         FB_0                                         FB5                                          
+11.2                          -31.7                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_1_5K_1__ERJ-2RKF1501X               R30                                          
+2.6                           -19.0                         0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_4_7K_1__ERJ2RKF4701X                R29                                          
+-38.1                         -16.3                         0.0                           180.0     TOP       PLACED    
+ABM8G                                        ABM8G-25MHZ                                  X1                                           
+15.3                          -32.5                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_27PF_50V_C0G_NP0                    C35                                          
+13.2                          -32.8                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_27PF_50V_C0G_NP0                    C36                                          
+17.4                          -32.3                         0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_1M_1__ERJ-2RKF1004X                 R31                                          
+14.7                          -30.1                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C37                                          
+16.0                          16.0                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_25V_X5R                         C39                                          
+18.0                          16.0                          0.0                           90.0      TOP       PLACED    
+0603                                         CAP_0603_4_7UF_16V_X5R                       C38                                          
+16.0                          17.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_30_1K_1__ERJ-2RKF3012X              R33                                          
+14.0                          13.5                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_52_3K_1__ERJ-2RKF5232X              R32                                          
+14.0                          15.5                          0.0                           90.0      TOP       PLACED    
+S-PWSON-N6                                   TPS7A3701DRVT_0                              U4                                           
+16.0                          14.5                          0.0                           0.0       TOP       PLACED    
+100MIL_2X15                                  100MIL_2X15                                  J2                                           
+-45.8                         0.0                           0.0                           0.0       TOP       PLACED    
+0603                                         CAP_0603_4_7UF_16V_X5R                       C20                                          
+-8.0                          -20.0                         0.0                           0.0       TOP       PLACED    
+SOT23                                        MMBT2222                                     Q3                                           
+20.4                          -8.4                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_120_1__ERJ2RKF1200X                 R38                                          
+19.0                          8.9                           0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R41                                          
+19.0                          -10.6                         0.0                           180.0     TOP       PLACED    
+ABM8G                                        ABM8G-12MHZ                                  X2                                           
+-22.1                         -26.4                         0.0                           90.0      TOP       PLACED    
+AOZ1232                                      AOZ1232                                      U6                                           
+-25.5                         30.0                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C17                                          
+-19.7                         -28.1                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C19                                          
+-19.7                         -25.6                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C21                                          
+-14.3                         -34.4                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C22                                          
+-15.9                         -20.1                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C26                                          
+-8.8                          -34.4                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C27                                          
+-5.4                          -28.5                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C29                                          
+-19.7                         -29.9                         0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C33                                          
+-5.5                          -26.1                         0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C34                                          
+-11.8                         -20.2                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C44                                          
+13.9                          24.4                          0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C45                                          
+18.6                          14.0                          0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C46                                          
+-25.0                         34.0                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_10PF_50V_C0G_NP0                    C16                                          
+-21.9                         -23.8                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_10PF_50V_C0G_NP0                    C18                                          
+-22.1                         -28.9                         0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C48                                          
+-27.0                         33.5                          0.0                           180.0     TOP       PLACED    
+0805                                         CAP_0805_10UF_25V_X5R                        C41                                          
+12.2                          25.8                          0.0                           270.0     TOP       PLACED    
+0805                                         CAP_0805_10UF_25V_X5R                        C42                                          
+11.7                          22.8                          0.0                           0.0       TOP       PLACED    
+1206                                         CAP_1206_10UF_35V_X5R                        C43                                          
+17.2                          24.5                          0.0                           0.0       TOP       PLACED    
+1206                                         CAP_1206_10UF_50V_X5R                        C49                                          
+-32.0                         26.5                          0.0                           270.0     TOP       PLACED    
+1206                                         CAP_1206_10UF_50V_X5R                        C50                                          
+-29.5                         26.5                          0.0                           270.0     TOP       PLACED    
+1206                                         CAP_1206_47UF_10V_X5R                        C51                                          
+-23.7                         24.2                          0.0                           90.0      TOP       PLACED    
+1206                                         CAP_1206_47UF_10V_X5R                        C52                                          
+-25.7                         24.2                          0.0                           90.0      TOP       PLACED    
+0603                                         FB_0                                         FB6                                          
+10.7                          25.8                          0.0                           270.0     TOP       PLACED    
+FSMSM                                        FSMSM                                        SW2                                          
+15.6                          -5.5                          0.0                           270.0     TOP       PLACED    
+FSMSM                                        FSMSM                                        SW3                                          
+15.6                          6.5                           0.0                           270.0     TOP       PLACED    
+0603LED                                      LED                                          D2                                           
+19.0                          6.5                           0.0                           90.0      TOP       PLACED    
+0603LED                                      LED                                          D3                                           
+19.0                          -5.5                          0.0                           90.0      TOP       PLACED    
+SOT23                                        MMBT2222                                     Q2                                           
+20.4                          3.6                           0.0                           0.0       TOP       PLACED    
+2X2QFN8                                      MP2360                                       U5                                           
+18.2                          26.8                          0.0                           0.0       TOP       PLACED    
+NRS2012                                      NRS2012T1R0NGJ                               L1                                           
+14.7                          26.8                          0.0                           180.0     TOP       PLACED    
+SOD-123                                      RB160M                                       D103                                         
+17.2                          28.9                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R39                                          
+19.0                          1.4                           0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_10K_1__ERJ-2RKF1002X                R51                                          
+-29.5                         22.5                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_120_1__ERJ2RKF1200X                 R40                                          
+19.0                          -3.1                          0.0                           90.0      TOP       PLACED    
+0402                                         RES_0402_16_2K_1__ERJ-2RKF1622X              R36                                          
+20.7                          24.8                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R35                                          
+18.6                          13.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_38_3K_1__ERJ-2RKF3832X              R37                                          
+-28.5                         22.5                          0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_402K_1__ERJ-2RKF4023X               R52                                          
+-30.0                         30.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R34                                          
+20.7                          25.8                          0.0                           0.0       TOP       PLACED    
+SRR1210                                      SRR1210-270M                                 L2                                           
+-16.0                         28.3                          0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_01UF_50V_X7R                      C47                                          
+-29.5                         32.0                          0.0                           270.0     TOP       PLACED    
+ASEMB                                        ASEMB-26_000MHZ-LY-T                         U7                                           
+-37.3                         -23.9                         0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_01UF_50V_X7R                      C40                                          
+20.7                          27.3                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C53                                          
+16.2                          -28.7                         0.0                           0.0       TOP       PLACED    
+0603                                         CAP_0603_10UF_16V_X5R                        C54                                          
+8.4                           -31.5                         0.0                           180.0     TOP       PLACED    
+FSMSM                                        FSMSM                                        SW1                                          
+18.8                          -13.6                         0.0                           180.0     TOP       PLACED    
+.END_PLACEMENT

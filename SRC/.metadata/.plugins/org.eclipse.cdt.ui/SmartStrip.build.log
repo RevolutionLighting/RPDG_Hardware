@@ -1,11 +1,54 @@
-10:45:31 **** Incremental Build of configuration Debug for project SmartStrip ****
+15:48:42 **** Incremental Build of configuration Debug for project SmartStrip ****
 make -j4 all 
+Building file: ../source/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -DFSL_RTOS_BM -DSDK_OS_BAREMETAL -DCPU_MKV11Z64VFM7 -DCPU_MKV11Z64VFM7_cm0plus -I../CMSIS -I../board -I../drivers -I../utilities -std=gnu99 -MMD -MP -MF"source/main.d" -MT"source/main.o" -c -o "source/main.o" "../source/main.c"
+../source/main.c: In function 'main':
+../source/main.c:76:4: warning: passing argument 2 of 'FTM_SetupPwm' from incompatible pointer type [enabled by default]
+    FTM_SOURCE_CLOCK);
+    ^
+In file included from ../source/main.c:8:0:
+../drivers/fsl_ftm.h:441:10: note: expected 'const struct ftm_chnl_pwm_signal_param_t *' but argument is of type 'struct ftm_chnl_pwm_signal_param_t (*)[6]'
+ status_t FTM_SetupPwm(FTM_Type *base,
+          ^
+../source/main.c:78:4: warning: passing argument 2 of 'FTM_SetupPwm' from incompatible pointer type [enabled by default]
+    FTM_SOURCE_CLOCK);
+    ^
+In file included from ../source/main.c:8:0:
+../drivers/fsl_ftm.h:441:10: note: expected 'const struct ftm_chnl_pwm_signal_param_t *' but argument is of type 'struct ftm_chnl_pwm_signal_param_t (*)[6]'
+ status_t FTM_SetupPwm(FTM_Type *base,
+          ^
+../source/main.c:80:4: warning: passing argument 2 of 'FTM_SetupPwm' from incompatible pointer type [enabled by default]
+    FTM_SOURCE_CLOCK);
+    ^
+In file included from ../source/main.c:8:0:
+../drivers/fsl_ftm.h:441:10: note: expected 'const struct ftm_chnl_pwm_signal_param_t *' but argument is of type 'struct ftm_chnl_pwm_signal_param_t (*)[6]'
+ status_t FTM_SetupPwm(FTM_Type *base,
+          ^
+../source/main.c:82:4: warning: passing argument 2 of 'FTM_SetupPwm' from incompatible pointer type [enabled by default]
+    FTM_SOURCE_CLOCK);
+    ^
+In file included from ../source/main.c:8:0:
+../drivers/fsl_ftm.h:441:10: note: expected 'const struct ftm_chnl_pwm_signal_param_t *' but argument is of type 'struct ftm_chnl_pwm_signal_param_t (*)[6]'
+ status_t FTM_SetupPwm(FTM_Type *base,
+          ^
+Finished building: ../source/main.c
+ 
+Building target: SmartStrip.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "../MKV11Z64xxx7_flash.ld" -Xlinker --gc-sections -Wl,-Map,"SmartStrip.map" --specs=nano.specs -specs=nosys.specs -Xlinker -z -Xlinker muldefs -o "SmartStrip.elf"  ./utilities/fsl_assert.o ./utilities/fsl_debug_console.o ./utilities/fsl_io.o ./utilities/fsl_log.o ./utilities/fsl_notifier.o ./utilities/fsl_shell.o ./utilities/fsl_str.o  ./startup/startup_MKV11Z7.o  ./source/main.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_edma.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexcan.o ./drivers/fsl_flexcan_edma.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mmdvsq.o ./drivers/fsl_pdb.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKV11Z7.o   
+Finished building target: SmartStrip.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
 Invoking: Cross ARM GNU Print Size
+arm-none-eabi-objcopy -O ihex "SmartStrip.elf"  "SmartStrip.hex"
 arm-none-eabi-size --format=berkeley "SmartStrip.elf"
    text	   data	    bss	    dec	    hex	filename
   14968	    180	   2172	  17320	   43a8	SmartStrip.elf
 Finished building: SmartStrip.siz
+Finished building: SmartStrip.hex
+ 
  
 
-10:45:33 Build Finished (took 1s.917ms)
+15:48:45 Build Finished (took 2s.407ms)
 
