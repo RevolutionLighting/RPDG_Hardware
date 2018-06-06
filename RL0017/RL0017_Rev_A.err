@@ -1,0 +1,232 @@
+PCB Net List Errors Report - RL0017_Rev_A.sch - Tue Jun 05 03:10:06 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type CAP_0402_10000P_GRM155R71E103KA01D not found in Library - not able to check following parts:
+ C10.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections with a Net Name
+
+\RESET\
+MAIN         X13800 Y9600 
+MAIN         X15400 Y5400 
+
+CH1_DIM
+MAIN         X19100 Y7700 
+MAIN         X17300 Y13200
+
+CH1A_DIM
+MAIN         X14700 Y13200
+
+CH1B_DIM
+MAIN         X15900 Y7500 
+
+CH2_DIM
+MAIN         X15900 Y7300 
+MAIN         X17300 Y12300
+
+CH2A_DIM
+MAIN         X14700 Y12300
+
+CH2B_DIM
+MAIN         X19100 Y7500 
+
+CH3_DIM
+MAIN         X19100 Y6600 
+MAIN         X17300 Y11500
+
+CH3A_DIM
+MAIN         X14700 Y11500
+
+CH3B_DIM
+MAIN         X15900 Y6400 
+
+CH4_DIM
+MAIN         X15900 Y6200 
+MAIN         X20200 Y13200
+
+CH4A_DIM
+MAIN         X17600 Y13200
+
+CH4B_DIM
+MAIN         X19100 Y6400 
+
+CH5_DIM
+MAIN         X19100 Y5500 
+MAIN         X20200 Y12300
+
+CH5A_DIM
+MAIN         X17600 Y12300
+
+CH5B_DIM
+MAIN         X15900 Y5300 
+
+CH6_DIM
+MAIN         X15900 Y5100 
+MAIN         X20200 Y11500
+
+CH6A_DIM
+MAIN         X17600 Y11500
+
+CH6B_DIM
+MAIN         X19100 Y5300 
+
+PSA
+MAIN         X3300  Y14200
+
+PSB
+MAIN         X4800  Y14200
+
+SCL
+MAIN         X11100 Y9600 
+MAIN         X10700 Y6400 
+
+SDA
+MAIN         X11100 Y9700 
+MAIN         X10700 Y6500 
+
+SWD_CLK
+MAIN         X12500 Y8300 
+MAIN         X15400 Y5700 
+
+SWD_DIO
+MAIN         X12800 Y8300 
+MAIN         X15400 Y5800 
+
+UART0_RX
+MAIN         X7600  Y9500 
+
+Power or Ground Symbols used with wrong Net Name
+
++24V
+MAIN         X4300  Y6000  - Power  Symbol used for net: +5V
+MAIN         X3600  Y15000 - Power  Symbol used for net: +5V
+MAIN         X4400  Y15000 - Power  Symbol used for net: +5V
+MAIN         X6200  Y15000 - Power  Symbol used for net: +5V
+MAIN         X7600  Y15000 - Power  Symbol used for net: +5V
+LED1         X4600  Y11900 - Power  Symbol used for net: +5V
+LED1         X10200 Y11900 - Power  Symbol used for net: +5V
+LED1         X4600  Y7400  - Power  Symbol used for net: +5V
+LED1         X10200 Y7400  - Power  Symbol used for net: +5V
+LED2         X4000  Y11900 - Power  Symbol used for net: +5V
+LED2         X8500  Y11900 - Power  Symbol used for net: +5V
+LED2         X13000 Y11900 - Power  Symbol used for net: +5V
+LED2         X17500 Y11900 - Power  Symbol used for net: +5V
+LED2         X4000  Y8900  - Power  Symbol used for net: +5V
+LED2         X8500  Y8900  - Power  Symbol used for net: +5V
+LED2         X13000 Y8900  - Power  Symbol used for net: +5V
+LED2         X17500 Y8900  - Power  Symbol used for net: +5V
+
++3.3V
+MAIN         X11400 Y12600 - Power  Symbol used for net: +5V
+MAIN         X6500  Y10800 - Power  Symbol used for net: +5V
+MAIN         X8200  Y6300  - Power  Symbol used for net: +5V
+MAIN         X12300 Y6700  - Power  Symbol used for net: +5V
+MAIN         X13700 Y6700  - Power  Symbol used for net: +5V
+MAIN         X11300 Y7600  - Power  Symbol used for net: +5V
+MAIN         X17600 Y8900  - Power  Symbol used for net: +5V
+
+PSA
+MAIN         X4000  Y11900 - Power  Symbol used for net: +5V
+
+PSB
+MAIN         X4500  Y11900 - Power  Symbol used for net: +5V
+
+Subnets with Missing Off-Page Reference
+
+\RESET\
+MAIN         X13400 Y9600  - Pin: U7.19
+MAIN         X14700 Y5900  - Pin: R30.1
+
+CH1_DIM
+MAIN         X18000 Y7700  - Pin: Q1.6
+MAIN         X16700 Y13200 - Pin: R15.1
+
+CH1A_DIM
+MAIN         X15300 Y13200 - Pin: R16.2
+
+CH1B_DIM
+MAIN         X16400 Y7900  - Pin: R37.1
+
+CH2_DIM
+MAIN         X17200 Y7300  - Pin: Q1.3
+MAIN         X16700 Y12300 - Pin: R17.1
+
+CH2A_DIM
+MAIN         X15300 Y12300 - Pin: R18.2
+
+CH2B_DIM
+MAIN         X18100 Y8000  - Pin: R40.1
+
+CH3_DIM
+MAIN         X18000 Y6600  - Pin: Q2.6
+MAIN         X16700 Y11500 - Pin: R19.1
+
+CH3A_DIM
+MAIN         X15300 Y11500 - Pin: R20.2
+
+CH3B_DIM
+MAIN         X16700 Y7900  - Pin: R38.1
+
+CH4_DIM
+MAIN         X17200 Y6200  - Pin: Q2.3
+MAIN         X19600 Y13200 - Pin: R31.1
+
+CH4A_DIM
+MAIN         X18200 Y13200 - Pin: R32.2
+
+CH4B_DIM
+MAIN         X18400 Y8000  - Pin: R41.1
+
+CH5_DIM
+MAIN         X18000 Y5500  - Pin: Q3.6
+MAIN         X19600 Y12300 - Pin: R33.1
+
+CH5A_DIM
+MAIN         X18200 Y12300 - Pin: R34.2
+
+CH5B_DIM
+MAIN         X17000 Y7900  - Pin: R39.1
+
+CH6_DIM
+MAIN         X17200 Y5100  - Pin: Q3.3
+MAIN         X19600 Y11500 - Pin: R35.1
+
+CH6A_DIM
+MAIN         X18200 Y11500 - Pin: R36.2
+
+CH6B_DIM
+MAIN         X18700 Y8000  - Pin: R42.1
+
+PSA
+MAIN         X3600  Y13800 - Pin: D19.5
+
+PSB
+MAIN         X4400  Y13800 - Pin: D20.5
+
+SCL
+MAIN         X11700 Y9600  - Pin: U7.6
+MAIN         X11000 Y6800  - Pin: R24.1
+
+SDA
+MAIN         X11700 Y9700  - Pin: U7.5
+MAIN         X11300 Y6800  - Pin: R25.1
+
+SWD_CLK
+MAIN         X12500 Y8900  - Pin: U7.12
+MAIN         X14600 Y5700  - Pin: J3.4
+
+SWD_DIO
+MAIN         X12800 Y8900  - Pin: U7.15
+MAIN         X14600 Y5800  - Pin: J3.2
+
+UART0_RX
+MAIN         X7000  Y9500  - Pin: U6.3
+MAIN         X12700 Y11200 - Pin: TP1.1
