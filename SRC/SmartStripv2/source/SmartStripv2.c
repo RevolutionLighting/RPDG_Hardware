@@ -7,35 +7,9 @@
 #include "clock_config.h"
 #include "fsl_ftm.h"
 #include "fsl_uart.h"
-#include "fsl_gpio.h"
 
-#define BASEADDRESS 0
+#define BASEADDRESS 1
 #define BAUDRATE 38400
-
-#define BOARD_INITPINS_CH1_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH2_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH3_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH4_DIM_PERIPHERAL FTM2                    /*!<@brief Device name: FTM2 */
-#define BOARD_INITPINS_CH5_DIM_PERIPHERAL FTM2                    /*!<@brief Device name: FTM2 */
-#define BOARD_INITPINS_CH6_DIM_PERIPHERAL FTM1                    /*!<@brief Device name: FTM1 */
-#define BOARD_INITPINS_CH7_DIM_PERIPHERAL FTM1                    /*!<@brief Device name: FTM1 */
-#define BOARD_INITPINS_CH8_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH9_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH10_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
-#define BOARD_INITPINS_CH11_DIM_PERIPHERAL FTM4                    /*!<@brief Device name: FTM4 */
-#define BOARD_INITPINS_CH12_DIM_PERIPHERAL FTM4                    /*!<@brief Device name: FTM4 */
-#define BOARD_INITPINS_CH1_DIM_CHANNEL 3                          /*!<@brief FTM0 channel: 3 */
-#define BOARD_INITPINS_CH2_DIM_CHANNEL 0                          /*!<@brief FTM0 channel: 0 */
-#define BOARD_INITPINS_CH3_DIM_CHANNEL 1                          /*!<@brief FTM0 channel: 1 */
-#define BOARD_INITPINS_CH4_DIM_CHANNEL 0                          /*!<@brief FTM2 channel: 0 */
-#define BOARD_INITPINS_CH5_DIM_CHANNEL 1                          /*!<@brief FTM2 channel: 1 */
-#define BOARD_INITPINS_CH6_DIM_CHANNEL 0                          /*!<@brief FTM1 channel: 0 */
-#define BOARD_INITPINS_CH7_DIM_CHANNEL 1                          /*!<@brief FTM1 channel: 1 */
-#define BOARD_INITPINS_CH8_DIM_CHANNEL 2                          /*!<@brief FTM0 channel: 2 */
-#define BOARD_INITPINS_CH9_DIM_CHANNEL 4                          /*!<@brief FTM0 channel: 4 */
-#define BOARD_INITPINS_CH10_DIM_CHANNEL 5                          /*!<@brief FTM0 channel: 5 */
-#define BOARD_INITPINS_CH11_DIM_CHANNEL 0                          /*!<@brief FTM4 channel: 0 */
-#define BOARD_INITPINS_CH12_DIM_CHANNEL 1                          /*!<@brief FTM4 channel: 1 */
 
 /* Get source clock for FTM driver */
 #define FTM_SOURCE_CLOCK CLOCK_GetFreq(kCLOCK_CoreSysClk)
@@ -146,7 +120,6 @@ int main(void) {
 	uint8_t index = 0;
 
 	while (1) {
-/*
 	  UART_ReadBlocking(UART0, &ch, 1);
       if(ch==BASEADDRESS)
       {
@@ -163,8 +136,7 @@ int main(void) {
 		__asm("NOP");
 		/* something to use as a breakpoint stop while looping */
 
-
-//		/* demo code for standalone operation
+		/* demo code for standalone operation
 
 		for (i=0;i<12;i++)
 		{
@@ -184,7 +156,7 @@ int main(void) {
 		{
 			setPwm(i,0);
 		}
-//		*/
+		*/
 	}
 
 }

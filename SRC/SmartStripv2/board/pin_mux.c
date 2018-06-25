@@ -7,39 +7,39 @@
 /*
  * TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Pins v4.1
+product: Pins v4.0
 processor: MKV11Z64xxx7
 package_id: MKV11Z64VFM7
 mcu_data: ksdk2_0
-processor_version: 4.0.0
+processor_version: 3.0.0
 pin_labels:
 - {pin_num: '3', pin_signal: ADC0_SE1/ADC0_DP1/ADC1_SE0/PTE16/SPI0_PCS0/UART1_TX/FTM_CLKIN0/FTM0_FLT3, label: TP2, identifier: TP2}
 - {pin_num: '4', pin_signal: ADC0_DM1/ADC0_SE5/ADC1_SE5/PTE17/LLWU_P19/SPI0_SCK/UART1_RX/FTM_CLKIN1/LPTMR0_ALT3, label: TP3, identifier: TP3}
 - {pin_num: '5', pin_signal: ADC0_SE6/ADC1_SE1/ADC1_DP1/PTE18/LLWU_P20/SPI0_SOUT/UART1_CTS_b/I2C0_SDA/SPI0_SIN, label: SDA, identifier: SDA}
 - {pin_num: '6', pin_signal: ADC0_SE7/ADC1_SE7/ADC1_DM1/PTE19/SPI0_SIN/UART1_RTS_b/I2C0_SCL/SPI0_SOUT, label: SCL, identifier: SCL}
-- {pin_num: '9', pin_signal: ADC1_SE4/CMP1_IN4/DAC0_OUT/PTE30/FTM0_CH3/FTM_CLKIN1, label: CH1_DIM, identifier: CH1_DIM}
-- {pin_num: '10', pin_signal: PTE24/CAN0_TX/FTM0_CH0/I2C0_SCL/EWM_OUT_b, label: CH2_DIM, identifier: CH2_DIM}
-- {pin_num: '11', pin_signal: PTE25/LLWU_P21/CAN0_RX/FTM0_CH1/I2C0_SDA/EWM_IN, label: CH3_DIM, identifier: CH3_DIM}
 - {pin_num: '12', pin_signal: PTA0/UART0_CTS_b/FTM0_CH5/EWM_IN/SWD_CLK, label: SWD_CLK, identifier: SWD_CLK}
-- {pin_num: '13', pin_signal: PTA1/UART0_RX/FTM2_CH0/CMP0_OUT/FTM2_QD_PHA/FTM1_CH1/FTM4_CH0, label: CH4_DIM, identifier: CH4_DIM}
-- {pin_num: '14', pin_signal: PTA2/UART0_TX/FTM2_CH1/CMP1_OUT/FTM2_QD_PHB/FTM1_CH0/FTM4_CH1, label: CH5_DIM, identifier: CH5_DIM}
 - {pin_num: '15', pin_signal: PTA3/UART0_RTS_b/FTM0_CH0/FTM2_FLT0/EWM_OUT_b/SWD_DIO, label: SWD_DIO, identifier: SWD_DIO}
 - {pin_num: '16', pin_signal: PTA4/LLWU_P3/FTM0_CH1/FTM4_FLT0/FTM0_FLT3/NMI_b, label: OPEN, identifier: OPEN}
 - {pin_num: '17', pin_signal: EXTAL0/PTA18/FTM0_FLT2/FTM_CLKIN0/FTM3_CH2, label: EXTAL, identifier: EXTAL}
 - {pin_num: '18', pin_signal: XTAL0/PTA19/FTM0_FLT0/FTM1_FLT0/FTM_CLKIN1/LPTMR0_ALT1, label: XTAL, identifier: XTAL}
 - {pin_num: '19', pin_signal: PTA20/RESET_b, label: RESET, identifier: RESET}
-- {pin_num: '20', pin_signal: ADC0_SE8/ADC1_SE8/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/FTM1_QD_PHA/UART0_RX, label: CH6_DIM, identifier: CH6_DIM}
-- {pin_num: '21', pin_signal: ADC0_SE9/ADC1_SE9/PTB1/I2C0_SDA/FTM1_CH1/FTM0_FLT2/EWM_IN/FTM1_QD_PHB/UART0_TX, label: CH7_DIM, identifier: CH7_DIM}
 - {pin_num: '23', pin_signal: ADC0_SE11/CMP1_IN0/PTC2/SPI0_PCS2/UART1_CTS_b/FTM0_CH1/FTM2_CH1, label: TP7, identifier: TP7}
 - {pin_num: '25', pin_signal: PTC4/LLWU_P8/SPI0_PCS0/UART1_TX/FTM0_CH3/CMP1_OUT, label: TP6, identifier: TP6}
 - {pin_num: '26', pin_signal: PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/CMP0_OUT/FTM0_CH2, label: TP5, identifier: TP5}
 - {pin_num: '27', pin_signal: CMP0_IN0/PTC6/LLWU_P10/SPI0_SOUT/PDB_EXTRG1/UART0_RX/I2C0_SCL, label: UART_RX, identifier: UART_RX}
 - {pin_num: '28', pin_signal: CMP0_IN1/PTC7/SPI0_SIN/UART0_TX/I2C0_SDA, label: UART_TX, identifier: UART_TX}
+- {pin_num: '9', pin_signal: ADC1_SE4/CMP1_IN4/DAC0_OUT/PTE30/FTM0_CH3/FTM_CLKIN1, label: CH1_DIM, identifier: CH1_DIM}
+- {pin_num: '10', pin_signal: PTE24/CAN0_TX/FTM0_CH0/I2C0_SCL/EWM_OUT_b, label: CH2_DIM, identifier: CH2_DIM}
+- {pin_num: '11', pin_signal: PTE25/LLWU_P21/CAN0_RX/FTM0_CH1/I2C0_SDA/EWM_IN, label: CH3_DIM, identifier: CH3_DIM}
+- {pin_num: '20', pin_signal: ADC0_SE8/ADC1_SE8/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/FTM1_QD_PHA/UART0_RX, label: CH6_DIM, identifier: CH6_DIM}
+- {pin_num: '14', pin_signal: PTA2/UART0_TX/FTM2_CH1/CMP1_OUT/FTM2_QD_PHB/FTM1_CH0/FTM4_CH1, label: CH5_DIM, identifier: CH5_DIM}
+- {pin_num: '21', pin_signal: ADC0_SE9/ADC1_SE9/PTB1/I2C0_SDA/FTM1_CH1/FTM0_FLT2/EWM_IN/FTM1_QD_PHB/UART0_TX, label: CH7_DIM, identifier: CH7_DIM}
 - {pin_num: '22', pin_signal: ADC1_SE3/PTC1/LLWU_P6/SPI0_PCS3/UART1_RTS_b/FTM0_CH0/FTM2_CH0, label: TP9, identifier: TP9}
 - {pin_num: '24', pin_signal: CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUT/FTM3_FLT0, label: CH8_DIM, identifier: CH8_DIM}
 - {pin_num: '29', pin_signal: PTD4/LLWU_P14/SPI0_PCS1/UART0_RTS_b/FTM0_CH4/FTM2_CH0/EWM_IN/SPI0_PCS0, label: CH9_DIM, identifier: CH9_DIM}
 - {pin_num: '30', pin_signal: ADC0_SE3/PTD5/SPI0_PCS2/UART0_CTS_b/FTM0_CH5/FTM2_CH1/EWM_OUT_b/SPI0_SCK, label: CH10_DIM, identifier: CH10_DIM}
 - {pin_num: '31', pin_signal: ADC1_SE6/PTD6/LLWU_P15/FTM4_CH0/UART0_RX/FTM0_CH0/FTM1_CH0/FTM0_FLT0/SPI0_SOUT, label: CH11_DIM, identifier: CH11_DIM}
+- {pin_num: '13', pin_signal: PTA1/UART0_RX/FTM2_CH0/CMP0_OUT/FTM2_QD_PHA/FTM1_CH1/FTM4_CH0, label: CH4_DIM, identifier: CH4_DIM}
 - {pin_num: '32', pin_signal: PTD7/FTM4_CH1/UART0_TX/FTM0_CH1/FTM1_CH1/FTM0_FLT1/SPI0_SIN, label: CH12_DIM, identifier: CH12_DIM}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
@@ -47,7 +47,6 @@ pin_labels:
 
 #include "fsl_common.h"
 #include "fsl_port.h"
-#include "fsl_gpio.h"
 #include "pin_mux.h"
 
 /* FUNCTION ************************************************************************************************************
@@ -67,10 +66,8 @@ void BOARD_InitBootPins(void)
 BOARD_InitPins:
 - options: {callFromInitBoot: 'true', coreID: core0, enableClock: 'true'}
 - pin_list:
-  - {pin_num: '3', peripheral: GPIOE, signal: 'GPIO, 16', pin_signal: ADC0_SE1/ADC0_DP1/ADC1_SE0/PTE16/SPI0_PCS0/UART1_TX/FTM_CLKIN0/FTM0_FLT3, direction: OUTPUT,
-    slew_rate: fast}
-  - {pin_num: '4', peripheral: GPIOE, signal: 'GPIO, 17', pin_signal: ADC0_DM1/ADC0_SE5/ADC1_SE5/PTE17/LLWU_P19/SPI0_SCK/UART1_RX/FTM_CLKIN1/LPTMR0_ALT3, direction: OUTPUT,
-    slew_rate: fast}
+  - {pin_num: '3', peripheral: GPIOE, signal: 'GPIO, 16', pin_signal: ADC0_SE1/ADC0_DP1/ADC1_SE0/PTE16/SPI0_PCS0/UART1_TX/FTM_CLKIN0/FTM0_FLT3, slew_rate: fast}
+  - {pin_num: '4', peripheral: GPIOE, signal: 'GPIO, 17', pin_signal: ADC0_DM1/ADC0_SE5/ADC1_SE5/PTE17/LLWU_P19/SPI0_SCK/UART1_RX/FTM_CLKIN1/LPTMR0_ALT3, slew_rate: fast}
   - {pin_num: '5', peripheral: I2C0, signal: SDA, pin_signal: ADC0_SE6/ADC1_SE1/ADC1_DP1/PTE18/LLWU_P20/SPI0_SOUT/UART1_CTS_b/I2C0_SDA/SPI0_SIN, slew_rate: fast}
   - {pin_num: '6', peripheral: I2C0, signal: SCL, pin_signal: ADC0_SE7/ADC1_SE7/ADC1_DM1/PTE19/SPI0_SIN/UART1_RTS_b/I2C0_SCL/SPI0_SOUT}
   - {pin_num: '12', peripheral: SWD, signal: CLK, pin_signal: PTA0/UART0_CTS_b/FTM0_CH5/EWM_IN/SWD_CLK}
@@ -84,18 +81,18 @@ BOARD_InitPins:
   - {pin_num: '26', peripheral: GPIOC, signal: 'GPIO, 5', pin_signal: PTC5/LLWU_P9/SPI0_SCK/LPTMR0_ALT2/CMP0_OUT/FTM0_CH2, direction: OUTPUT}
   - {pin_num: '27', peripheral: UART0, signal: RX, pin_signal: CMP0_IN0/PTC6/LLWU_P10/SPI0_SOUT/PDB_EXTRG1/UART0_RX/I2C0_SCL}
   - {pin_num: '28', peripheral: UART0, signal: TX, pin_signal: CMP0_IN1/PTC7/SPI0_SIN/UART0_TX/I2C0_SDA, direction: OUTPUT}
-  - {pin_num: '20', peripheral: FTM1, signal: 'CH, 0', pin_signal: ADC0_SE8/ADC1_SE8/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/FTM1_QD_PHA/UART0_RX, direction: OUTPUT}
-  - {pin_num: '22', peripheral: GPIOC, signal: 'GPIO, 1', pin_signal: ADC1_SE3/PTC1/LLWU_P6/SPI0_PCS3/UART1_RTS_b/FTM0_CH0/FTM2_CH0, direction: OUTPUT}
-  - {pin_num: '21', peripheral: FTM1, signal: 'CH, 1', pin_signal: ADC0_SE9/ADC1_SE9/PTB1/I2C0_SDA/FTM1_CH1/FTM0_FLT2/EWM_IN/FTM1_QD_PHB/UART0_TX, direction: OUTPUT}
+  - {pin_num: '9', peripheral: FTM0, signal: 'CH, 3', pin_signal: ADC1_SE4/CMP1_IN4/DAC0_OUT/PTE30/FTM0_CH3/FTM_CLKIN1, direction: OUTPUT}
   - {pin_num: '10', peripheral: FTM0, signal: 'CH, 0', pin_signal: PTE24/CAN0_TX/FTM0_CH0/I2C0_SCL/EWM_OUT_b, direction: OUTPUT}
   - {pin_num: '11', peripheral: FTM0, signal: 'CH, 1', pin_signal: PTE25/LLWU_P21/CAN0_RX/FTM0_CH1/I2C0_SDA/EWM_IN, direction: OUTPUT}
+  - {pin_num: '20', peripheral: FTM1, signal: 'CH, 0', pin_signal: ADC0_SE8/ADC1_SE8/PTB0/LLWU_P5/I2C0_SCL/FTM1_CH0/FTM1_QD_PHA/UART0_RX, direction: OUTPUT}
+  - {pin_num: '14', peripheral: FTM2, signal: 'CH, 1', pin_signal: PTA2/UART0_TX/FTM2_CH1/CMP1_OUT/FTM2_QD_PHB/FTM1_CH0/FTM4_CH1, direction: OUTPUT}
+  - {pin_num: '21', peripheral: FTM1, signal: 'CH, 1', pin_signal: ADC0_SE9/ADC1_SE9/PTB1/I2C0_SDA/FTM1_CH1/FTM0_FLT2/EWM_IN/FTM1_QD_PHB/UART0_TX, direction: OUTPUT}
+  - {pin_num: '22', peripheral: GPIOC, signal: 'GPIO, 1', pin_signal: ADC1_SE3/PTC1/LLWU_P6/SPI0_PCS3/UART1_RTS_b/FTM0_CH0/FTM2_CH0, direction: OUTPUT}
   - {pin_num: '24', peripheral: FTM0, signal: 'CH, 2', pin_signal: CMP1_IN1/PTC3/LLWU_P7/SPI0_PCS1/UART1_RX/FTM0_CH2/CLKOUT/FTM3_FLT0, direction: OUTPUT}
-  - {pin_num: '9', peripheral: FTM0, signal: 'CH, 3', pin_signal: ADC1_SE4/CMP1_IN4/DAC0_OUT/PTE30/FTM0_CH3/FTM_CLKIN1, direction: OUTPUT}
   - {pin_num: '29', peripheral: FTM0, signal: 'CH, 4', pin_signal: PTD4/LLWU_P14/SPI0_PCS1/UART0_RTS_b/FTM0_CH4/FTM2_CH0/EWM_IN/SPI0_PCS0, direction: OUTPUT}
   - {pin_num: '30', peripheral: FTM0, signal: 'CH, 5', pin_signal: ADC0_SE3/PTD5/SPI0_PCS2/UART0_CTS_b/FTM0_CH5/FTM2_CH1/EWM_OUT_b/SPI0_SCK, direction: OUTPUT}
-  - {pin_num: '13', peripheral: FTM2, signal: 'CH, 0', pin_signal: PTA1/UART0_RX/FTM2_CH0/CMP0_OUT/FTM2_QD_PHA/FTM1_CH1/FTM4_CH0, direction: OUTPUT}
-  - {pin_num: '14', peripheral: FTM2, signal: 'CH, 1', pin_signal: PTA2/UART0_TX/FTM2_CH1/CMP1_OUT/FTM2_QD_PHB/FTM1_CH0/FTM4_CH1, direction: OUTPUT}
   - {pin_num: '31', peripheral: FTM4, signal: 'CH, 0', pin_signal: ADC1_SE6/PTD6/LLWU_P15/FTM4_CH0/UART0_RX/FTM0_CH0/FTM1_CH0/FTM0_FLT0/SPI0_SOUT, direction: OUTPUT}
+  - {pin_num: '13', peripheral: FTM2, signal: 'CH, 0', pin_signal: PTA1/UART0_RX/FTM2_CH0/CMP0_OUT/FTM2_QD_PHA/FTM1_CH1/FTM4_CH0, direction: OUTPUT}
   - {pin_num: '32', peripheral: FTM4, signal: 'CH, 1', pin_signal: PTD7/FTM4_CH1/UART0_TX/FTM0_CH1/FTM1_CH1/FTM0_FLT1/SPI0_SIN, direction: OUTPUT}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
@@ -119,55 +116,6 @@ void BOARD_InitPins(void)
     CLOCK_EnableClock(kCLOCK_PortD);
     /* Port E Clock Gate Control: Clock enabled */
     CLOCK_EnableClock(kCLOCK_PortE);
-
-    gpio_pin_config_t OPEN_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTA4 (pin 16)  */
-    GPIO_PinInit(BOARD_INITPINS_OPEN_GPIO, BOARD_INITPINS_OPEN_PIN, &OPEN_config);
-
-    gpio_pin_config_t TP9_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTC1 (pin 22)  */
-    GPIO_PinInit(BOARD_INITPINS_TP9_GPIO, BOARD_INITPINS_TP9_PIN, &TP9_config);
-
-    gpio_pin_config_t TP7_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTC2 (pin 23)  */
-    GPIO_PinInit(BOARD_INITPINS_TP7_GPIO, BOARD_INITPINS_TP7_PIN, &TP7_config);
-
-    gpio_pin_config_t TP6_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTC4 (pin 25)  */
-    GPIO_PinInit(BOARD_INITPINS_TP6_GPIO, BOARD_INITPINS_TP6_PIN, &TP6_config);
-
-    gpio_pin_config_t TP5_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTC5 (pin 26)  */
-    GPIO_PinInit(BOARD_INITPINS_TP5_GPIO, BOARD_INITPINS_TP5_PIN, &TP5_config);
-
-    gpio_pin_config_t TP2_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTE16 (pin 3)  */
-    GPIO_PinInit(BOARD_INITPINS_TP2_GPIO, BOARD_INITPINS_TP2_PIN, &TP2_config);
-
-    gpio_pin_config_t TP3_config = {
-        .pinDirection = kGPIO_DigitalOutput,
-        .outputLogic = 0U
-    };
-    /* Initialize GPIO functionality on pin PTE17 (pin 4)  */
-    GPIO_PinInit(BOARD_INITPINS_TP3_GPIO, BOARD_INITPINS_TP3_PIN, &TP3_config);
 
     /* PORTA0 (pin 12) is configured as SWD_CLK */
     PORT_SetPinMux(BOARD_INITPINS_SWD_CLK_PORT, BOARD_INITPINS_SWD_CLK_PIN, kPORT_MuxAlt7);
@@ -235,24 +183,8 @@ void BOARD_InitPins(void)
     /* PORTE16 (pin 3) is configured as PTE16 */
     PORT_SetPinMux(BOARD_INITPINS_TP2_PORT, BOARD_INITPINS_TP2_PIN, kPORT_MuxAsGpio);
 
-    PORTE->PCR[16] = ((PORTE->PCR[16] &
-                       /* Mask bits to zero which are setting */
-                       (~(PORT_PCR_SRE_MASK | PORT_PCR_ISF_MASK)))
-
-                      /* Slew Rate Enable: Fast slew rate is configured on the corresponding pin, if the pin is
-                       * configured as a digital output. */
-                      | PORT_PCR_SRE(kPORT_FastSlewRate));
-
     /* PORTE17 (pin 4) is configured as PTE17 */
     PORT_SetPinMux(BOARD_INITPINS_TP3_PORT, BOARD_INITPINS_TP3_PIN, kPORT_MuxAsGpio);
-
-    PORTE->PCR[17] = ((PORTE->PCR[17] &
-                       /* Mask bits to zero which are setting */
-                       (~(PORT_PCR_SRE_MASK | PORT_PCR_ISF_MASK)))
-
-                      /* Slew Rate Enable: Fast slew rate is configured on the corresponding pin, if the pin is
-                       * configured as a digital output. */
-                      | PORT_PCR_SRE(kPORT_FastSlewRate));
 
     /* PORTE18 (pin 5) is configured as I2C0_SDA */
     PORT_SetPinMux(BOARD_INITPINS_SDA_PORT, BOARD_INITPINS_SDA_PIN, kPORT_MuxAlt4);

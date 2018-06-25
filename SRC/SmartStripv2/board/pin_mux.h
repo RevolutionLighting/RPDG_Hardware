@@ -6,6 +6,18 @@
 #ifndef _PIN_MUX_H_
 #define _PIN_MUX_H_
 
+/***********************************************************************************************************************
+ * Definitions
+ **********************************************************************************************************************/
+
+/*! @brief Direction type  */
+typedef enum _pin_mux_direction
+{
+    kPIN_MUX_DirectionInput = 0U,        /* Input direction */
+    kPIN_MUX_DirectionOutput = 1U,       /* Output direction */
+    kPIN_MUX_DirectionInputOrOutput = 2U /* Input or output direction */
+} pin_mux_direction_t;
+
 /*!
  * @addtogroup pin_mux
  * @{
@@ -64,178 +76,362 @@ void BOARD_InitBootPins(void);
 
 /*! @name PORTE16 (number 3), TP2
   @{ */
-#define BOARD_INITPINS_TP2_GPIO GPIOE /*!<@brief GPIO device name: GPIOE */
-#define BOARD_INITPINS_TP2_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_TP2_PIN 16U    /*!<@brief PORTE pin index: 16 */
-                                      /* @} */
+#define BOARD_INITPINS_TP2_PERIPHERAL GPIOE /*!<@brief Device name: GPIOE */
+#define BOARD_INITPINS_TP2_SIGNAL GPIO      /*!<@brief GPIOE signal: GPIO */
+#define BOARD_INITPINS_TP2_GPIO GPIOE       /*!<@brief GPIO device name: GPIOE */
+#define BOARD_INITPINS_TP2_GPIO_PIN 16U     /*!<@brief PORTE pin index: 16 */
+#define BOARD_INITPINS_TP2_PORT PORTE       /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_TP2_PIN 16U          /*!<@brief PORTE pin index: 16 */
+#define BOARD_INITPINS_TP2_CHANNEL 16       /*!<@brief GPIOE GPIO channel: 16 */
+#define BOARD_INITPINS_TP2_PIN_NAME PTE16   /*!<@brief Pin name */
+#define BOARD_INITPINS_TP2_LABEL "TP2"      /*!<@brief Label */
+#define BOARD_INITPINS_TP2_NAME "TP2"       /*!<@brief Identifier name */
+                                            /* @} */
 
 /*! @name PORTE17 (number 4), TP3
   @{ */
-#define BOARD_INITPINS_TP3_GPIO GPIOE /*!<@brief GPIO device name: GPIOE */
-#define BOARD_INITPINS_TP3_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_TP3_PIN 17U    /*!<@brief PORTE pin index: 17 */
-                                      /* @} */
+#define BOARD_INITPINS_TP3_PERIPHERAL GPIOE /*!<@brief Device name: GPIOE */
+#define BOARD_INITPINS_TP3_SIGNAL GPIO      /*!<@brief GPIOE signal: GPIO */
+#define BOARD_INITPINS_TP3_GPIO GPIOE       /*!<@brief GPIO device name: GPIOE */
+#define BOARD_INITPINS_TP3_GPIO_PIN 17U     /*!<@brief PORTE pin index: 17 */
+#define BOARD_INITPINS_TP3_PORT PORTE       /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_TP3_PIN 17U          /*!<@brief PORTE pin index: 17 */
+#define BOARD_INITPINS_TP3_CHANNEL 17       /*!<@brief GPIOE GPIO channel: 17 */
+#define BOARD_INITPINS_TP3_PIN_NAME PTE17   /*!<@brief Pin name */
+#define BOARD_INITPINS_TP3_LABEL "TP3"      /*!<@brief Label */
+#define BOARD_INITPINS_TP3_NAME "TP3"       /*!<@brief Identifier name */
+                                            /* @} */
 
 /*! @name PORTE18 (number 5), SDA
   @{ */
-#define BOARD_INITPINS_SDA_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_SDA_PIN 18U    /*!<@brief PORTE pin index: 18 */
-                                      /* @} */
+#define BOARD_INITPINS_SDA_PERIPHERAL I2C0   /*!<@brief Device name: I2C0 */
+#define BOARD_INITPINS_SDA_SIGNAL SDA        /*!<@brief I2C0 signal: SDA */
+#define BOARD_INITPINS_SDA_PORT PORTE        /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_SDA_PIN 18U           /*!<@brief PORTE pin index: 18 */
+#define BOARD_INITPINS_SDA_PIN_NAME I2C0_SDA /*!<@brief Pin name */
+#define BOARD_INITPINS_SDA_LABEL "SDA"       /*!<@brief Label */
+#define BOARD_INITPINS_SDA_NAME "SDA"        /*!<@brief Identifier name */
+                                             /* @} */
 
 /*! @name PORTE19 (number 6), SCL
   @{ */
-#define BOARD_INITPINS_SCL_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_SCL_PIN 19U    /*!<@brief PORTE pin index: 19 */
-                                      /* @} */
+#define BOARD_INITPINS_SCL_PERIPHERAL I2C0   /*!<@brief Device name: I2C0 */
+#define BOARD_INITPINS_SCL_SIGNAL SCL        /*!<@brief I2C0 signal: SCL */
+#define BOARD_INITPINS_SCL_PORT PORTE        /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_SCL_PIN 19U           /*!<@brief PORTE pin index: 19 */
+#define BOARD_INITPINS_SCL_PIN_NAME I2C0_SCL /*!<@brief Pin name */
+#define BOARD_INITPINS_SCL_LABEL "SCL"       /*!<@brief Label */
+#define BOARD_INITPINS_SCL_NAME "SCL"        /*!<@brief Identifier name */
+                                             /* @} */
 
 /*! @name PORTA0 (number 12), SWD_CLK
   @{ */
-#define BOARD_INITPINS_SWD_CLK_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_SWD_CLK_PIN 0U     /*!<@brief PORTA pin index: 0 */
-                                          /* @} */
+#define BOARD_INITPINS_SWD_CLK_PERIPHERAL SWD   /*!<@brief Device name: SWD */
+#define BOARD_INITPINS_SWD_CLK_SIGNAL CLK       /*!<@brief SWD signal: CLK */
+#define BOARD_INITPINS_SWD_CLK_PORT PORTA       /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_SWD_CLK_PIN 0U           /*!<@brief PORTA pin index: 0 */
+#define BOARD_INITPINS_SWD_CLK_PIN_NAME SWD_CLK /*!<@brief Pin name */
+#define BOARD_INITPINS_SWD_CLK_LABEL "SWD_CLK"  /*!<@brief Label */
+#define BOARD_INITPINS_SWD_CLK_NAME "SWD_CLK"   /*!<@brief Identifier name */
+                                                /* @} */
 
 /*! @name PORTA3 (number 15), SWD_DIO
   @{ */
-#define BOARD_INITPINS_SWD_DIO_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_SWD_DIO_PIN 3U     /*!<@brief PORTA pin index: 3 */
-                                          /* @} */
+#define BOARD_INITPINS_SWD_DIO_PERIPHERAL SWD   /*!<@brief Device name: SWD */
+#define BOARD_INITPINS_SWD_DIO_SIGNAL DIO       /*!<@brief SWD signal: DIO */
+#define BOARD_INITPINS_SWD_DIO_PORT PORTA       /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_SWD_DIO_PIN 3U           /*!<@brief PORTA pin index: 3 */
+#define BOARD_INITPINS_SWD_DIO_PIN_NAME SWD_DIO /*!<@brief Pin name */
+#define BOARD_INITPINS_SWD_DIO_LABEL "SWD_DIO"  /*!<@brief Label */
+#define BOARD_INITPINS_SWD_DIO_NAME "SWD_DIO"   /*!<@brief Identifier name */
+                                                /* @} */
 
 /*! @name PORTA4 (number 16), OPEN
   @{ */
-#define BOARD_INITPINS_OPEN_GPIO GPIOA /*!<@brief GPIO device name: GPIOA */
-#define BOARD_INITPINS_OPEN_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_OPEN_PIN 4U     /*!<@brief PORTA pin index: 4 */
-                                       /* @} */
+#define BOARD_INITPINS_OPEN_PERIPHERAL GPIOA                   /*!<@brief Device name: GPIOA */
+#define BOARD_INITPINS_OPEN_SIGNAL GPIO                        /*!<@brief GPIOA signal: GPIO */
+#define BOARD_INITPINS_OPEN_GPIO GPIOA                         /*!<@brief GPIO device name: GPIOA */
+#define BOARD_INITPINS_OPEN_GPIO_PIN 4U                        /*!<@brief PORTA pin index: 4 */
+#define BOARD_INITPINS_OPEN_PORT PORTA                         /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_OPEN_PIN 4U                             /*!<@brief PORTA pin index: 4 */
+#define BOARD_INITPINS_OPEN_CHANNEL 4                          /*!<@brief GPIOA GPIO channel: 4 */
+#define BOARD_INITPINS_OPEN_PIN_NAME PTA4                      /*!<@brief Pin name */
+#define BOARD_INITPINS_OPEN_LABEL "OPEN"                       /*!<@brief Label */
+#define BOARD_INITPINS_OPEN_NAME "OPEN"                        /*!<@brief Identifier name */
+#define BOARD_INITPINS_OPEN_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                               /* @} */
 
 /*! @name PORTA18 (number 17), EXTAL
   @{ */
-#define BOARD_INITPINS_EXTAL_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_EXTAL_PIN 18U    /*!<@brief PORTA pin index: 18 */
-                                        /* @} */
+#define BOARD_INITPINS_EXTAL_PERIPHERAL OSC0 /*!<@brief Device name: OSC0 */
+#define BOARD_INITPINS_EXTAL_SIGNAL EXTAL0   /*!<@brief OSC0 signal: EXTAL0 */
+#define BOARD_INITPINS_EXTAL_PORT PORTA      /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_EXTAL_PIN 18U         /*!<@brief PORTA pin index: 18 */
+#define BOARD_INITPINS_EXTAL_PIN_NAME EXTAL0 /*!<@brief Pin name */
+#define BOARD_INITPINS_EXTAL_LABEL "EXTAL"   /*!<@brief Label */
+#define BOARD_INITPINS_EXTAL_NAME "EXTAL"    /*!<@brief Identifier name */
+                                             /* @} */
 
 /*! @name PORTA19 (number 18), XTAL
   @{ */
-#define BOARD_INITPINS_XTAL_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_XTAL_PIN 19U    /*!<@brief PORTA pin index: 19 */
-                                       /* @} */
+#define BOARD_INITPINS_XTAL_PERIPHERAL OSC0 /*!<@brief Device name: OSC0 */
+#define BOARD_INITPINS_XTAL_SIGNAL XTAL0    /*!<@brief OSC0 signal: XTAL0 */
+#define BOARD_INITPINS_XTAL_PORT PORTA      /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_XTAL_PIN 19U         /*!<@brief PORTA pin index: 19 */
+#define BOARD_INITPINS_XTAL_PIN_NAME XTAL0  /*!<@brief Pin name */
+#define BOARD_INITPINS_XTAL_LABEL "XTAL"    /*!<@brief Label */
+#define BOARD_INITPINS_XTAL_NAME "XTAL"     /*!<@brief Identifier name */
+                                            /* @} */
 
 /*! @name PORTA20 (number 19), RESET
   @{ */
-#define BOARD_INITPINS_RESET_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_RESET_PIN 20U    /*!<@brief PORTA pin index: 20 */
-                                        /* @} */
+#define BOARD_INITPINS_RESET_PERIPHERAL LLWU  /*!<@brief Device name: LLWU */
+#define BOARD_INITPINS_RESET_SIGNAL RESET     /*!<@brief LLWU signal: RESET */
+#define BOARD_INITPINS_RESET_PORT PORTA       /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_RESET_PIN 20U          /*!<@brief PORTA pin index: 20 */
+#define BOARD_INITPINS_RESET_PIN_NAME RESET_b /*!<@brief Pin name */
+#define BOARD_INITPINS_RESET_LABEL "RESET"    /*!<@brief Label */
+#define BOARD_INITPINS_RESET_NAME "RESET"     /*!<@brief Identifier name */
+                                              /* @} */
 
 /*! @name PORTC2 (number 23), TP7
   @{ */
-#define BOARD_INITPINS_TP7_GPIO GPIOC /*!<@brief GPIO device name: GPIOC */
-#define BOARD_INITPINS_TP7_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_TP7_PIN 2U     /*!<@brief PORTC pin index: 2 */
-                                      /* @} */
+#define BOARD_INITPINS_TP7_PERIPHERAL GPIOC                   /*!<@brief Device name: GPIOC */
+#define BOARD_INITPINS_TP7_SIGNAL GPIO                        /*!<@brief GPIOC signal: GPIO */
+#define BOARD_INITPINS_TP7_GPIO GPIOC                         /*!<@brief GPIO device name: GPIOC */
+#define BOARD_INITPINS_TP7_GPIO_PIN 2U                        /*!<@brief PORTC pin index: 2 */
+#define BOARD_INITPINS_TP7_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_TP7_PIN 2U                             /*!<@brief PORTC pin index: 2 */
+#define BOARD_INITPINS_TP7_CHANNEL 2                          /*!<@brief GPIOC GPIO channel: 2 */
+#define BOARD_INITPINS_TP7_PIN_NAME PTC2                      /*!<@brief Pin name */
+#define BOARD_INITPINS_TP7_LABEL "TP7"                        /*!<@brief Label */
+#define BOARD_INITPINS_TP7_NAME "TP7"                         /*!<@brief Identifier name */
+#define BOARD_INITPINS_TP7_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                              /* @} */
 
 /*! @name PORTC4 (number 25), TP6
   @{ */
-#define BOARD_INITPINS_TP6_GPIO GPIOC /*!<@brief GPIO device name: GPIOC */
-#define BOARD_INITPINS_TP6_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_TP6_PIN 4U     /*!<@brief PORTC pin index: 4 */
-                                      /* @} */
+#define BOARD_INITPINS_TP6_PERIPHERAL GPIOC                   /*!<@brief Device name: GPIOC */
+#define BOARD_INITPINS_TP6_SIGNAL GPIO                        /*!<@brief GPIOC signal: GPIO */
+#define BOARD_INITPINS_TP6_GPIO GPIOC                         /*!<@brief GPIO device name: GPIOC */
+#define BOARD_INITPINS_TP6_GPIO_PIN 4U                        /*!<@brief PORTC pin index: 4 */
+#define BOARD_INITPINS_TP6_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_TP6_PIN 4U                             /*!<@brief PORTC pin index: 4 */
+#define BOARD_INITPINS_TP6_CHANNEL 4                          /*!<@brief GPIOC GPIO channel: 4 */
+#define BOARD_INITPINS_TP6_PIN_NAME PTC4                      /*!<@brief Pin name */
+#define BOARD_INITPINS_TP6_LABEL "TP6"                        /*!<@brief Label */
+#define BOARD_INITPINS_TP6_NAME "TP6"                         /*!<@brief Identifier name */
+#define BOARD_INITPINS_TP6_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                              /* @} */
 
 /*! @name PORTC5 (number 26), TP5
   @{ */
-#define BOARD_INITPINS_TP5_GPIO GPIOC /*!<@brief GPIO device name: GPIOC */
-#define BOARD_INITPINS_TP5_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_TP5_PIN 5U     /*!<@brief PORTC pin index: 5 */
-                                      /* @} */
+#define BOARD_INITPINS_TP5_PERIPHERAL GPIOC                   /*!<@brief Device name: GPIOC */
+#define BOARD_INITPINS_TP5_SIGNAL GPIO                        /*!<@brief GPIOC signal: GPIO */
+#define BOARD_INITPINS_TP5_GPIO GPIOC                         /*!<@brief GPIO device name: GPIOC */
+#define BOARD_INITPINS_TP5_GPIO_PIN 5U                        /*!<@brief PORTC pin index: 5 */
+#define BOARD_INITPINS_TP5_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_TP5_PIN 5U                             /*!<@brief PORTC pin index: 5 */
+#define BOARD_INITPINS_TP5_CHANNEL 5                          /*!<@brief GPIOC GPIO channel: 5 */
+#define BOARD_INITPINS_TP5_PIN_NAME PTC5                      /*!<@brief Pin name */
+#define BOARD_INITPINS_TP5_LABEL "TP5"                        /*!<@brief Label */
+#define BOARD_INITPINS_TP5_NAME "TP5"                         /*!<@brief Identifier name */
+#define BOARD_INITPINS_TP5_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                              /* @} */
 
 /*! @name PORTC6 (number 27), UART_RX
   @{ */
-#define BOARD_INITPINS_UART_RX_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_UART_RX_PIN 6U     /*!<@brief PORTC pin index: 6 */
-                                          /* @} */
+#define BOARD_INITPINS_UART_RX_PERIPHERAL UART0  /*!<@brief Device name: UART0 */
+#define BOARD_INITPINS_UART_RX_SIGNAL RX         /*!<@brief UART0 signal: RX */
+#define BOARD_INITPINS_UART_RX_PORT PORTC        /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_UART_RX_PIN 6U            /*!<@brief PORTC pin index: 6 */
+#define BOARD_INITPINS_UART_RX_PIN_NAME UART0_RX /*!<@brief Pin name */
+#define BOARD_INITPINS_UART_RX_LABEL "UART_RX"   /*!<@brief Label */
+#define BOARD_INITPINS_UART_RX_NAME "UART_RX"    /*!<@brief Identifier name */
+                                                 /* @} */
 
 /*! @name PORTC7 (number 28), UART_TX
   @{ */
-#define BOARD_INITPINS_UART_TX_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_UART_TX_PIN 7U     /*!<@brief PORTC pin index: 7 */
-                                          /* @} */
-
-/*! @name PORTB0 (number 20), CH6_DIM
-  @{ */
-#define BOARD_INITPINS_CH6_DIM_PORT PORTB /*!<@brief PORT device name: PORTB */
-#define BOARD_INITPINS_CH6_DIM_PIN 0U     /*!<@brief PORTB pin index: 0 */
-                                          /* @} */
-
-/*! @name PORTC1 (number 22), TP9
-  @{ */
-#define BOARD_INITPINS_TP9_GPIO GPIOC /*!<@brief GPIO device name: GPIOC */
-#define BOARD_INITPINS_TP9_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_TP9_PIN 1U     /*!<@brief PORTC pin index: 1 */
-                                      /* @} */
-
-/*! @name PORTB1 (number 21), CH7_DIM
-  @{ */
-#define BOARD_INITPINS_CH7_DIM_PORT PORTB /*!<@brief PORT device name: PORTB */
-#define BOARD_INITPINS_CH7_DIM_PIN 1U     /*!<@brief PORTB pin index: 1 */
-                                          /* @} */
-
-/*! @name PORTE24 (number 10), CH2_DIM
-  @{ */
-#define BOARD_INITPINS_CH2_DIM_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_CH2_DIM_PIN 24U    /*!<@brief PORTE pin index: 24 */
-                                          /* @} */
-
-/*! @name PORTE25 (number 11), CH3_DIM
-  @{ */
-#define BOARD_INITPINS_CH3_DIM_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_CH3_DIM_PIN 25U    /*!<@brief PORTE pin index: 25 */
-                                          /* @} */
-
-/*! @name PORTC3 (number 24), CH8_DIM
-  @{ */
-#define BOARD_INITPINS_CH8_DIM_PORT PORTC /*!<@brief PORT device name: PORTC */
-#define BOARD_INITPINS_CH8_DIM_PIN 3U     /*!<@brief PORTC pin index: 3 */
-                                          /* @} */
+#define BOARD_INITPINS_UART_TX_PERIPHERAL UART0                   /*!<@brief Device name: UART0 */
+#define BOARD_INITPINS_UART_TX_SIGNAL TX                          /*!<@brief UART0 signal: TX */
+#define BOARD_INITPINS_UART_TX_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_UART_TX_PIN 7U                             /*!<@brief PORTC pin index: 7 */
+#define BOARD_INITPINS_UART_TX_PIN_NAME UART0_TX                  /*!<@brief Pin name */
+#define BOARD_INITPINS_UART_TX_LABEL "UART_TX"                    /*!<@brief Label */
+#define BOARD_INITPINS_UART_TX_NAME "UART_TX"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_UART_TX_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
 /*! @name PORTE30 (number 9), CH1_DIM
   @{ */
-#define BOARD_INITPINS_CH1_DIM_PORT PORTE /*!<@brief PORT device name: PORTE */
-#define BOARD_INITPINS_CH1_DIM_PIN 30U    /*!<@brief PORTE pin index: 30 */
-                                          /* @} */
+#define BOARD_INITPINS_CH1_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH1_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH1_DIM_PORT PORTE                         /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_CH1_DIM_PIN 30U                            /*!<@brief PORTE pin index: 30 */
+#define BOARD_INITPINS_CH1_DIM_CHANNEL 3                          /*!<@brief FTM0 channel: 3 */
+#define BOARD_INITPINS_CH1_DIM_PIN_NAME FTM0_CH3                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH1_DIM_LABEL "CH1_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH1_DIM_NAME "CH1_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH1_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
-/*! @name PORTD4 (number 29), CH9_DIM
+/*! @name PORTE24 (number 10), CH2_DIM
   @{ */
-#define BOARD_INITPINS_CH9_DIM_PORT PORTD /*!<@brief PORT device name: PORTD */
-#define BOARD_INITPINS_CH9_DIM_PIN 4U     /*!<@brief PORTD pin index: 4 */
-                                          /* @} */
+#define BOARD_INITPINS_CH2_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH2_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH2_DIM_PORT PORTE                         /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_CH2_DIM_PIN 24U                            /*!<@brief PORTE pin index: 24 */
+#define BOARD_INITPINS_CH2_DIM_CHANNEL 0                          /*!<@brief FTM0 channel: 0 */
+#define BOARD_INITPINS_CH2_DIM_PIN_NAME FTM0_CH0                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH2_DIM_LABEL "CH2_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH2_DIM_NAME "CH2_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH2_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
-/*! @name PORTD5 (number 30), CH10_DIM
+/*! @name PORTE25 (number 11), CH3_DIM
   @{ */
-#define BOARD_INITPINS_CH10_DIM_PORT PORTD /*!<@brief PORT device name: PORTD */
-#define BOARD_INITPINS_CH10_DIM_PIN 5U     /*!<@brief PORTD pin index: 5 */
-                                           /* @} */
+#define BOARD_INITPINS_CH3_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH3_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH3_DIM_PORT PORTE                         /*!<@brief PORT device name: PORTE */
+#define BOARD_INITPINS_CH3_DIM_PIN 25U                            /*!<@brief PORTE pin index: 25 */
+#define BOARD_INITPINS_CH3_DIM_CHANNEL 1                          /*!<@brief FTM0 channel: 1 */
+#define BOARD_INITPINS_CH3_DIM_PIN_NAME FTM0_CH1                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH3_DIM_LABEL "CH3_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH3_DIM_NAME "CH3_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH3_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
-/*! @name PORTA1 (number 13), CH4_DIM
+/*! @name PORTB0 (number 20), CH6_DIM
   @{ */
-#define BOARD_INITPINS_CH4_DIM_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_CH4_DIM_PIN 1U     /*!<@brief PORTA pin index: 1 */
-                                          /* @} */
+#define BOARD_INITPINS_CH6_DIM_PERIPHERAL FTM1                    /*!<@brief Device name: FTM1 */
+#define BOARD_INITPINS_CH6_DIM_SIGNAL CH                          /*!<@brief FTM1 signal: CH */
+#define BOARD_INITPINS_CH6_DIM_PORT PORTB                         /*!<@brief PORT device name: PORTB */
+#define BOARD_INITPINS_CH6_DIM_PIN 0U                             /*!<@brief PORTB pin index: 0 */
+#define BOARD_INITPINS_CH6_DIM_CHANNEL 0                          /*!<@brief FTM1 channel: 0 */
+#define BOARD_INITPINS_CH6_DIM_PIN_NAME FTM1_CH0                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH6_DIM_LABEL "CH6_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH6_DIM_NAME "CH6_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH6_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
 /*! @name PORTA2 (number 14), CH5_DIM
   @{ */
-#define BOARD_INITPINS_CH5_DIM_PORT PORTA /*!<@brief PORT device name: PORTA */
-#define BOARD_INITPINS_CH5_DIM_PIN 2U     /*!<@brief PORTA pin index: 2 */
-                                          /* @} */
+#define BOARD_INITPINS_CH5_DIM_PERIPHERAL FTM2                    /*!<@brief Device name: FTM2 */
+#define BOARD_INITPINS_CH5_DIM_SIGNAL CH                          /*!<@brief FTM2 signal: CH */
+#define BOARD_INITPINS_CH5_DIM_PORT PORTA                         /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_CH5_DIM_PIN 2U                             /*!<@brief PORTA pin index: 2 */
+#define BOARD_INITPINS_CH5_DIM_CHANNEL 1                          /*!<@brief FTM2 channel: 1 */
+#define BOARD_INITPINS_CH5_DIM_PIN_NAME FTM2_CH1                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH5_DIM_LABEL "CH5_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH5_DIM_NAME "CH5_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH5_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
+
+/*! @name PORTB1 (number 21), CH7_DIM
+  @{ */
+#define BOARD_INITPINS_CH7_DIM_PERIPHERAL FTM1                    /*!<@brief Device name: FTM1 */
+#define BOARD_INITPINS_CH7_DIM_SIGNAL CH                          /*!<@brief FTM1 signal: CH */
+#define BOARD_INITPINS_CH7_DIM_PORT PORTB                         /*!<@brief PORT device name: PORTB */
+#define BOARD_INITPINS_CH7_DIM_PIN 1U                             /*!<@brief PORTB pin index: 1 */
+#define BOARD_INITPINS_CH7_DIM_CHANNEL 1                          /*!<@brief FTM1 channel: 1 */
+#define BOARD_INITPINS_CH7_DIM_PIN_NAME FTM1_CH1                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH7_DIM_LABEL "CH7_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH7_DIM_NAME "CH7_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH7_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
+
+/*! @name PORTC1 (number 22), TP9
+  @{ */
+#define BOARD_INITPINS_TP9_PERIPHERAL GPIOC                   /*!<@brief Device name: GPIOC */
+#define BOARD_INITPINS_TP9_SIGNAL GPIO                        /*!<@brief GPIOC signal: GPIO */
+#define BOARD_INITPINS_TP9_GPIO GPIOC                         /*!<@brief GPIO device name: GPIOC */
+#define BOARD_INITPINS_TP9_GPIO_PIN 1U                        /*!<@brief PORTC pin index: 1 */
+#define BOARD_INITPINS_TP9_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_TP9_PIN 1U                             /*!<@brief PORTC pin index: 1 */
+#define BOARD_INITPINS_TP9_CHANNEL 1                          /*!<@brief GPIOC GPIO channel: 1 */
+#define BOARD_INITPINS_TP9_PIN_NAME PTC1                      /*!<@brief Pin name */
+#define BOARD_INITPINS_TP9_LABEL "TP9"                        /*!<@brief Label */
+#define BOARD_INITPINS_TP9_NAME "TP9"                         /*!<@brief Identifier name */
+#define BOARD_INITPINS_TP9_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                              /* @} */
+
+/*! @name PORTC3 (number 24), CH8_DIM
+  @{ */
+#define BOARD_INITPINS_CH8_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH8_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH8_DIM_PORT PORTC                         /*!<@brief PORT device name: PORTC */
+#define BOARD_INITPINS_CH8_DIM_PIN 3U                             /*!<@brief PORTC pin index: 3 */
+#define BOARD_INITPINS_CH8_DIM_CHANNEL 2                          /*!<@brief FTM0 channel: 2 */
+#define BOARD_INITPINS_CH8_DIM_PIN_NAME FTM0_CH2                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH8_DIM_LABEL "CH8_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH8_DIM_NAME "CH8_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH8_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
+
+/*! @name PORTD4 (number 29), CH9_DIM
+  @{ */
+#define BOARD_INITPINS_CH9_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH9_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH9_DIM_PORT PORTD                         /*!<@brief PORT device name: PORTD */
+#define BOARD_INITPINS_CH9_DIM_PIN 4U                             /*!<@brief PORTD pin index: 4 */
+#define BOARD_INITPINS_CH9_DIM_CHANNEL 4                          /*!<@brief FTM0 channel: 4 */
+#define BOARD_INITPINS_CH9_DIM_PIN_NAME FTM0_CH4                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH9_DIM_LABEL "CH9_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH9_DIM_NAME "CH9_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH9_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
+
+/*! @name PORTD5 (number 30), CH10_DIM
+  @{ */
+#define BOARD_INITPINS_CH10_DIM_PERIPHERAL FTM0                    /*!<@brief Device name: FTM0 */
+#define BOARD_INITPINS_CH10_DIM_SIGNAL CH                          /*!<@brief FTM0 signal: CH */
+#define BOARD_INITPINS_CH10_DIM_PORT PORTD                         /*!<@brief PORT device name: PORTD */
+#define BOARD_INITPINS_CH10_DIM_PIN 5U                             /*!<@brief PORTD pin index: 5 */
+#define BOARD_INITPINS_CH10_DIM_CHANNEL 5                          /*!<@brief FTM0 channel: 5 */
+#define BOARD_INITPINS_CH10_DIM_PIN_NAME FTM0_CH5                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH10_DIM_LABEL "CH10_DIM"                   /*!<@brief Label */
+#define BOARD_INITPINS_CH10_DIM_NAME "CH10_DIM"                    /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH10_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                   /* @} */
 
 /*! @name PORTD6 (number 31), CH11_DIM
   @{ */
-#define BOARD_INITPINS_CH11_DIM_PORT PORTD /*!<@brief PORT device name: PORTD */
-#define BOARD_INITPINS_CH11_DIM_PIN 6U     /*!<@brief PORTD pin index: 6 */
-                                           /* @} */
+#define BOARD_INITPINS_CH11_DIM_PERIPHERAL FTM4                    /*!<@brief Device name: FTM4 */
+#define BOARD_INITPINS_CH11_DIM_SIGNAL CH                          /*!<@brief FTM4 signal: CH */
+#define BOARD_INITPINS_CH11_DIM_PORT PORTD                         /*!<@brief PORT device name: PORTD */
+#define BOARD_INITPINS_CH11_DIM_PIN 6U                             /*!<@brief PORTD pin index: 6 */
+#define BOARD_INITPINS_CH11_DIM_CHANNEL 0                          /*!<@brief FTM4 channel: 0 */
+#define BOARD_INITPINS_CH11_DIM_PIN_NAME FTM4_CH0                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH11_DIM_LABEL "CH11_DIM"                   /*!<@brief Label */
+#define BOARD_INITPINS_CH11_DIM_NAME "CH11_DIM"                    /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH11_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                   /* @} */
+
+/*! @name PORTA1 (number 13), CH4_DIM
+  @{ */
+#define BOARD_INITPINS_CH4_DIM_PERIPHERAL FTM2                    /*!<@brief Device name: FTM2 */
+#define BOARD_INITPINS_CH4_DIM_SIGNAL CH                          /*!<@brief FTM2 signal: CH */
+#define BOARD_INITPINS_CH4_DIM_PORT PORTA                         /*!<@brief PORT device name: PORTA */
+#define BOARD_INITPINS_CH4_DIM_PIN 1U                             /*!<@brief PORTA pin index: 1 */
+#define BOARD_INITPINS_CH4_DIM_CHANNEL 0                          /*!<@brief FTM2 channel: 0 */
+#define BOARD_INITPINS_CH4_DIM_PIN_NAME FTM2_CH0                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH4_DIM_LABEL "CH4_DIM"                    /*!<@brief Label */
+#define BOARD_INITPINS_CH4_DIM_NAME "CH4_DIM"                     /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH4_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                  /* @} */
 
 /*! @name PORTD7 (number 32), CH12_DIM
   @{ */
-#define BOARD_INITPINS_CH12_DIM_PORT PORTD /*!<@brief PORT device name: PORTD */
-#define BOARD_INITPINS_CH12_DIM_PIN 7U     /*!<@brief PORTD pin index: 7 */
-                                           /* @} */
+#define BOARD_INITPINS_CH12_DIM_PERIPHERAL FTM4                    /*!<@brief Device name: FTM4 */
+#define BOARD_INITPINS_CH12_DIM_SIGNAL CH                          /*!<@brief FTM4 signal: CH */
+#define BOARD_INITPINS_CH12_DIM_PORT PORTD                         /*!<@brief PORT device name: PORTD */
+#define BOARD_INITPINS_CH12_DIM_PIN 7U                             /*!<@brief PORTD pin index: 7 */
+#define BOARD_INITPINS_CH12_DIM_CHANNEL 1                          /*!<@brief FTM4 channel: 1 */
+#define BOARD_INITPINS_CH12_DIM_PIN_NAME FTM4_CH1                  /*!<@brief Pin name */
+#define BOARD_INITPINS_CH12_DIM_LABEL "CH12_DIM"                   /*!<@brief Label */
+#define BOARD_INITPINS_CH12_DIM_NAME "CH12_DIM"                    /*!<@brief Identifier name */
+#define BOARD_INITPINS_CH12_DIM_DIRECTION kPIN_MUX_DirectionOutput /*!<@brief Direction */
+                                                                   /* @} */
 
 /*!
  * @brief Configures pin routing and optionally pin electrical features.

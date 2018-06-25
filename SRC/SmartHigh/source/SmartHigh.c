@@ -178,6 +178,7 @@ int main(void) {
 
 	uint8_t index = 0;
 
+
 	int warmWhiteLevel=0,coolWhiteLevel=0;
 	while (1)
 	{
@@ -202,11 +203,13 @@ int main(void) {
 	    		int totalWhiteLevel=warmWhiteLevel+coolWhiteLevel;
 	    		if (totalWhiteLevel>250)
 	    		{
-	    			coolWhiteLevel=coolWhiteLevel*(totalWhiteLevel/250);
-	    			warmWhiteLevel=coolWhiteLevel*(totalWhiteLevel/250);
+	    			coolWhiteLevel=(int)(coolWhiteLevel*((float)250/totalWhiteLevel));
+	    			warmWhiteLevel=(int)(warmWhiteLevel*((float)250/totalWhiteLevel));
 	    		}
-	    		setPwm(4,warmWhiteLevel*(4000/MAXWHITELEVEL));
-	    		setPwm(5,coolWhiteLevel*(4000/MAXWHITELEVEL));
+	    		warmWhiteLevel=(int)(warmWhiteLevel*4*((float)MAXWHITELEVEL/1000));
+	    		coolWhiteLevel=(int)(coolWhiteLevel*4*((float)MAXWHITELEVEL/1000));
+	    		setPwm(4,warmWhiteLevel);
+	    		setPwm(5,coolWhiteLevel);
 	    	}
 	    	if (index<6)
 	    	{
@@ -217,8 +220,8 @@ int main(void) {
 
 
 
-
-/*  //Super spicy demo mode!!
+/*
+  //Super spicy demo mode!!
 	while (1)
 	{
 		__asm("NOP");
@@ -254,6 +257,15 @@ int main(void) {
 		{
 			setPwm(i,0);
 		}
+	}
+
+*/
+
+/*
+	setPwm(3,100);
+	while (1)
+	{
+		__asm("NOP");
 	}
 */
 }

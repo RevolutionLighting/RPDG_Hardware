@@ -33,11 +33,11 @@
 /* clang-format off */
 /* TEXT BELOW IS USED AS SETTING FOR TOOLS *************************************
 !!GlobalInfo
-product: Clocks v4.1
+product: Clocks v4.0
 processor: MKV11Z64xxx7
 package_id: MKV11Z64VFM7
 mcu_data: ksdk2_0
-processor_version: 4.0.0
+processor_version: 3.0.0
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS **********/
 /* clang-format on */
 
@@ -116,6 +116,7 @@ settings:
 - {id: MCG.FLL_mul.scale, value: '2197', locked: true}
 - {id: MCG.FRDIV.scale, value: '512', locked: true}
 - {id: MCG.IREFS.sel, value: MCG.FRDIV}
+- {id: 'MCG::C2[LP].bitField', value: FLL is disabled in bypass modes (lower power)}
 - {id: MCG_C2_OSC_MODE_CFG, value: ModeOscLowPower}
 - {id: MCG_C2_RANGE0_CFG, value: Very_high}
 - {id: MCG_C2_RANGE0_FRDIV_CFG, value: Very_high}

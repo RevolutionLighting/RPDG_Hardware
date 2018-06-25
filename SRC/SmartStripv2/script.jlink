@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\SRC\Gold_Hex_Files\AnyWhite(Addr_0).hex"
+qc
+
+qc

@@ -1,0 +1,7 @@
+ExitOnError 1
+r
+h
+loadfile "C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\SRC\SmartHigh\Debug\SmartHigh.hex"
+qc
+
+qc
