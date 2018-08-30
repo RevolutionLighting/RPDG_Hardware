@@ -1,0 +1,256 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout VX.2.3"    2018/07/03.10:50:02    1
+"c:\users\ward\dropbox\work\revolution\rpdg_hardware\rl0020\rl0020_rev_a.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+1.14596
+0     0.0                           9.25                          0     
+0     14.5                          9.25                          0     
+0     14.5                          0.0                           0     
+0     38.0                          0.0                           0     
+0     38.0                          31.0                          0     
+0     14.5                          31.0                          0     
+0     14.5                          21.75                         0     
+0     0.0                           21.75                         0     
+0     0.0                           9.25                          0     
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+0.304800 17.000000 14.600000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.400000 15.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.300000 15.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 23.300000 12.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.900000 13.700000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.400000 14.300000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.500000 20.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.000000 17.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 20.700000 18.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 24.800000 22.900000 PTH    BOARD    VIA    UNOWNED
+0.304800 23.700000 24.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 23.700000 23.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.700000 26.400000 PTH    BOARD    VIA    UNOWNED
+0.304800 15.400000 23.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.700000 25.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 19.500000 23.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.600000 28.000000 PTH    BOARD    VIA    UNOWNED
+0.304800 17.500000 21.500000 PTH    BOARD    VIA    UNOWNED
+0.304800 16.400000 22.800000 PTH    BOARD    VIA    UNOWNED
+0.304800 18.900000 22.600000 PTH    BOARD    VIA    UNOWNED
+3.000000 -102.310000 41.200000 NPTH    J2    PIN    UNOWNED
+3.000000 -102.310000 50.600000 NPTH    J2    PIN    UNOWNED
+1.400000 -101.850000 45.900000 PTH    J2    PIN    UNOWNED
+1.400000 -106.350000 45.900000 PTH    J2    PIN    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+3220-10-0300-00                              3220-10-0300-00                              J1                                           
+25.0                          5.5                           0.0                           90.0      TOP       PLACED    
+ABM8G                                        ABM8G-12MHZ                                  X1                                           
+26.5                          11.5                          0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C4                                           
+9.1                           13.3                          0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C17                                          
+16.5                          13.5                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C7                                           
+19.5                          15.0                          0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_0_1UF_50V_X5R                       C9                                           
+19.5                          18.5                          0.0                           180.0     TOP       PLACED    
+0402                                         CAP_0402_10000P_GRM155R71E103KA01D           C3                                           
+9.1                           18.3                          0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_10PF_50V_C0G_NP0                    C10                                          
+24.0                          11.5                          0.0                           90.0      TOP       PLACED    
+0402                                         CAP_0402_10PF_50V_C0G_NP0                    C8                                           
+29.0                          11.5                          0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C24                                          
+25.5                          22.0                          0.0                           270.0     TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C15                                          
+20.5                          1.5                           0.0                           180.0     TOP       PLACED    
+0805                                         CAP_0805_10UF_25V_X5R                        C5                                           
+7.6                           13.8                          0.0                           90.0      TOP       PLACED    
+0805                                         CAP_0805_10UF_25V_X5R                        C6                                           
+12.6                          10.3                          0.0                           0.0       TOP       PLACED    
+1206                                         CAP_1206_10UF_35V_X5R                        C2                                           
+9.5                           20.5                          0.0                           0.0       TOP       PLACED    
+0603                                         FB_0                                         FB1                                          
+8.6                           10.3                          0.0                           0.0       TOP       PLACED    
+SOT23-6                                      ISL3283                                      U4                                           
+16.5                          11.5                          0.0                           0.0       TOP       PLACED    
+2X3DFN8                                      MCP9808                                      U8                                           
+23.0                          21.5                          0.0                           0.0       TOP       PLACED    
+5X5QFN32                                     MKV11Z64VFM7                                 U3                                           
+23.5                          16.5                          0.0                           0.0       TOP       PLACED    
+2X2QFN8                                      MP2360                                       U2                                           
+11.1                          17.8                          0.0                           180.0     TOP       PLACED    
+NRS2012                                      NRS2012T1R0NGJ                               L2                                           
+11.1                          12.8                          0.0                           180.0     TOP       PLACED    
+SOD-123                                      RB160M                                       D14                                          
+11.1                          15.3                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R2                                           
+13.1                          18.8                          0.0                           270.0     TOP       PLACED    
+0402                                         RES_0402_16_2K_1__ERJ-2RKF1622X              R4                                           
+13.5                          12.9                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R25                                          
+19.5                          10.0                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R27                                          
+19.5                          12.0                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R5                                           
+29.5                          9.5                           0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_2_7K_1__ERJ2RKF2701X                R32                                          
+22.5                          24.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_2_7K_1__ERJ2RKF2701X                R31                                          
+22.5                          23.0                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_49_9K_1__ERJ-2RKF4992X              R3                                           
+13.5                          11.9                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_5_1K_1__ERJ-2RKF5101X               R24                                          
+19.5                          11.0                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_5_1K_1__ERJ-2RKF5101X               R26                                          
+19.5                          13.0                          0.0                           0.0       TOP       PLACED    
+0805                                         RES_2M_0805                                  R35                                          
+16.5                          28.0                          0.0                           180.0     BOTTOM    PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP2                                          
+24.5                          20.0                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP9                                          
+20.0                          17.5                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP8                                          
+20.0                          16.5                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP1                                          
+23.5                          20.0                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP3                                          
+25.5                          20.0                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP4                                          
+26.5                          20.0                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP7                                          
+27.0                          18.0                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP5                                          
+28.0                          19.5                          0.0                           0.0       TOP       PLACED    
+TP_SMT_1MM                                   TP_SMT_1MM                                   TP6                                          
+27.0                          17.0                          0.0                           0.0       TOP       PLACED    
+SOT23-5                                      AL8860                                       U10                                          
+18.0                          24.5                          0.0                           0.0       BOTTOM    PLACED    
+SOT23-5                                      AL8860                                       U6                                           
+18.0                          15.5                          0.0                           0.0       BOTTOM    PLACED    
+SOT23-5                                      AL8860                                       U16                                          
+18.0                          7.0                           0.0                           0.0       BOTTOM    PLACED    
+SOT23-5                                      AL8860                                       U15                                          
+29.5                          24.5                          0.0                           0.0       BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C1                                           
+28.0                          8.5                           0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C32                                          
+16.5                          8.5                           0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C31                                          
+28.0                          26.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C22                                          
+16.5                          17.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C26                                          
+16.5                          26.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         CAP_0805_0_1UF_50V_X7R                       C19                                          
+28.5                          17.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         RES_2M_0805                                  R30                                          
+16.5                          19.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         RES_2M_0805                                  R40                                          
+16.5                          10.5                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         RES_2M_0805                                  R41                                          
+28.0                          28.5                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         RES_2M_0805                                  R28                                          
+28.5                          19.0                          0.0                           180.0     BOTTOM    PLACED    
+0805                                         RES_2M_0805                                  R1                                           
+28.0                          10.5                          0.0                           180.0     BOTTOM    PLACED    
+0039299023                                   0039299023                                   J2                                           
+-104.1                        45.9                          0.0                           90.0      BOTTOM    PLACED    
+0805                                         CAP_0805_22UF_25V_X5R                        C33                                          
+11.5                          14.5                          0.0                           0.0       BOTTOM    PLACED    
+0805                                         CAP_0805_22UF_25V_X5R                        C34                                          
+11.5                          12.0                          0.0                           0.0       BOTTOM    PLACED    
+1206                                         RES__005_1W_1206                             R42                                          
+11.0                          17.0                          0.0                           180.0     BOTTOM    PLACED    
+SOT-563                                      DMN2400UV                                    Q1                                           
+17.5                          21.0                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C11                                          
+17.5                          25.5                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C14                                          
+17.5                          17.5                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C12                                          
+17.5                          7.0                           0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C13                                          
+31.0                          25.5                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C16                                          
+31.0                          17.5                          0.0                           0.0       TOP       PLACED    
+0402                                         CAP_0402_1UF_6_3V_X7R                        C18                                          
+33.0                          7.0                           0.0                           0.0       TOP       PLACED    
+SOT-563                                      DMN2400UV                                    Q2                                           
+17.5                          2.5                           0.0                           0.0       TOP       PLACED    
+SOT-563                                      DMN2400UV                                    Q3                                           
+32.0                          11.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R8                                           
+17.5                          24.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R15                                          
+17.5                          16.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R9                                           
+17.5                          6.0                           0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R12                                          
+31.0                          24.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R19                                          
+31.0                          16.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_100K_1__ERJ-2RKF1003X               R21                                          
+33.0                          6.0                           0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R6                                           
+17.5                          26.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R18                                          
+17.5                          18.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R7                                           
+17.5                          8.0                           0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R16                                          
+31.0                          26.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R17                                          
+31.0                          18.5                          0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R23                                          
+33.0                          8.0                           0.0                           0.0       TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R10                                          
+17.5                          23.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R11                                          
+17.5                          5.0                           0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R20                                          
+31.0                          15.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R13                                          
+17.5                          15.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R14                                          
+31.0                          23.5                          0.0                           180.0     TOP       PLACED    
+0402                                         RES_0402_1K_1__ERJ-2RKF1001X                 R22                                          
+33.0                          5.0                           0.0                           180.0     TOP       PLACED    
+SOT23-5                                      AL8860                                       U1                                           
+29.5                          7.0                           0.0                           0.0       BOTTOM    PLACED    
+SOT23-5                                      AL8860                                       U5                                           
+30.0                          15.5                          0.0                           0.0       BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L1                                           
+34.5                          5.0                           0.0                           180.0     BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L3                                           
+23.0                          15.5                          0.0                           180.0     BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L4                                           
+34.5                          15.5                          0.0                           180.0     BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L5                                           
+23.0                          5.0                           0.0                           180.0     BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L6                                           
+34.5                          26.0                          0.0                           180.0     BOTTOM    PLACED    
+VLS6045EX                                    VLS6045EX-101M                               L8                                           
+23.0                          26.0                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D1                                           
+22.0                          21.0                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D10                                          
+5.5                           14.5                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D11                                          
+11.0                          19.5                          0.0                           0.0       BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D2                                           
+22.0                          10.5                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D3                                           
+33.5                          10.5                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D4                                           
+17.0                          3.5                           0.0                           0.0       BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D5                                           
+33.5                          21.0                          0.0                           180.0     BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D6                                           
+28.5                          3.5                           0.0                           0.0       BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D7                                           
+5.5                           17.0                          0.0                           0.0       BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D8                                           
+5.5                           12.0                          0.0                           0.0       BOTTOM    PLACED    
+SOD-123                                      RB160M                                       D9                                           
+5.5                           19.5                          0.0                           180.0     BOTTOM    PLACED    
+.END_PLACEMENT

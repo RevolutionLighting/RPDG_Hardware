@@ -1,0 +1,966 @@
+PCB Net List Errors Report - RL0014_Rev_B.sch - Thu Aug 23 22:36:49 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+Part Type DM3CS has a gate with 10 pins in the design and 13 pins in the Library.
+Non matching Part Type DM3CS is used by the following parts:
+ J1.
+PCB Decal R1005 not found in Library - not able to check following parts of Part Type R:
+ R20 R21 R9 R22.
+
+Single/Zero Pin Net Warnings
+----------------------------
+Net XCHG_INT has less than two pins in PCB net list file.
+Net XCAM_LDO_EN has less than two pins in PCB net list file.
+Net XUHOST1_DP has less than two pins in PCB net list file.
+Net XUHOST1_DM has less than two pins in PCB net list file.
+Net XFUEL_INT has less than two pins in PCB net list file.
+Net XCHG_SCL has less than two pins in PCB net list file.
+Net XCHG_SDA has less than two pins in PCB net list file.
+Net XFUEL_SCL has less than two pins in PCB net list file.
+Net XFUEL_SDA has less than two pins in PCB net list file.
+Net XPWM0_OUT has less than two pins in PCB net list file.
+Net XSPI0_CS has less than two pins in PCB net list file.
+Net XSPI0_CLK has less than two pins in PCB net list file.
+Net XSPI0_MISO has less than two pins in PCB net list file.
+Net XSPI0_MOSI has less than two pins in PCB net list file.
+Net XJTAG_TMS has less than two pins in PCB net list file.
+Net XJTAG_TCK has less than two pins in PCB net list file.
+Net XJTAG_TDI has less than two pins in PCB net list file.
+Net XJTAG_TDO has less than two pins in PCB net list file.
+Net XJTAG_RSTN has less than two pins in PCB net list file.
+Net XAUDIO_I2S0_CDCLK has less than two pins in PCB net list file.
+Net XAUDIO_I2S0_DIN has less than two pins in PCB net list file.
+Net XAUDIO_I2S0_SCLK has less than two pins in PCB net list file.
+Net XAUDIO_I2S0_LRCLK has less than two pins in PCB net list file.
+Net BT_PCM_DOUT has less than two pins in PCB net list file.
+Net BT_PCM_CLK has less than two pins in PCB net list file.
+Net BT_PCM_LRCLK has less than two pins in PCB net list file.
+Net XAUDIO_I2S0_DOUT has less than two pins in PCB net list file.
+Net BT_PCM_DIN has less than two pins in PCB net list file.
+Net XGPIO8 has less than two pins in PCB net list file.
+Net XGPIO7 has less than two pins in PCB net list file.
+Net XGPIO9 has less than two pins in PCB net list file.
+Net XAUDIO_SDA has less than two pins in PCB net list file.
+Net XAUDIO_SCL has less than two pins in PCB net list file.
+Net XAUDIO_IRQ has less than two pins in PCB net list file.
+Net XUHOST_VBUSCTRL has less than two pins in PCB net list file.
+Net XAGPIO0 has less than two pins in PCB net list file.
+Net XMCU_SDA has less than two pins in PCB net list file.
+Net XMCU_SCL has less than two pins in PCB net list file.
+Net MICOM_INT has less than two pins in PCB net list file.
+Net XMIPIDSI1_DP0 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DN0 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DPCLK has less than two pins in PCB net list file.
+Net XMIPIDSI1_DNCLK has less than two pins in PCB net list file.
+Net XMIPIDSI1_DN2 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DP1 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DN1 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DN3 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DP2 has less than two pins in PCB net list file.
+Net XMIPIDSI1_DP3 has less than two pins in PCB net list file.
+Net XMIPICSI1_DPCLK has less than two pins in PCB net list file.
+Net XMIPICSI1_DNCLK has less than two pins in PCB net list file.
+Net XMIPICSI1_DP0 has less than two pins in PCB net list file.
+Net XMIPICSI1_DN0 has less than two pins in PCB net list file.
+Net XMIPICSI1_DP1 has less than two pins in PCB net list file.
+Net XMIPICSI1_DN1 has less than two pins in PCB net list file.
+Net XMIPICSI1_DP2 has less than two pins in PCB net list file.
+Net XMIPICSI1_DN2 has less than two pins in PCB net list file.
+Net XMIPICSI1_DP3 has less than two pins in PCB net list file.
+Net XMIPICSI1_DN3 has less than two pins in PCB net list file.
+Net XRTC_SCL has less than two pins in PCB net list file.
+Net XRTC_INT has less than two pins in PCB net list file.
+Net XRTC_SDA has less than two pins in PCB net list file.
+Net XBOOT_CONFIG0 has less than two pins in PCB net list file.
+Net XBOOT_CONFIG1 has less than two pins in PCB net list file.
+Net XBOOT_CONFIG2 has less than two pins in PCB net list file.
+Net XUSB3_DP has less than two pins in PCB net list file.
+Net XUSB3_DM has less than two pins in PCB net list file.
+Net XUSB3_VBUSCTRL has less than two pins in PCB net list file.
+Net XUSB3_ID has less than two pins in PCB net list file.
+Net XLCD_PWMOUT has less than two pins in PCB net list file.
+Net XLCD_RESET has less than two pins in PCB net list file.
+Net XLCD_GPIO has less than two pins in PCB net list file.
+Net XCAM_SDA has less than two pins in PCB net list file.
+Net XCAM_SCL has less than two pins in PCB net list file.
+Net XTSP_RESET has less than two pins in PCB net list file.
+Net XTSP_SCL has less than two pins in PCB net list file.
+Net XTSP_SDA has less than two pins in PCB net list file.
+Net XCAM_RESET has less than two pins in PCB net list file.
+Net XCAM_STBY has less than two pins in PCB net list file.
+Net XTSP1_INT has less than two pins in PCB net list file.
+Net XTSP2_INT has less than two pins in PCB net list file.
+Net ZB_PTI_SYNC_FRC_DFRAME has less than two pins in PCB net list file.
+Net ZB_DEBUG_TCK_SWCLK has less than two pins in PCB net list file.
+Net ZB_DEBUG_TMS_SWDIO has less than two pins in PCB net list file.
+Net ZB_PTI_DATA_FRC_DOUT has less than two pins in PCB net list file.
+Net ZB_DEBUG_TDO_SWO has less than two pins in PCB net list file.
+Net ZB_RSTN has less than two pins in PCB net list file.
+Net COMBO_ZIG_UART_TXD has less than two pins in PCB net list file.
+Net COMBO_ZIG_UART_RXD has less than two pins in PCB net list file.
+Net XHDMI_CEC has less than two pins in PCB net list file.
+Net XHDMI_SCL has less than two pins in PCB net list file.
+Net XHDMI_HPD has less than two pins in PCB net list file.
+Net XHDMI_SDA has less than two pins in PCB net list file.
+Net XHDMI_LS_OE has less than two pins in PCB net list file.
+Net XLCD1_GPIO1 has less than two pins in PCB net list file.
+Net XTSP1_GPIO1 has less than two pins in PCB net list file.
+Net XHDMI_TX0P has less than two pins in PCB net list file.
+Net XHDMI_TX0N has less than two pins in PCB net list file.
+Net XHDMI_TX1P has less than two pins in PCB net list file.
+Net XHDMI_TX1N has less than two pins in PCB net list file.
+Net XHDMI_TX2P has less than two pins in PCB net list file.
+Net XHDMI_TX2N has less than two pins in PCB net list file.
+Net XHDMI_TXCN has less than two pins in PCB net list file.
+Net XHDMI_TXCP has less than two pins in PCB net list file.
+Net XLVDS_DP0 has less than two pins in PCB net list file.
+Net XLVDS_DN0 has less than two pins in PCB net list file.
+Net XLVDS_DP1 has less than two pins in PCB net list file.
+Net XLVDS_DN1 has less than two pins in PCB net list file.
+Net XLVDS_DN2 has less than two pins in PCB net list file.
+Net XLVDS_DP2 has less than two pins in PCB net list file.
+Net XLVDS_DP3 has less than two pins in PCB net list file.
+Net XLVDS_DP4 has less than two pins in PCB net list file.
+Net XLVDS_DN3 has less than two pins in PCB net list file.
+Net XLVDS_DN4 has less than two pins in PCB net list file.
+Net XLVDS_DNCLK has less than two pins in PCB net list file.
+Net XLVDS_DPCLK has less than two pins in PCB net list file.
+Net XLCD2_GPIO1 has less than two pins in PCB net list file.
+Net XTSP2_GPIO1 has less than two pins in PCB net list file.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections without a Net Name
+
+PME
+ETHERNET     X6790  Y6590 
+
+Dangling Connections with a Net Name
+
+LED0_AD0
+ETHERNET     X7300  Y7180 
+ETHERNET     X16900 Y6700 
+
+LED1_AD1
+ETHERNET     X7300  Y7080 
+ETHERNET     X16900 Y2400 
+
+MDIP0_N
+ETHERNET     X9800  Y7480 
+ETHERNET     X12300 Y7480 
+ETHERNET     X7300  Y8780 
+ETHERNET     X18000 Y3400 
+
+MDIP0_P
+ETHERNET     X9800  Y7580 
+ETHERNET     X12300 Y7580 
+ETHERNET     X7300  Y8880 
+ETHERNET     X18000 Y2800 
+
+MDIP1_N
+ETHERNET     X9800  Y7180 
+ETHERNET     X12300 Y7180 
+ETHERNET     X7300  Y8480 
+ETHERNET     X18000 Y4300 
+
+MDIP1_P
+ETHERNET     X9800  Y7280 
+ETHERNET     X12300 Y7280 
+ETHERNET     X7300  Y8580 
+ETHERNET     X18000 Y3700 
+
+MDIP2_N
+ETHERNET     X13000 Y7480 
+ETHERNET     X15500 Y7480 
+ETHERNET     X7300  Y8180 
+ETHERNET     X18000 Y5200 
+
+MDIP2_P
+ETHERNET     X13000 Y7580 
+ETHERNET     X15500 Y7580 
+ETHERNET     X7300  Y8280 
+ETHERNET     X18000 Y4600 
+
+MDIP3_N
+ETHERNET     X13000 Y7180 
+ETHERNET     X15500 Y7180 
+ETHERNET     X7300  Y7880 
+ETHERNET     X18000 Y6100 
+
+MDIP3_P
+ETHERNET     X13000 Y7280 
+ETHERNET     X15500 Y7280 
+ETHERNET     X7300  Y7980 
+ETHERNET     X18000 Y5500 
+
+PME
+ETHERNET     X12450 Y4130 
+
+RTL_RSET
+ETHERNET     X2600  Y9880 
+ETHERNET     X12450 Y3430 
+
+RTL_XTAL1
+ETHERNET     X7300  Y7580 
+ETHERNET     X2900  Y4500 
+
+RTL_XTAL2
+ETHERNET     X7300  Y7680 
+ETHERNET     X2900  Y5500 
+
+RX0
+ETHERNET     X12450 Y4630 
+
+RX1
+ETHERNET     X12450 Y4530 
+
+RX2
+ETHERNET     X12450 Y4430 
+
+RX3
+ETHERNET     X12450 Y4330 
+
+RXDLY
+ETHERNET     X12450 Y3930 
+ETHERNET     X7300  Y7280 
+
+RXDV
+ETHERNET     X12450 Y3530 
+
+UART_A_RXD
+OFFBOARD_INTERFACE X9500  Y4500 
+
+UART_A_TXD
+OFFBOARD_INTERFACE X9500  Y4600 
+
+UART_B_RXD
+OFFBOARD_INTERFACE X9500  Y4300 
+
+UART_B_TXD
+OFFBOARD_INTERFACE X9500  Y4400 
+
+UART_C_RXD
+OFFBOARD_INTERFACE X9500  Y4100 
+
+UART_C_TXD
+OFFBOARD_INTERFACE X9500  Y4200 
+
+UART_D_RXD
+OFFBOARD_INTERFACE X9500  Y3900 
+
+UART_D_TXD
+OFFBOARD_INTERFACE X9500  Y4000 
+
+USB3503_26M
+USB          X5020  Y4040 
+
+XADC0
+OFFBOARD_INTERFACE X11300 Y4700 
+
+XADC1
+OFFBOARD_INTERFACE X11300 Y4600 
+
+XADC2
+OFFBOARD_INTERFACE X11300 Y4500 
+
+XADC3
+OFFBOARD_INTERFACE X11300 Y4400 
+
+XADC4
+OFFBOARD_INTERFACE X11300 Y4300 
+
+XADC5
+OFFBOARD_INTERFACE X11300 Y4200 
+
+XDEBUG_RXD
+ARTIK_MODULE X17000 Y10200
+
+XDEBUG_TXD
+ARTIK_MODULE X17000 Y9800 
+
+XETHPHY_INT
+ETHERNET     X11350 Y4230 
+ETHERNET     X2600  Y10180
+
+XETHPHY_RST
+ETHERNET     X11350 Y3930 
+ETHERNET     X2600  Y9980 
+
+XGMAC_MDIO
+ETHERNET     X12450 Y4730 
+
+XGPIO0
+OFFBOARD_INTERFACE X9500  Y3600 
+
+XGPIO1
+OFFBOARD_INTERFACE X11300 Y4100 
+
+XGPIO2
+OFFBOARD_INTERFACE X11300 Y4000 
+
+XGPIO3
+OFFBOARD_INTERFACE X11300 Y3900 
+
+XGPIO4
+OFFBOARD_INTERFACE X11300 Y3800 
+
+XGPIO5
+OFFBOARD_INTERFACE X11300 Y3700 
+
+XGPIO6
+OFFBOARD_INTERFACE X11300 Y3600 
+
+XI2C0_SCL
+OFFBOARD_INTERFACE X9500  Y3800 
+
+XI2C0_SDA
+OFFBOARD_INTERFACE X9500  Y3700 
+
+XSD0_CDN
+ARTIK_MODULE X16300 Y11000
+
+XSD0_CLK
+ARTIK_MODULE X16300 Y11700
+
+XSD0_CMD
+ARTIK_MODULE X16300 Y11500
+
+XSD0_D0
+ARTIK_MODULE X16300 Y11900
+
+XSD0_D1
+ARTIK_MODULE X16300 Y12000
+
+XSD0_D2
+ARTIK_MODULE X16300 Y11300
+
+XSD0_D3
+ARTIK_MODULE X16300 Y11400
+
+XUART0_RX
+OFFBOARD_INTERFACE X9500  Y4700 
+
+XUART0_TX
+OFFBOARD_INTERFACE X9500  Y4800 
+
+Power or Ground Symbols used with wrong Net Name
+
++3.3V
+POWER        X2800  Y4900  - Power  Symbol used for net: VDD_AP_IO_3P3
+POWER        X10500 Y5300  - Power  Symbol used for net: VDD_AP_IO_3P3
+ARTIK_MODULE X2400  Y10400 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ARTIK_MODULE X18600 Y13100 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ARTIK_MODULE X19900 Y13100 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ETHERNET     X15050 Y6130  - Power  Symbol used for net: VCC1P0_GMACOUT
+ETHERNET     X10050 Y5330  - Power  Symbol used for net: VCC1P0_GMACOUT
+USB          X6650  Y10130 - Power  Symbol used for net: VDD_EXT5P0_2
+USB          X3210  Y5340  - Power  Symbol used for net: VDD_EXT3P3
+USB          X3500  Y10200 - Power  Symbol used for net: VDD33_BYP
+OFFBOARD_INTERFACE X4700  Y8700  - Power  Symbol used for net: VDD_AP_IO_3P3
+OFFBOARD_INTERFACE X6200  Y13000 - Power  Symbol used for net: VDD_AP_IO_3P3
+OFFBOARD_INTERFACE X8700  Y13000 - Power  Symbol used for net: VDD_AP_IO_3P3
+OFFBOARD_INTERFACE X11200 Y5500  - Power  Symbol used for net: VDD_AP_IO_3P3
+
++3.8V
+POWER        X4100  Y6300  - Power  Symbol used for net: VDD_AP_IO_3P3
+POWER        X9400  Y9800  - Power  Symbol used for net: VDD_AP_IO_3P3
+ARTIK_MODULE X15650 Y16450 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ARTIK_MODULE X10750 Y16450 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ARTIK_MODULE X14550 Y16400 - Power  Symbol used for net: VBAT_MAIN_MODULE
+ETHERNET     X1450  Y2380  - Power  Symbol used for net: V_MAIN
+
++5V
+POWER        X6600  Y4900  - Power  Symbol used for net: VDD_AP_IO_3P3
+POWER        X3600  Y10800 - Power  Symbol used for net: VDD_AP_IO_3P3
+USB          X11000 Y7900  - Power  Symbol used for net: VDD33_BYP
+OFFBOARD_INTERFACE X10500 Y5500  - Power  Symbol used for net: VDD_AP_IO_3P3
+
+AVCC1P0_GMAC
+ETHERNET     X10200 Y2230  - Power  Symbol used for net: VCC1P0_GMACOUT
+ETHERNET     X7400  Y10580 - Power  Symbol used for net: VCC1P0_GMACOUT
+ETHERNET     X8600  Y7030  - Power  Symbol used for net: VCC1P0_GMACOUT
+
+AVCC3P3_GMAC
+ETHERNET     X8000  Y1330  - Power  Symbol used for net: VCC1P0_GMACOUT
+ETHERNET     X7400  Y9980  - Power  Symbol used for net: VCC1P0_GMACOUT
+
+VCC3P3_GMAC
+ETHERNET     X7900  Y9680  - Power  Symbol used for net: VCC1P0_GMACOUT
+ETHERNET     X7800  Y2680  - Power  Symbol used for net: VCC1P0_GMACOUT
+
+VSYS_IO_3P3
+POWER        X6000  Y3800  - Power  Symbol used for net: VDD_AP_IO_3P3
+ARTIK_MODULE X18300 Y13100 - Power  Symbol used for net: VBAT_MAIN_MODULE
+
+Subnets with Missing Off-Page Reference
+
+LED0_AD0
+ETHERNET     X6300  Y7180  - Pin: U8.35
+ETHERNET     X17400 Y6800  - Pin: R62.1
+
+LED1_AD1
+ETHERNET     X6300  Y7080  - Pin: U8.34
+ETHERNET     X17400 Y2500  - Pin: R63.1
+
+MDIP0_N
+ETHERNET     X10670 Y7480  - Pin: U9.2
+ETHERNET     X11570 Y7480  - Pin: U9.9
+ETHERNET     X6300  Y8780  - Pin: U8.2
+ETHERNET     X18500 Y3400  - Pin: CON2.9
+
+MDIP0_P
+ETHERNET     X10670 Y7580  - Pin: U9.1
+ETHERNET     X11570 Y7580  - Pin: U9.10
+ETHERNET     X6300  Y8880  - Pin: U8.1
+ETHERNET     X18500 Y2800  - Pin: CON2.10
+
+MDIP1_N
+ETHERNET     X10670 Y7180  - Pin: U9.5
+ETHERNET     X11570 Y7180  - Pin: U9.6
+ETHERNET     X6300  Y8480  - Pin: U8.5
+ETHERNET     X18500 Y4300  - Pin: CON2.7
+
+MDIP1_P
+ETHERNET     X10670 Y7280  - Pin: U9.4
+ETHERNET     X11570 Y7280  - Pin: U9.7
+ETHERNET     X6300  Y8580  - Pin: U8.4
+ETHERNET     X18500 Y3700  - Pin: CON2.8
+
+MDIP2_N
+ETHERNET     X13850 Y7480  - Pin: U6.2
+ETHERNET     X14750 Y7480  - Pin: U6.9
+ETHERNET     X6300  Y8180  - Pin: U8.8
+ETHERNET     X18500 Y5200  - Pin: CON2.5
+
+MDIP2_P
+ETHERNET     X13850 Y7580  - Pin: U6.1
+ETHERNET     X14750 Y7580  - Pin: U6.10
+ETHERNET     X6300  Y8280  - Pin: U8.7
+ETHERNET     X18500 Y4600  - Pin: CON2.6
+
+MDIP3_N
+ETHERNET     X13850 Y7180  - Pin: U6.5
+ETHERNET     X14750 Y7180  - Pin: U6.6
+ETHERNET     X6300  Y7880  - Pin: U8.11
+ETHERNET     X18500 Y6100  - Pin: CON2.3
+
+MDIP3_P
+ETHERNET     X13850 Y7280  - Pin: U6.4
+ETHERNET     X14750 Y7280  - Pin: U6.7
+ETHERNET     X6300  Y7980  - Pin: U8.10
+ETHERNET     X18500 Y5500  - Pin: CON2.4
+
+PME
+ETHERNET     X15000 Y4900  - Pin: R59.1
+ETHERNET     X6300  Y6580  - Pin: U8.33
+
+RTL_RSET
+ETHERNET     X4000  Y9880  - Pin: U8.39
+ETHERNET     X13600 Y3300  - Pin: R60.2
+
+RTL_XTAL1
+ETHERNET     X6300  Y7580  - Pin: U8.42
+ETHERNET     X1900  Y4200  - Pin: C61.2
+
+RTL_XTAL2
+ETHERNET     X6300  Y7680  - Pin: U8.43
+ETHERNET     X1900  Y5700  - Pin: C60.2
+
+RX0
+ETHERNET     X14300 Y4900  - Pin: R35.1
+ETHERNET     X3500  Y9080  - Pin: R45.2
+
+RX1
+ETHERNET     X14400 Y4900  - Pin: R34.1
+ETHERNET     X3500  Y8980  - Pin: R44.2
+
+RX2
+ETHERNET     X3500  Y8880  - Pin: R43.2
+ETHERNET     X14500 Y4900  - Pin: R33.1
+
+RX3
+ETHERNET     X3500  Y8780  - Pin: R42.2
+ETHERNET     X14600 Y4900  - Pin: R32.1
+
+RXDLY
+ETHERNET     X15100 Y4900  - Pin: R57.1
+ETHERNET     X6300  Y7280  - Pin: U8.32
+
+RXDV
+ETHERNET     X14000 Y3300  - Pin: R47.2
+ETHERNET     X3500  Y9180  - Pin: R46.2
+
+UART_A_RXD
+OFFBOARD_INTERFACE X10100 Y4500  - Pin: J3.9
+
+UART_A_TXD
+OFFBOARD_INTERFACE X10100 Y4600  - Pin: J3.7
+
+UART_B_RXD
+OFFBOARD_INTERFACE X10100 Y4300  - Pin: J3.13
+
+UART_B_TXD
+OFFBOARD_INTERFACE X10100 Y4400  - Pin: J3.11
+
+UART_C_RXD
+OFFBOARD_INTERFACE X10100 Y4100  - Pin: J3.17
+
+UART_C_TXD
+OFFBOARD_INTERFACE X10100 Y4200  - Pin: J3.15
+
+UART_D_RXD
+OFFBOARD_INTERFACE X10100 Y3900  - Pin: J3.21
+
+UART_D_TXD
+OFFBOARD_INTERFACE X10100 Y4000  - Pin: J3.19
+
+USB3503_26M
+USB          X4110  Y4040  - Pin: U5.3
+
+XADC0
+OFFBOARD_INTERFACE X10900 Y4700  - Pin: J3.6
+
+XADC1
+OFFBOARD_INTERFACE X10900 Y4600  - Pin: J3.8
+
+XADC2
+OFFBOARD_INTERFACE X10900 Y4500  - Pin: J3.10
+
+XADC3
+OFFBOARD_INTERFACE X10900 Y4400  - Pin: J3.12
+
+XADC4
+OFFBOARD_INTERFACE X10900 Y4300  - Pin: J3.14
+
+XADC5
+OFFBOARD_INTERFACE X10900 Y4200  - Pin: J3.16
+
+XDEBUG_RXD
+ARTIK_MODULE X17800 Y10100 - Pin: J5.3
+
+XDEBUG_TXD
+ARTIK_MODULE X17650 Y9800  - Pin: J5.2
+
+XETHPHY_INT
+ETHERNET     X4000  Y10180 - Pin: U8.20
+
+XETHPHY_RST
+ETHERNET     X4000  Y9980  - Pin: U8.29
+
+XGMAC_MDIO
+ETHERNET     X14200 Y4900  - Pin: R36.1
+
+XGPIO0
+OFFBOARD_INTERFACE X10100 Y3600  - Pin: J3.27
+
+XGPIO1
+OFFBOARD_INTERFACE X10900 Y4100  - Pin: J3.18
+
+XGPIO2
+OFFBOARD_INTERFACE X10900 Y4000  - Pin: J3.20
+
+XGPIO3
+OFFBOARD_INTERFACE X10900 Y3900  - Pin: J3.22
+
+XGPIO4
+OFFBOARD_INTERFACE X10900 Y3800  - Pin: J3.24
+
+XGPIO5
+OFFBOARD_INTERFACE X10900 Y3700  - Pin: J3.26
+
+XGPIO6
+OFFBOARD_INTERFACE X10900 Y3600  - Pin: J3.28
+
+XI2C0_SCL
+OFFBOARD_INTERFACE X10100 Y3800  - Pin: J3.23
+
+XI2C0_SDA
+OFFBOARD_INTERFACE X10100 Y3700  - Pin: J3.25
+
+XSD0_CDN
+ARTIK_MODULE X18600 Y12200 - Pin: R12.1
+
+XSD0_CLK
+ARTIK_MODULE X19100 Y11700 - Pin: J1.5
+
+XSD0_CMD
+ARTIK_MODULE X17100 Y12200 - Pin: R16.1
+
+XSD0_D0
+ARTIK_MODULE X17700 Y12200 - Pin: R13.1
+
+XSD0_D1
+ARTIK_MODULE X17400 Y12200 - Pin: R14.1
+
+XSD0_D2
+ARTIK_MODULE X18300 Y12200 - Pin: R15.1
+
+XSD0_D3
+ARTIK_MODULE X18000 Y12200 - Pin: R17.1
+
+XUART0_RX
+OFFBOARD_INTERFACE X10100 Y4700  - Pin: J3.5
+
+XUART0_TX
+OFFBOARD_INTERFACE X10100 Y4800  - Pin: J3.3
+
+Subnets with Off-Page Reference to no other Subnet
+
+BT_PCM_CLK
+ARTIK_MODULE X13350 Y14400
+
+BT_PCM_DIN
+ARTIK_MODULE X13350 Y14200
+
+BT_PCM_DOUT
+ARTIK_MODULE X13350 Y14300
+
+BT_PCM_LRCLK
+ARTIK_MODULE X13350 Y14500
+
+COMBO_ZIG_UART_RXD
+ARTIK_MODULE X13350 Y3400 
+
+COMBO_ZIG_UART_TXD
+ARTIK_MODULE X13350 Y3900 
+
+MICOM_INT
+ARTIK_MODULE X8150  Y16300
+
+XAGPIO0
+ARTIK_MODULE X13350 Y3100 
+
+XAUDIO_I2S0_CDCLK
+ARTIK_MODULE X13350 Y15300
+
+XAUDIO_I2S0_DIN
+ARTIK_MODULE X13350 Y14900
+
+XAUDIO_I2S0_DOUT
+ARTIK_MODULE X13350 Y14800
+
+XAUDIO_I2S0_LRCLK
+ARTIK_MODULE X13350 Y15100
+
+XAUDIO_I2S0_SCLK
+ARTIK_MODULE X13350 Y15000
+
+XAUDIO_IRQ
+ARTIK_MODULE X13350 Y15700
+
+XAUDIO_SCL
+ARTIK_MODULE X13350 Y15500
+
+XAUDIO_SDA
+ARTIK_MODULE X13350 Y15600
+
+XBOOT_CONFIG0
+ARTIK_MODULE X2450  Y15900
+
+XBOOT_CONFIG1
+ARTIK_MODULE X2450  Y15800
+
+XBOOT_CONFIG2
+ARTIK_MODULE X2450  Y15700
+
+XCAM_LDO_EN
+ARTIK_MODULE X2450  Y13200
+
+XCAM_RESET
+ARTIK_MODULE X2450  Y13100
+
+XCAM_SCL
+ARTIK_MODULE X2450  Y13000
+
+XCAM_SDA
+ARTIK_MODULE X2450  Y12900
+
+XCAM_STBY
+ARTIK_MODULE X2450  Y12800
+
+XCHG_INT
+ARTIK_MODULE X2450  Y11400
+
+XCHG_SCL
+ARTIK_MODULE X2450  Y11300
+
+XCHG_SDA
+ARTIK_MODULE X2450  Y11200
+
+XFUEL_INT
+ARTIK_MODULE X2450  Y10800
+
+XFUEL_SCL
+ARTIK_MODULE X2450  Y10700
+
+XFUEL_SDA
+ARTIK_MODULE X2450  Y10600
+
+XGPIO7
+ARTIK_MODULE X13350 Y2200 
+
+XGPIO8
+ARTIK_MODULE X13350 Y2100 
+
+XGPIO9
+ARTIK_MODULE X13350 Y2000 
+
+XHDMI_CEC
+ARTIK_MODULE X13350 Y9600 
+
+XHDMI_HPD
+ARTIK_MODULE X13350 Y9800 
+
+XHDMI_LS_OE
+ARTIK_MODULE X13350 Y9700 
+
+XHDMI_SCL
+ARTIK_MODULE X13350 Y10100
+
+XHDMI_SDA
+ARTIK_MODULE X13350 Y10200
+
+XHDMI_TX0N
+ARTIK_MODULE X13350 Y11100
+
+XHDMI_TX0P
+ARTIK_MODULE X13350 Y11200
+
+XHDMI_TX1N
+ARTIK_MODULE X13350 Y10900
+
+XHDMI_TX1P
+ARTIK_MODULE X13350 Y11000
+
+XHDMI_TX2N
+ARTIK_MODULE X13350 Y10700
+
+XHDMI_TX2P
+ARTIK_MODULE X13350 Y10800
+
+XHDMI_TXCN
+ARTIK_MODULE X13350 Y10500
+
+XHDMI_TXCP
+ARTIK_MODULE X13350 Y10600
+
+XJTAG_RSTN
+ARTIK_MODULE X2450  Y3800 
+
+XJTAG_TCK
+ARTIK_MODULE X2450  Y3700 
+
+XJTAG_TDI
+ARTIK_MODULE X2450  Y3600 
+
+XJTAG_TDO
+ARTIK_MODULE X2450  Y3500 
+
+XJTAG_TMS
+ARTIK_MODULE X2450  Y3400 
+
+XLCD1_GPIO1
+ARTIK_MODULE X13350 Y4800 
+
+XLCD2_GPIO1
+ARTIK_MODULE X13350 Y7700 
+
+XLCD_GPIO
+ARTIK_MODULE X13350 Y6700 
+
+XLCD_PWMOUT
+ARTIK_MODULE X13350 Y7000 
+
+XLCD_RESET
+ARTIK_MODULE X13350 Y6800 
+
+XLVDS_DN0
+ARTIK_MODULE X13350 Y8900 
+
+XLVDS_DN1
+ARTIK_MODULE X13350 Y8700 
+
+XLVDS_DN2
+ARTIK_MODULE X13350 Y8500 
+
+XLVDS_DN3
+ARTIK_MODULE X13350 Y8300 
+
+XLVDS_DN4
+ARTIK_MODULE X13350 Y8100 
+
+XLVDS_DNCLK
+ARTIK_MODULE X13350 Y7900 
+
+XLVDS_DP0
+ARTIK_MODULE X13350 Y9000 
+
+XLVDS_DP1
+ARTIK_MODULE X13350 Y8800 
+
+XLVDS_DP2
+ARTIK_MODULE X13350 Y8600 
+
+XLVDS_DP3
+ARTIK_MODULE X13350 Y8400 
+
+XLVDS_DP4
+ARTIK_MODULE X13350 Y8200 
+
+XLVDS_DPCLK
+ARTIK_MODULE X13350 Y8000 
+
+XMCU_SCL
+ARTIK_MODULE X13350 Y1900 
+
+XMCU_SDA
+ARTIK_MODULE X13350 Y1800 
+
+XMIPICSI1_DN0
+ARTIK_MODULE X2450  Y14200
+
+XMIPICSI1_DN1
+ARTIK_MODULE X2450  Y14000
+
+XMIPICSI1_DN2
+ARTIK_MODULE X2450  Y13800
+
+XMIPICSI1_DN3
+ARTIK_MODULE X2450  Y13600
+
+XMIPICSI1_DNCLK
+ARTIK_MODULE X2450  Y13400
+
+XMIPICSI1_DP0
+ARTIK_MODULE X2450  Y14300
+
+XMIPICSI1_DP1
+ARTIK_MODULE X2450  Y14100
+
+XMIPICSI1_DP2
+ARTIK_MODULE X2450  Y13900
+
+XMIPICSI1_DP3
+ARTIK_MODULE X2450  Y13700
+
+XMIPICSI1_DPCLK
+ARTIK_MODULE X2450  Y13500
+
+XMIPIDSI1_DN0
+ARTIK_MODULE X13350 Y5600 
+
+XMIPIDSI1_DN1
+ARTIK_MODULE X13350 Y5400 
+
+XMIPIDSI1_DN2
+ARTIK_MODULE X13350 Y5200 
+
+XMIPIDSI1_DN3
+ARTIK_MODULE X13350 Y5000 
+
+XMIPIDSI1_DNCLK
+ARTIK_MODULE X13350 Y5800 
+
+XMIPIDSI1_DP0
+ARTIK_MODULE X13350 Y5700 
+
+XMIPIDSI1_DP1
+ARTIK_MODULE X13350 Y5500 
+
+XMIPIDSI1_DP2
+ARTIK_MODULE X13350 Y5300 
+
+XMIPIDSI1_DP3
+ARTIK_MODULE X13350 Y5100 
+
+XMIPIDSI1_DPCLK
+ARTIK_MODULE X13350 Y5900 
+
+XPWM0_OUT
+ARTIK_MODULE X2450  Y2300 
+
+XRTC_INT
+ARTIK_MODULE X2450  Y9700 
+
+XRTC_SCL
+ARTIK_MODULE X2450  Y9600 
+
+XRTC_SDA
+ARTIK_MODULE X2450  Y9500 
+
+XSPI0_CLK
+ARTIK_MODULE X2450  Y8000 
+
+XSPI0_CS
+ARTIK_MODULE X2450  Y7900 
+
+XSPI0_MISO
+ARTIK_MODULE X2450  Y7800 
+
+XSPI0_MOSI
+ARTIK_MODULE X2450  Y7700 
+
+XTSP1_GPIO1
+ARTIK_MODULE X13350 Y4600 
+
+XTSP1_INT
+ARTIK_MODULE X13350 Y4700 
+
+XTSP2_GPIO1
+ARTIK_MODULE X13350 Y7600 
+
+XTSP2_INT
+ARTIK_MODULE X13350 Y7500 
+
+XTSP_RESET
+ARTIK_MODULE X13350 Y6400 
+
+XTSP_SCL
+ARTIK_MODULE X13350 Y6600 
+
+XTSP_SDA
+ARTIK_MODULE X13350 Y6500 
+
+XUHOST1_DM
+ARTIK_MODULE X2450  Y5500 
+
+XUHOST1_DP
+ARTIK_MODULE X2450  Y5400 
+
+XUHOST_VBUSCTRL
+ARTIK_MODULE X2450  Y5200 
+
+XUSB3_DM
+ARTIK_MODULE X2450  Y4800 
+
+XUSB3_DP
+ARTIK_MODULE X2450  Y4700 
+
+XUSB3_ID
+ARTIK_MODULE X2450  Y4500 
+
+XUSB3_VBUS
+ARTIK_MODULE X2450  Y4400 
+
+XUSB3_VBUSCTRL
+ARTIK_MODULE X2450  Y4200 
+
+ZB_DEBUG_TCK_SWCLK
+ARTIK_MODULE X13350 Y4100 
+
+ZB_DEBUG_TDO_SWO
+ARTIK_MODULE X13350 Y4000 
+
+ZB_DEBUG_TMS_SWDIO
+ARTIK_MODULE X13350 Y3700 
+
+ZB_PTI_DATA_FRC_DOUT
+ARTIK_MODULE X13350 Y3600 
+
+ZB_PTI_SYNC_FRC_DFRAME
+ARTIK_MODULE X13350 Y3800 
+
+ZB_RSTN
+ARTIK_MODULE X13350 Y3500 

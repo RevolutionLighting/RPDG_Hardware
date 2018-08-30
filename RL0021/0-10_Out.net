@@ -1,0 +1,18 @@
+* C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0021\0-10_Out.asc
+XU1 N003 N001 V+ 0 N002 OP284
+R1 N001 0 10k
+R2 Vout N001 22k
+V1 N003 0 0
+V2 V+ 0 24
+I1 Vout 0 -1
+D1 N002 Vout D
+Q1 0 N002 Vout 0 2N3906
+.model D D
+.lib C:\Users\Ward\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Ward\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 100m
+.lib ADI1.lib
+.backanno
+.end

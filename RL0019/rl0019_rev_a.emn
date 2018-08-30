@@ -1,0 +1,87 @@
+.HEADER
+BOARD_FILE    3.0    "PADS Layout VX.2.3"    2018/07/03.11:02:00    1
+"c:\users\ward\dropbox\work\revolution\rpdg_hardware\rl0019\rl0019_rev_a.emn"    MM
+.END_HEADER
+.BOARD_OUTLINE    UNOWNED
+1.14596
+0     0.0                           0.0                           0     
+0     -19.0                         0.0                           360   
+.END_BOARD_OUTLINE
+.DRILLED_HOLES
+2.200000 -10.607000 -10.607000 NPTH    MH14    PIN    UNOWNED
+4.200000 10.607000 -10.607000 NPTH    MH10    PIN    UNOWNED
+2.300000 -16.000000 0.000000 NPTH    MH7    PIN    UNOWNED
+2.300000 16.000000 0.000000 NPTH    MH8    PIN    UNOWNED
+4.200000 -10.607000 10.607000 NPTH    MH11    PIN    UNOWNED
+2.200000 10.607000 10.607000 NPTH    MH9    PIN    UNOWNED
+.END_DRILLED_HOLES
+.PLACEMENT
+LUX_3535L                                    L135-A589003500000                           D10                                          
+2.2                           -6.6                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D12                                          
+2.2                           2.2                           0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D36                                          
+2.2                           11.0                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D38                                          
+-6.6                          11.0                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D40                                          
+-6.6                          2.2                           0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-A589003500000                           D42                                          
+-6.6                          -6.6                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D2                                           
+2.2                           -11.0                         0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D4                                           
+2.2                           -2.2                          0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D16                                          
+2.2                           6.6                           0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D18                                          
+-6.6                          6.6                           0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D20                                          
+-6.6                          -2.2                          0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-G525003500000                           D22                                          
+-6.6                          -11.0                         0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D1                                           
+6.6                           -11.0                         0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D3                                           
+6.6                           -2.2                          0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D15                                          
+6.6                           6.6                           0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D17                                          
+-2.2                          6.6                           0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D19                                          
+-2.2                          -2.2                          0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-R625003500000                           D21                                          
+-2.2                          -11.0                         0.0                           0.0       TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D9                                           
+6.6                           -6.6                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D11                                          
+6.6                           2.2                           0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D35                                          
+6.6                           11.0                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D37                                          
+-2.2                          11.0                          0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D39                                          
+-2.2                          2.2                           0.0                           180.0     TOP       PLACED    
+LUX_3535L                                    L135-U450003500000                           D41                                          
+-2.2                          -6.6                          0.0                           180.0     TOP       PLACED    
+MH125A                                       MH125                                        MH8                                          
+16.0                          0.0                           0.0                           315.0     TOP       PLACED    
+MH125                                        MH125                                        MH11                                         
+-10.607                       10.607                        0.0                           225.0     TOP       PLACED    
+MH125A                                       MH125                                        MH7                                          
+-16.0                         0.0                           0.0                           135.0     TOP       PLACED    
+MH125                                        MH125                                        MH10                                         
+10.607                        -10.607                       0.0                           0.0       TOP       PLACED    
+MH125B                                       MH125                                        MH9                                          
+10.607                        10.607                        0.0                           0.0       TOP       PLACED    
+MH125B                                       MH125                                        MH14                                         
+-10.607                       -10.607                       0.0                           0.0       TOP       PLACED    
+BXEP                                         BXEP-27E-435-09A-00-00-0                     D5                                           
+-12.0                         -4.4                          0.0                           0.0       TOP       PLACED    
+BXEP                                         BXEP-27E-435-09A-00-00-0                     D7                                           
+12.0                          4.4                           0.0                           180.0     TOP       PLACED    
+BXEP                                         BXEP-50E-435-09A-00-00-0                     D6                                           
+-12.0                         4.4                           0.0                           0.0       TOP       PLACED    
+BXEP                                         BXEP-50E-435-09A-00-00-0                     D8                                           
+12.0                          -4.4                          0.0                           180.0     TOP       PLACED    
+.END_PLACEMENT

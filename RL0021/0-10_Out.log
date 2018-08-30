@@ -1,0 +1,52 @@
+Circuit: * C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0021\0-10_Out.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Changing Tseed to 9.76562e-009
+Changing Tseed to 9.76563e-011
+Changing Tseed to 9.76562e-008
+Changing Tseed to 9.76562e-012
+Changing Tseed to 9.76563e-007
+Heightened Def Con from 9.7847e-007 to 9.79595e-007
+Heightened Def Con from 0.0132058 to 0.0132058
+Heightened Def Con from 0.030915 to 0.030915
+Heightened Def Con from 0.0552873 to 0.0552873
+Heightened Def Con from 0.0593125 to 0.0593125
+Heightened Def Con from 0.0794753 to 0.0794753
+
+Date: Mon Aug 27 11:12:14 2018
+Total elapsed time: 0.539 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4816
+traniter = 4153
+tranpoints = 1239
+accept = 1145
+rejected = 95
+matrix size = 88
+fillins = 67
+solver = Normal
+Thread vector: 40.1/21.1[2] 11.6/6.8[2] 5.5/4.6[2] 0.4/2.1[1]  2592/500
+Matrix Compiler1: 8.42 KB object code size  3.7/2.8/[0.9]
+Matrix Compiler2: 8.87 KB object code size  3.1/4.5/[0.8]
+

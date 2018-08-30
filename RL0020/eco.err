@@ -1,0 +1,22 @@
+** ECO In Report **
+
+Tue Jul 31 16:31:08 2018
+
+Input  File : C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0020\eco.eco
+Current Job : RL0019_Rev_A.pcb
+
+
+
+Line 16 , Section *SPLITNET*
+* WARNING: Splitting a Net +24V in desired fashion requires deletion of more than one connection
+* Deleting connection R103.1-U3.3 ...
+* Deleting connection R10.2-R102.1 ...
+* Deleting connection R10.2-D100.1 ...
+* Deleting connection R10.2-D105.1 ...
+* Deleting connection C5.1-D103.1 ...
+* Deleting connection C5.1-D102.1 ...
+* WARNING: Added connection between D103.1 R102.1 to keep continuity of net +24V
+* WARNING: Added connection between R102.1 D100.1 to keep continuity of net +24V
+* WARNING: Added connection between D100.1 D105.1 to keep continuity of net +24V
+* WARNING: Added connection between D1.1 D102.1 to keep continuity of net +24V
+* WARNING: Added connection between C5.1 R10.2 to keep continuity of net $$$3432

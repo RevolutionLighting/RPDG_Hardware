@@ -1,0 +1,11 @@
+
+ODB++ export report file.
+Export to file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0020\RL0020_Rev_A.tgz
+Report created on: 07/26/2018 12:03:59
+
+
+Warning: Illegal rectangle of size 0.00x0.00 defined at line 793
+Warning: Illegal rectangle of size 0.00x0.00 defined at line 794
+Warning: Illegal rectangle of size 0.00x0.00 defined at line 949
+Warning: Illegal rectangle of size 0.00x0.00 defined at line 950
+Warning: Number of netlist issues found: 0 shorted 26 broken 0 missing 0 extra

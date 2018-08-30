@@ -1,0 +1,112 @@
+PCB Net List Errors Report - RL0019_Rev_A.sch - Mon Jul 09 13:47:52 2018
+-------------------------------------------------------------------------
+Design to Library Part Consistency Check
+----------------------------------------
+No Library consistency checking errors.
+
+Single/Zero Pin Net Warnings
+----------------------------
+No single or zero pin nets.
+
+Schematic Connectivity Errors
+-----------------------------
+
+Dangling Connections with a Net Name
+
+AA
+MAIN         X12000 Y10300
+MAIN         X8500  Y4600 
+
+AK
+MAIN         X12000 Y6000 
+MAIN         X9700  Y4600 
+
+BA
+MAIN         X6300  Y10300
+MAIN         X8500  Y4500 
+
+BK
+MAIN         X6300  Y6000 
+MAIN         X9700  Y4500 
+
+CWA
+MAIN         X16300 Y8900 
+MAIN         X8500  Y4800 
+
+CWK
+MAIN         X16300 Y7200 
+MAIN         X9700  Y4800 
+
+GA
+MAIN         X12000 Y14800
+MAIN         X8500  Y4400 
+
+GK
+MAIN         X12000 Y10500
+MAIN         X9700  Y4400 
+
+RA
+MAIN         X6300  Y14800
+MAIN         X8500  Y4300 
+
+RK
+MAIN         X6300  Y10500
+MAIN         X9700  Y4300 
+
+WWA
+MAIN         X16300 Y11800
+MAIN         X8500  Y4700 
+
+WWK
+MAIN         X16300 Y10200
+MAIN         X9700  Y4700 
+
+Subnets with Missing Off-Page Reference
+
+AA
+MAIN         X11300 Y10200 - Pin: D10.1
+MAIN         X8900  Y4600  - Pin: J1.7
+
+AK
+MAIN         X11300 Y6100  - Pin: D42.2
+MAIN         X9300  Y4600  - Pin: J1.8
+
+BA
+MAIN         X5700  Y10200 - Pin: D9.1
+MAIN         X8900  Y4500  - Pin: J1.5
+
+BK
+MAIN         X5700  Y6100  - Pin: D41.2
+MAIN         X9300  Y4500  - Pin: J1.6
+
+CWA
+MAIN         X15600 Y8800  - Pin: D6.2
+MAIN         X8900  Y4800  - Pin: J1.11
+
+CWK
+MAIN         X15600 Y7300  - Pin: D8.1
+MAIN         X9300  Y4800  - Pin: J1.12
+
+GA
+MAIN         X11300 Y14700 - Pin: D2.1
+MAIN         X8900  Y4400  - Pin: J1.3
+
+GK
+MAIN         X11300 Y10600 - Pin: D22.2
+MAIN         X9300  Y4400  - Pin: J1.4
+
+RA
+MAIN         X5700  Y14700 - Pin: D1.1
+MAIN         X8900  Y4300  - Pin: J1.1
+
+RK
+MAIN         X5700  Y10600 - Pin: D21.2
+MAIN         X9300  Y4300  - Pin: J1.2
+
+WWA
+MAIN         X15600 Y11700 - Pin: D5.2
+MAIN         X8900  Y4700  - Pin: J1.9
+
+WWK
+MAIN         X15600 Y10300 - Pin: D7.1
+MAIN         X9300  Y4700  - Pin: J1.10

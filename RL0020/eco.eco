@@ -1,0 +1,28 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0020\RL0020_Rev_B.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 7/31/2018 4:30:40 PM
+*PART*
+D308  MM3Z13VBT1G
+D309  RB160M
+R43  RES_.005_1W_1206
+*SPLITNET*
+*SIGNAL*  +24V
+R103.1  D103.1  R102.1  D100.1  D105.1  C102.1  C100.1
+R101.1  C105.1  R104.1  R1.1  D107.1  D109.1  D101.1
+R100.1  C1.1  C101.1  D1.1  D102.1  D108.1  C106.1
+R105.1  U100.5  U102.5  U103.5  U101.5  U1.5  U104.5
+*SIGNAL*  $$$3432
+C5.1  R10.2  U3.3
+*NET*
+*SIGNAL*  $$$2862
+R43.2  D309.2
+*SIGNAL*  $$$3432
+D308.1  D309.1
+*SIGNAL*  +24V
+R43.1
+*SIGNAL*  GND
+D308.2
+
+*REMARK*  Deleted pins: 0,  Added pins: 6
+*END*

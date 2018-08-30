@@ -1,0 +1,34 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0019\RL0019_Rev_A.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 7/9/2018 1:48:19 PM
+*PART*
+J1  FLE-106-01-G-DV
+*NET*
+*SIGNAL*  AA
+D10.1  J1.7
+*SIGNAL*  AK
+D42.2  J1.8
+*SIGNAL*  BA
+D9.1  J1.5
+*SIGNAL*  BK
+D41.2  J1.6
+*SIGNAL*  CWA
+J1.11  D6.2
+*SIGNAL*  CWK
+D8.1  J1.12
+*SIGNAL*  GA
+D2.1  J1.3
+*SIGNAL*  GK
+D22.2  J1.4
+*SIGNAL*  RA
+D1.1  J1.1
+*SIGNAL*  RK
+D21.2  J1.2
+*SIGNAL*  WWA
+D5.2  J1.9
+*SIGNAL*  WWK
+D7.1  J1.10
+
+*REMARK*  Deleted pins: 0,  Added pins: 24
+*END*

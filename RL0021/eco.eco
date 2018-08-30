@@ -1,0 +1,19 @@
+*PADS-ECO-V10.0-MILS*
+*REMARK*  old file: C:\PADS Projects\ecogtmp0.asc
+*REMARK*  new file: C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0021\RL0021_Rev_B.asc
+*REMARK*  created by ECOGEN (Version 6.4v) on 8/27/2018 3:27:14 PM
+*PART*
+Q1  MMBT2222
+R48  RES_0402_10K_1%_ERJ-2RKF1002X
+*NET*
+*SIGNAL*  $$$12526
+R11.2  R12.2  Q1.3
+*SIGNAL*  $$$12654
+Q1.1  R48.1
+*SIGNAL*  GND
+Q1.2
+*SIGNAL*  UART0_TX
+R48.2
+
+*REMARK*  Deleted pins: 0,  Added pins: 7
+*END*

@@ -1,31 +1,19 @@
 ** ECO In Report **
 
-Tue May 01 02:16:58 2018
+Tue Aug 21 12:03:58 2018
 
 Input  File : C:\Users\Ward\Dropbox\Work\Revolution\RPDG_Hardware\RL0015\eco.eco
 Current Job : RL0010_Rev_A.pcb
 
 
 
-Line 23 , Section *SPLITNET*
-* WARNING: Splitting a Net TX0 in desired fashion requires deletion of more than one connection
-* Deleting connection U2.10-U2.2 ...
-* Deleting connection U3.1-U3.3 ...
-* WARNING: Added connection between U2.10 U3.3 to keep continuity of net $$$25601
-
-Line 28 , Section *SPLITNET*
-* WARNING: Splitting a Net TX0 in desired fashion requires deletion of more than one connection
-* Deleting connection U9.2-U9.10 ...
-* Deleting connection U11.3-U11.1 ...
-* WARNING: Added connection between U3.1 U9.10 to keep continuity of net TX0
-
 Line 33 , Section *SPLITNET*
-* WARNING: Splitting a Net TX0 in desired fashion requires deletion of more than one connection
-* Deleting connection U11.3-U3.1 ...
-* Deleting connection U9.10-U2.2 ...
-* Deleting connection U3.1-U9.10 ...
-* WARNING: Added connection between U3.1 U2.2 to keep continuity of net TX0
-* WARNING: Added connection between U9.10 U11.3 to keep continuity of net $$$25607
+* WARNING: Splitting a Net +24V in desired fashion requires deletion of more than one connection
+* Deleting connection U11.7-R25.2 ...
+* Deleting connection R25.2-C23.1 ...
+* Deleting connection U11.32-C6.1 ...
+* WARNING: Added connection between R7.1 C6.1 to keep continuity of net +24V
+* WARNING: Added connection between R15.1 U11.10 to keep continuity of net $$$5219
 * Warning: deleting single-pin signal UART_A_RXD
 * Warning: deleting single-pin signal UART_B_RXD
 * Warning: deleting single-pin signal UART_C_RXD
